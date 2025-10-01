@@ -24,6 +24,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0106-construct-binary-tree-from-inorder-and-postorder-traversal](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0106-construct-binary-tree-from-inorder-and-postorder-traversal) |
 | [0142-linked-list-cycle-ii](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0142-linked-list-cycle-ii) |
 | [0169-majority-element](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0169-majority-element) |
+| [0389-find-the-difference](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0389-find-the-difference) |
 | [3227-find-missing-and-repeated-values](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/3227-find-missing-and-repeated-values) |
 ## Divide and Conquer
 |  |
@@ -75,14 +76,17 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0090-subsets-ii](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0090-subsets-ii) |
 | [0136-single-number](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0136-single-number) |
 | [0137-single-number-ii](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0137-single-number-ii) |
+| [0389-find-the-difference](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0389-find-the-difference) |
 ## String
 |  |
 | ------- |
+| [0389-find-the-difference](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0389-find-the-difference) |
 | [1250-longest-common-subsequence](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/1250-longest-common-subsequence) |
 ## Sorting
 |  |
 | ------- |
 | [0169-majority-element](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0169-majority-element) |
+| [0389-find-the-difference](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0389-find-the-difference) |
 ## Counting
 |  |
 | ------- |
