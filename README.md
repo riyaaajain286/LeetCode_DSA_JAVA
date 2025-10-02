@@ -16,6 +16,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0137-single-number-ii](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0137-single-number-ii) |
 | [0169-majority-element](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0169-majority-element) |
 | [0198-house-robber](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0198-house-robber) |
+| [0303-range-sum-query-immutable](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0303-range-sum-query-immutable) |
 | [0540-single-element-in-a-sorted-array](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0540-single-element-in-a-sorted-array) |
 | [3227-find-missing-and-repeated-values](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/3227-find-missing-and-repeated-values) |
 ## Hash Table
@@ -117,4 +118,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0112-path-sum](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0112-path-sum) |
+## Design
+|  |
+| ------- |
+| [0303-range-sum-query-immutable](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0303-range-sum-query-immutable) |
+## Prefix Sum
+|  |
+| ------- |
+| [0303-range-sum-query-immutable](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0303-range-sum-query-immutable) |
 <!---LeetCode Topics End-->
