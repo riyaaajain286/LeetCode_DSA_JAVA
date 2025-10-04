@@ -19,7 +19,7 @@ class Solution {
             return 0;
         }
 
-    Queue<TreeNode> q=new LinkedList<>();
+    ArrayDeque<TreeNode> q=new  ArrayDeque<>();
     q.offer(root);
     int maxsum=root.val;
     int level=1;
