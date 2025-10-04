@@ -32,25 +32,25 @@ class Solution {
       }
     }
     //upper left
-    for(int r=row-1,c=col-1;r>=0&&c>=0;r--,c--){
+    for(int r=row,c=col;r>=0&&c>=0;r--,c--){
       if(board[r][c]=='Q')
       return false;
     }
     //upper right
-     for(int r=row,c=col;r>=0&&c<board.length;r--,c++){
-       if(board[r][c]=='Q')
-      return false;
-    }
+    //  for(int r=row,c=col;r>=0&&c<board.length;r--,c++){
+    //    if(board[r][c]=='Q')
+    //   return false;
+    // }
      //lower left
-    for(int r=row+1,c=col-1;r<board.length&&c>=0;r++,c--){
+    for(int r=row,c=col;r<board.length&&c>=0;r++,c--){
        if(board[r][c]=='Q')
       return false;
     }
      //lower right
-    for(int r=row,c=col;r<board.length&&c<board.length;r++,c++){
-     if(board[r][c]=='Q')
-      return false;
-    }
+    // for(int r=row,c=col;r<board.length&&c<board.length;r++,c++){
+    //  if(board[r][c]=='Q')
+    //   return false;
+    // }
     return true;
   }
   public void saveBoard(char[][] board,List<List<String>> allboards){
