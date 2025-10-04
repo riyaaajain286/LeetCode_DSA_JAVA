@@ -58,20 +58,10 @@ class Solution {
     return true;
   }
   public void saveBoard(char[][] board,List<List<String>> allboards){
-    String row="";
-    List<String> newboard=new ArrayList<>();
-    for(int i=0;i<board.length;i++){
-      row="";
-      for(int j=0;j<board[0].length;j++){
-        if(board[i][j]=='Q'){
-          row+='Q';
+       List<String> newBoard = new ArrayList<>();
+        for (int i = 0; i < board.length; i++) {
+            newBoard.add(new String(board[i]));
         }
-        else{
-          row+='.';
-        }
-      }
-      newboard.add(row);
-    }
-    allboards.add(newboard);
+        allboards.add(newBoard);
   }
   }
