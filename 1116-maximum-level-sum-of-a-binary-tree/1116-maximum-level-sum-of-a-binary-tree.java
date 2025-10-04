@@ -16,12 +16,12 @@
 class Solution {
     public int maxLevelSum(TreeNode root) {
         if(root==null){
-            return -1;
+            return 0;
         }
 
     Queue<TreeNode> q=new LinkedList<>();
     q.offer(root);
-    int maxsum=Integer.MIN_VALUE;
+    int maxsum=root.val;
     int level=1;
     int maxlevel=1;
     while(!q.isEmpty()){
