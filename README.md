@@ -6,6 +6,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Array
 |  |
 | ------- |
+| [0026-remove-duplicates-from-sorted-array](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0026-remove-duplicates-from-sorted-array) |
 | [0039-combination-sum](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0039-combination-sum) |
 | [0040-combination-sum-ii](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0040-combination-sum-ii) |
 | [0046-permutations](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0046-permutations) |
@@ -106,6 +107,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Two Pointers
 |  |
 | ------- |
+| [0026-remove-duplicates-from-sorted-array](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0026-remove-duplicates-from-sorted-array) |
 | [0142-linked-list-cycle-ii](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0142-linked-list-cycle-ii) |
 ## Matrix
 |  |
