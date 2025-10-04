@@ -26,11 +26,11 @@ class Solution {
       }
     }
     //vertical
-    for(int i=0;i<board[0].length;i++){
-      if(board[i][col]=='Q'){
-        return false;
-      }
-    }
+    // for(int i=0;i<board[0].length;i++){
+    //   if(board[i][col]=='Q'){
+    //     return false;
+    //   }
+    // }
     //upper left
     for(int r=row,c=col;r>=0&&c>=0;r--,c--){
       if(board[r][c]=='Q')
