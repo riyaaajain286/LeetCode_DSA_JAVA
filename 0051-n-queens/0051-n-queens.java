@@ -2,6 +2,10 @@ class Solution {
     public List<List<String>> solveNQueens(int n) {
     List<List<String>> allboards=new ArrayList<>();
     char board[][]=new char[n][n];
+     // initialize board with '.'
+        for (int i = 0; i < n; i++) {
+            Arrays.fill(board[i], '.');
+        }
     helper(board,allboards,0);
     return allboards;
   }
