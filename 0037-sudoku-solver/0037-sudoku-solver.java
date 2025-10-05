@@ -31,14 +31,14 @@ class Solution {
     }
     private boolean isValid(char[][] board,int row,int col,char c){
         for(int i=0;i<9;i++){
-            if(board[row][i]==c) //row
+            if(i!=col && board[row][i]==c) //row
               return false;
-            if(board[i][col]==c) //col
+            if(i!=row && board[i][col]==c) //col
               return false;
               //check for3*3 grid
             int subrow=(3*(row/3)+(i/3));
             int subcol=(3*(col/3)+(i%3));
-            if(board[subrow][subcol]==c)
+            if((i!=subrow||i!=subcol) && board[subrow][subcol]==c)
                return false;
     
         }
