@@ -7,6 +7,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0026-remove-duplicates-from-sorted-array](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0026-remove-duplicates-from-sorted-array) |
+| [0037-sudoku-solver](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0037-sudoku-solver) |
 | [0039-combination-sum](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0039-combination-sum) |
 | [0040-combination-sum-ii](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0040-combination-sum-ii) |
 | [0046-permutations](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0046-permutations) |
@@ -24,6 +25,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Hash Table
 |  |
 | ------- |
+| [0037-sudoku-solver](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0037-sudoku-solver) |
 | [0106-construct-binary-tree-from-inorder-and-postorder-traversal](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0106-construct-binary-tree-from-inorder-and-postorder-traversal) |
 | [0142-linked-list-cycle-ii](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0142-linked-list-cycle-ii) |
 | [0169-majority-element](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0169-majority-element) |
@@ -72,6 +74,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Backtracking
 |  |
 | ------- |
+| [0037-sudoku-solver](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0037-sudoku-solver) |
 | [0039-combination-sum](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0039-combination-sum) |
 | [0040-combination-sum-ii](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0040-combination-sum-ii) |
 | [0046-permutations](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0046-permutations) |
@@ -112,6 +115,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Matrix
 |  |
 | ------- |
+| [0037-sudoku-solver](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0037-sudoku-solver) |
 | [3227-find-missing-and-repeated-values](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/3227-find-missing-and-repeated-values) |
 ## Binary Search
 |  |
