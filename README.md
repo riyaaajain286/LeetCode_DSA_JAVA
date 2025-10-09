@@ -65,6 +65,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Math
 |  |
 | ------- |
+| [0002-add-two-numbers](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0002-add-two-numbers) |
 | [0009-palindrome-number](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0009-palindrome-number) |
 | [0070-climbing-stairs](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0070-climbing-stairs) |
 | [3227-find-missing-and-repeated-values](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/3227-find-missing-and-repeated-values) |
@@ -116,6 +117,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Linked List
 |  |
 | ------- |
+| [0002-add-two-numbers](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0002-add-two-numbers) |
 | [0142-linked-list-cycle-ii](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0142-linked-list-cycle-ii) |
 ## Two Pointers
 |  |
@@ -178,4 +180,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0789-kth-largest-element-in-a-stream](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0789-kth-largest-element-in-a-stream) |
+## Recursion
+|  |
+| ------- |
+| [0002-add-two-numbers](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0002-add-two-numbers) |
 <!---LeetCode Topics End-->
