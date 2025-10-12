@@ -24,6 +24,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0198-house-robber](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0198-house-robber) |
 | [0215-kth-largest-element-in-an-array](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0215-kth-largest-element-in-an-array) |
 | [0303-range-sum-query-immutable](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0303-range-sum-query-immutable) |
+| [0378-kth-smallest-element-in-a-sorted-matrix](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0378-kth-smallest-element-in-a-sorted-matrix) |
 | [0540-single-element-in-a-sorted-array](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0540-single-element-in-a-sorted-array) |
 | [1127-last-stone-weight](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/1127-last-stone-weight) |
 | [2113-find-the-kth-largest-integer-in-the-array](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/2113-find-the-kth-largest-integer-in-the-array) |
@@ -114,6 +115,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0169-majority-element](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0169-majority-element) |
 | [0215-kth-largest-element-in-an-array](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0215-kth-largest-element-in-an-array) |
+| [0378-kth-smallest-element-in-a-sorted-matrix](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0378-kth-smallest-element-in-a-sorted-matrix) |
 | [0389-find-the-difference](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0389-find-the-difference) |
 | [2113-find-the-kth-largest-integer-in-the-array](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/2113-find-the-kth-largest-integer-in-the-array) |
 ## Counting
@@ -135,11 +137,13 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0036-valid-sudoku](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0036-valid-sudoku) |
 | [0037-sudoku-solver](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0037-sudoku-solver) |
+| [0378-kth-smallest-element-in-a-sorted-matrix](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0378-kth-smallest-element-in-a-sorted-matrix) |
 | [3227-find-missing-and-repeated-values](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/3227-find-missing-and-repeated-values) |
 ## Binary Search
 |  |
 | ------- |
 | [0035-search-insert-position](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0035-search-insert-position) |
+| [0378-kth-smallest-element-in-a-sorted-matrix](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0378-kth-smallest-element-in-a-sorted-matrix) |
 | [0540-single-element-in-a-sorted-array](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0540-single-element-in-a-sorted-array) |
 ## Depth-First Search
 |  |
@@ -172,6 +176,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0215-kth-largest-element-in-an-array](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0215-kth-largest-element-in-an-array) |
+| [0378-kth-smallest-element-in-a-sorted-matrix](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0378-kth-smallest-element-in-a-sorted-matrix) |
 | [0789-kth-largest-element-in-a-stream](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0789-kth-largest-element-in-a-stream) |
 | [1127-last-stone-weight](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/1127-last-stone-weight) |
 | [2113-find-the-kth-largest-integer-in-the-array](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/2113-find-the-kth-largest-integer-in-the-array) |
