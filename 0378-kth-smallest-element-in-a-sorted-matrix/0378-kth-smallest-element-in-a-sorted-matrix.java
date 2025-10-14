@@ -1,35 +1,36 @@
 class Solution {
+ class  Pair<F,S>{
+  F first;
+  S second;
+  public Pair(F first,S second){
+  this.first=first;
+  this.second=second;
+ }
+}
     public int kthSmallest(int[][] matrix, int k) {
-        int n=matrix.length;
-        int s=matrix[0][0];
-        int e=matrix[n-1][n-1];
-        while(s<e){
-            int m=s+(e-s)/2;
-            int count=countlessequal(matrix,m);
-            if(count<k){
-                s=m+1;
-            }
-            else{
-                e=m;
-            }
-         }
-        return s;
+         int n=matrix.length;
+    int m=matrix[0].length;
+    List<Pair<Integer,Pair<Integer,Integer>>> list=new ArrayList<>();
+    for(int i=0;i<n;i++){
+      list.add(new Pair<>(matrix[i][0],new Pair<>(i,0)));
     }
-    //count how many numbers <=mid
-    public int countlessequal(int[][] matrix,int m){
-        int n=matrix.length;
-        int count=0;
-        int row=n-1;
-        int col=0;
-        while(row>=0&&col<n){
-            if(matrix[row][col]<=m){
-                count+=(row+1);
-                col++;
-            }
-            else{
-                row--;
-            }
-        }
-        return count;
+
+PriorityQueue<Pair<Integer,Pair<Integer,Integer>>> pq=new PriorityQueue<>((a,b)-> a.first-b.first);
+for(Pair<Integer,Pair<Integer,Integer>> p:list){
+  pq.add(p);
+}
+int value=0;
+    while(k>0){
+     Pair<Integer,Pair<Integer,Integer>> element=pq.poll();
+      value=element.first;
+      int i=element.second.first;
+      int j=element.second.second;
+      if(j+1<m){
+        pq.add(new Pair<>(matrix[i][j+1],new Pair<>(i,j+1)));
+      }
+      k--;
+      }
+    
+    return value;
     }
 }
