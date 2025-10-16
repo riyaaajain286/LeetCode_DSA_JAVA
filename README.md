@@ -125,6 +125,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0169-majority-element](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0169-majority-element) |
 | [0215-kth-largest-element-in-an-array](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0215-kth-largest-element-in-an-array) |
 | [0268-missing-number](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0268-missing-number) |
+| [0295-find-median-from-data-stream](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0295-find-median-from-data-stream) |
 | [0378-kth-smallest-element-in-a-sorted-matrix](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0378-kth-smallest-element-in-a-sorted-matrix) |
 | [0389-find-the-difference](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0389-find-the-difference) |
 | [1184-car-pooling](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/1184-car-pooling) |
@@ -144,6 +145,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0026-remove-duplicates-from-sorted-array](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0026-remove-duplicates-from-sorted-array) |
 | [0142-linked-list-cycle-ii](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0142-linked-list-cycle-ii) |
+| [0295-find-median-from-data-stream](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0295-find-median-from-data-stream) |
 ## Matrix
 |  |
 | ------- |
@@ -176,6 +178,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Design
 |  |
 | ------- |
+| [0295-find-median-from-data-stream](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0295-find-median-from-data-stream) |
 | [0303-range-sum-query-immutable](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0303-range-sum-query-immutable) |
 | [0789-kth-largest-element-in-a-stream](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0789-kth-largest-element-in-a-stream) |
 ## Prefix Sum
@@ -194,6 +197,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0023-merge-k-sorted-lists](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0023-merge-k-sorted-lists) |
 | [0215-kth-largest-element-in-an-array](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0215-kth-largest-element-in-an-array) |
+| [0295-find-median-from-data-stream](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0295-find-median-from-data-stream) |
 | [0378-kth-smallest-element-in-a-sorted-matrix](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0378-kth-smallest-element-in-a-sorted-matrix) |
 | [0789-kth-largest-element-in-a-stream](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0789-kth-largest-element-in-a-stream) |
 | [1127-last-stone-weight](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/1127-last-stone-weight) |
@@ -211,6 +215,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Data Stream
 |  |
 | ------- |
+| [0295-find-median-from-data-stream](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0295-find-median-from-data-stream) |
 | [0789-kth-largest-element-in-a-stream](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0789-kth-largest-element-in-a-stream) |
 ## Recursion
 |  |
