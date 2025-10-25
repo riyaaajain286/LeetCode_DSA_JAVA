@@ -23,6 +23,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0090-subsets-ii](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0090-subsets-ii) |
 | [0106-construct-binary-tree-from-inorder-and-postorder-traversal](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0106-construct-binary-tree-from-inorder-and-postorder-traversal) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0121-best-time-to-buy-and-sell-stock) |
+| [0128-longest-consecutive-sequence](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0128-longest-consecutive-sequence) |
 | [0136-single-number](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0136-single-number) |
 | [0137-single-number-ii](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0137-single-number-ii) |
 | [0169-majority-element](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0169-majority-element) |
@@ -50,6 +51,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0036-valid-sudoku](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0036-valid-sudoku) |
 | [0037-sudoku-solver](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0037-sudoku-solver) |
 | [0106-construct-binary-tree-from-inorder-and-postorder-traversal](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0106-construct-binary-tree-from-inorder-and-postorder-traversal) |
+| [0128-longest-consecutive-sequence](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0128-longest-consecutive-sequence) |
 | [0142-linked-list-cycle-ii](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0142-linked-list-cycle-ii) |
 | [0169-majority-element](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0169-majority-element) |
 | [0268-missing-number](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0268-missing-number) |
@@ -282,4 +284,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0632-smallest-range-covering-elements-from-k-lists](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0632-smallest-range-covering-elements-from-k-lists) |
+## Union Find
+|  |
+| ------- |
+| [0128-longest-consecutive-sequence](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0128-longest-consecutive-sequence) |
 <!---LeetCode Topics End-->
