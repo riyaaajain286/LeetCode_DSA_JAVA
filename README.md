@@ -19,6 +19,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0048-rotate-image](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0048-rotate-image) |
 | [0051-n-queens](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0051-n-queens) |
 | [0053-maximum-subarray](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0053-maximum-subarray) |
+| [0073-set-matrix-zeroes](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0073-set-matrix-zeroes) |
 | [0075-sort-colors](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0075-sort-colors) |
 | [0078-subsets](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0078-subsets) |
 | [0090-subsets-ii](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0090-subsets-ii) |
@@ -51,6 +52,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0001-two-sum](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0001-two-sum) |
 | [0036-valid-sudoku](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0036-valid-sudoku) |
 | [0037-sudoku-solver](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0037-sudoku-solver) |
+| [0073-set-matrix-zeroes](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0073-set-matrix-zeroes) |
 | [0106-construct-binary-tree-from-inorder-and-postorder-traversal](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0106-construct-binary-tree-from-inorder-and-postorder-traversal) |
 | [0128-longest-consecutive-sequence](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0128-longest-consecutive-sequence) |
 | [0142-linked-list-cycle-ii](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0142-linked-list-cycle-ii) |
@@ -187,6 +189,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0036-valid-sudoku](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0036-valid-sudoku) |
 | [0037-sudoku-solver](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0037-sudoku-solver) |
 | [0048-rotate-image](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0048-rotate-image) |
+| [0073-set-matrix-zeroes](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0073-set-matrix-zeroes) |
 | [0378-kth-smallest-element-in-a-sorted-matrix](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0378-kth-smallest-element-in-a-sorted-matrix) |
 | [3227-find-missing-and-repeated-values](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/3227-find-missing-and-repeated-values) |
 ## Binary Search
