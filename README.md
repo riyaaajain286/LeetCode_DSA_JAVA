@@ -16,6 +16,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0039-combination-sum](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0039-combination-sum) |
 | [0040-combination-sum-ii](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0040-combination-sum-ii) |
 | [0046-permutations](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0046-permutations) |
+| [0048-rotate-image](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0048-rotate-image) |
 | [0051-n-queens](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0051-n-queens) |
 | [0053-maximum-subarray](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0053-maximum-subarray) |
 | [0075-sort-colors](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0075-sort-colors) |
@@ -96,6 +97,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0002-add-two-numbers](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0002-add-two-numbers) |
 | [0009-palindrome-number](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0009-palindrome-number) |
+| [0048-rotate-image](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0048-rotate-image) |
 | [0070-climbing-stairs](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0070-climbing-stairs) |
 | [0268-missing-number](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0268-missing-number) |
 | [3227-find-missing-and-repeated-values](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/3227-find-missing-and-repeated-values) |
@@ -184,6 +186,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0036-valid-sudoku](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0036-valid-sudoku) |
 | [0037-sudoku-solver](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0037-sudoku-solver) |
+| [0048-rotate-image](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0048-rotate-image) |
 | [0378-kth-smallest-element-in-a-sorted-matrix](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0378-kth-smallest-element-in-a-sorted-matrix) |
 | [3227-find-missing-and-repeated-values](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/3227-find-missing-and-repeated-values) |
 ## Binary Search
