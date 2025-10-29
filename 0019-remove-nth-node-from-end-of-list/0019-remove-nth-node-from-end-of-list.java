@@ -21,10 +21,11 @@ class Solution {
         }
         temp=head;
         int p=count-n;
-        while(p>1){
-          
-            temp=temp.next;
+        while(temp!=null){
               p--;
+              if(p==0) break;
+            temp=temp.next;
+          
         }
         temp.next=temp.next.next;
         return head;
