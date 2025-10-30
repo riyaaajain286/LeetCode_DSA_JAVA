@@ -13,21 +13,20 @@ class Solution {
         int n=grid.length;
         int m=grid[0].length;
         Queue<Pair> q=new LinkedList<>();
-        // int[][] visited=new int[n][m];
-   
+        int[][] visited=new int[n][m];
         int fresh=0;
         for(int i=0;i<n;i++){
             for(int j=0;j<m;j++){
                 if(grid[i][j]==2){
                     q.add(new Pair(i,j,0));
-                    // visited[i][j]=2;
+                    visited[i][j]=2;
                 }
                 else if(grid[i][j]==1){
                     fresh++;
                 }
-                // else{
-                //      visited[i][j]=0;
-                // }
+                else{
+                     visited[i][j]=0;
+                }
             }
         }
         if(fresh==0) return 0;
@@ -46,9 +45,9 @@ class Solution {
                 int nr=row+delrow[k];
                 int nc=col+delcol[k];
             
-                if(nr>=0&&nr<n&&nc>=0&&nc<m&&grid[nr][nc]==1){
-                    // visited[nr][nc]=2;
-                    grid[nr][nc]=2;
+                if(nr>=0&&nr<n&&nc>=0&&nc<m&&grid[nr][nc]==1&&visited[nr][nc]==0){
+                    visited[nr][nc]=2;
+                    // grid[nr][nc]=2;
                     q.add(new Pair(nr,nc,t+1));
                     fresh--;
                 }
