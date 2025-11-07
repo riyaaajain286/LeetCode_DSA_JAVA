@@ -22,11 +22,14 @@ class Solution {
             int nr=row+delrow[i];
             int nc=col+delcol[i];
         
-        if(nr>=0&&nc>=0&&nr<n&&nc<m&&grid[nr][nc]==grid[row][col]&&vis[nr][nc]==0){
-            if(dfs(grid,nr,nc,row,col,vis)==true) return true;
-        } 
-        else if(nr>=0&&nc>=0&&nr<n&&nc<m&&grid[nr][nc]==grid[row][col]&&vis[nr][nc]==1){
+        if(nr>=0&&nc>=0&&nr<n&&nc<m){
+            if(grid[nr][nc]==grid[row][col]&&vis[nr][nc]==0){
+             if(dfs(grid,nr,nc,row,col,vis)==true) return true;
+            }
+         
+        else if(grid[nr][nc]==grid[row][col]&&vis[nr][nc]==1){
             if(nr!=pr&&nc!=pc) return true;
+        }
         }
         }
         return false;
