@@ -57,6 +57,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1184-car-pooling](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/1184-car-pooling) |
 | [1231-replace-elements-with-greatest-element-on-right-side](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/1231-replace-elements-with-greatest-element-on-right-side) |
 | [1479-construct-target-array-with-multiple-sums](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/1479-construct-target-array-with-multiple-sums) |
+| [1663-detect-cycles-in-2d-grid](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/1663-detect-cycles-in-2d-grid) |
 | [2113-find-the-kth-largest-integer-in-the-array](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/2113-find-the-kth-largest-integer-in-the-array) |
 | [2271-rearrange-array-elements-by-sign](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/2271-rearrange-array-elements-by-sign) |
 | [3227-find-missing-and-repeated-values](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/3227-find-missing-and-repeated-values) |
@@ -229,6 +230,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0733-flood-fill](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0733-flood-fill) |
 | [1036-rotting-oranges](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/1036-rotting-oranges) |
 | [1073-number-of-enclaves](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/1073-number-of-enclaves) |
+| [1663-detect-cycles-in-2d-grid](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/1663-detect-cycles-in-2d-grid) |
 | [3227-find-missing-and-repeated-values](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/3227-find-missing-and-repeated-values) |
 ## Binary Search
 |  |
@@ -254,6 +256,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0801-is-graph-bipartite](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0801-is-graph-bipartite) |
 | [1073-number-of-enclaves](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/1073-number-of-enclaves) |
 | [1116-maximum-level-sum-of-a-binary-tree](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/1116-maximum-level-sum-of-a-binary-tree) |
+| [1663-detect-cycles-in-2d-grid](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/1663-detect-cycles-in-2d-grid) |
 ## Breadth-First Search
 |  |
 | ------- |
@@ -269,6 +272,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1036-rotting-oranges](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/1036-rotting-oranges) |
 | [1073-number-of-enclaves](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/1073-number-of-enclaves) |
 | [1116-maximum-level-sum-of-a-binary-tree](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/1116-maximum-level-sum-of-a-binary-tree) |
+| [1663-detect-cycles-in-2d-grid](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/1663-detect-cycles-in-2d-grid) |
 ## Design
 |  |
 | ------- |
@@ -359,6 +363,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0684-redundant-connection](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0684-redundant-connection) |
 | [0801-is-graph-bipartite](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0801-is-graph-bipartite) |
 | [1073-number-of-enclaves](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/1073-number-of-enclaves) |
+| [1663-detect-cycles-in-2d-grid](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/1663-detect-cycles-in-2d-grid) |
 ## Graph
 |  |
 | ------- |
