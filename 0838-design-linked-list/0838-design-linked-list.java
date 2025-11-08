@@ -68,13 +68,19 @@ class MyLinkedList {
             return;
         }
         Node temp=head;
-        Node newnode=new Node(val);
-        for(int i=0;i<index-1;i++){
-           temp=temp.next;
-        }
-        newnode.next=temp.next;
-        temp.next=newnode;
-        size++;
+        int c=0;
+        while(temp!=null){
+           
+            if(c==index-1){
+            Node newnode=new Node(val);
+            newnode.next=temp.next;
+            temp.next=newnode;
+            break;
+            }
+             c++;
+            temp=temp.next;
+         }
+            size++;
     }
     
     public void deleteAtIndex(int index) {
