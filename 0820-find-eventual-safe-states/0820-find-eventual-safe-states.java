@@ -1,41 +1,35 @@
 class Solution {
+    //using toposort by reversing links of graph via bfs
     public List<Integer> eventualSafeNodes(int[][] graph) {
-        int n=graph.length;
-        int[] vis=new int[n];
-        int[] pathvis=new int[n];
-        int check[] =new int[n];
-        for(int i=0;i<n;i++){ 
-        if(vis[i]==0){
-            dfs(graph,i,vis,pathvis,check);
+        int v=graph.length;
+        ArrayList<ArrayList<Integer>> revadj=new ArrayList<>();
+        int[] indegree=new int[v];
+        for(int i=0;i<v;i++){
+          revadj.add(new ArrayList<>());
         }
+        for(int u=0;u<v;u++){
+            for(int adjnode:graph[u]){
+               revadj.get(adjnode).add(u);
+               indegree[u]++;
+            }
         }
+        Queue<Integer> q=new LinkedList<>();
         List<Integer> safenode=new ArrayList<>();
-        for(int i=0;i<n;i++){ 
-        if(check[i]==1){
-            safenode.add(i);
+        
+        for(int i=0;i<v;i++){
+            if(indegree[i]==0){
+                q.add(i);
+            }
         }
+        while(!q.isEmpty()){
+            int node=q.remove();
+            safenode.add(node);
+            for(int adjnode:revadj.get(node)){
+            indegree[adjnode]--;
+            if(indegree[adjnode]==0)  q.add(adjnode);
+            }
         }
-        return  safenode;
-    }
-      public static boolean dfs(int[][] graph,int node,int[] vis,int[] pathvis,int[] check){
-    vis[node]=1;
-    pathvis[node]=1;
-    for(int adjnode:graph[node]){
-      if(vis[adjnode]==0){
-        if(dfs(graph,adjnode,vis,pathvis,check)){
-          check[node]=0;
-          return true;
-        }
-      }
-      else if(vis[adjnode]==1){
-          if( pathvis[adjnode]==1){
-            check[node]=0;
-            return true;
-          }
-      }
-      }
-      check[node]=1;
-      pathvis[node]=0;
-      return false;
+    Collections.sort(safenode);
+    return safenode;
     }
 }
