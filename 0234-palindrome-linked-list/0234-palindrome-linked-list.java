@@ -10,42 +10,40 @@
  */
 class Solution {
     public boolean isPalindrome(ListNode head) {
-      if(head==null||head.next==null) return true;
-        //find middle
-        ListNode slow=head;
-        ListNode fast=head;
-        //fast.next for odd length and fast.next.next for even
-        while(fast.next!=null&&fast.next.next!=null){
-            slow=slow.next;
-            fast=fast.next.next;
+        if(head==null||head.next==null){
+            return true;
         }
-        ListNode secondhead=reverse(slow.next);
-        //reverse second half of list
-        ListNode first=head;
-        ListNode second=secondhead;
-        while(second!=null){
-            if(first.val!=second.val){
-                reverse(secondhead);
-                return false;
-            }
-            first=first.next;
-            second=second.next;
-         }
-         reverse(slow.next);
-         return true;
-
+         ListNode s=head;
+    ListNode f=head;
+    while(f!=null&&f.next!=null){
+      s=s.next;
+      f=f.next.next;
     }
-    private ListNode reverse(ListNode head){
-        if(head==null||head.next==null) return head;
-        ListNode temp=head;
-        ListNode next=head;
-        ListNode prev=null;
-        while(next!=null){
-            next=next.next;
-            temp.next=prev;
-            prev=temp;
-            temp=next;
-        }
-        return prev;
+    ListNode first=head;
+    ListNode second=reverse(s);
+    ListNode secondhead=second;
+    while(secondhead!=null){
+      if(first.val!=secondhead.val){
+        reverse(s);;
+        return false;
+        
+      }
+      first=first.next;
+      secondhead=secondhead.next;
+      }
+    reverse(s);
+    return true;
+  }
+  public static ListNode reverse(ListNode head){
+    ListNode prev=null;
+    ListNode temp=head;
+    ListNode nextnode=head;
+    while(nextnode!=null){
+      nextnode=nextnode.next;
+      temp.next=prev;
+      prev=temp;
+      temp=nextnode;
+    }
+    return head=prev;
     }
 }
