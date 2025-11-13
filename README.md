@@ -44,6 +44,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0268-missing-number](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0268-missing-number) |
 | [0303-range-sum-query-immutable](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0303-range-sum-query-immutable) |
 | [0347-top-k-frequent-elements](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0347-top-k-frequent-elements) |
+| [0349-intersection-of-two-arrays](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0349-intersection-of-two-arrays) |
 | [0378-kth-smallest-element-in-a-sorted-matrix](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0378-kth-smallest-element-in-a-sorted-matrix) |
 | [0485-max-consecutive-ones](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0485-max-consecutive-ones) |
 | [0540-single-element-in-a-sorted-array](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0540-single-element-in-a-sorted-array) |
@@ -77,6 +78,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0229-majority-element-ii](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0229-majority-element-ii) |
 | [0268-missing-number](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0268-missing-number) |
 | [0347-top-k-frequent-elements](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0347-top-k-frequent-elements) |
+| [0349-intersection-of-two-arrays](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0349-intersection-of-two-arrays) |
 | [0389-find-the-difference](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0389-find-the-difference) |
 | [0560-subarray-sum-equals-k](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0560-subarray-sum-equals-k) |
 | [0632-smallest-range-covering-elements-from-k-lists](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0632-smallest-range-covering-elements-from-k-lists) |
@@ -182,6 +184,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0268-missing-number](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0268-missing-number) |
 | [0295-find-median-from-data-stream](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0295-find-median-from-data-stream) |
 | [0347-top-k-frequent-elements](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0347-top-k-frequent-elements) |
+| [0349-intersection-of-two-arrays](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0349-intersection-of-two-arrays) |
 | [0378-kth-smallest-element-in-a-sorted-matrix](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0378-kth-smallest-element-in-a-sorted-matrix) |
 | [0389-find-the-difference](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0389-find-the-difference) |
 | [0632-smallest-range-covering-elements-from-k-lists](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0632-smallest-range-covering-elements-from-k-lists) |
@@ -223,6 +226,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0160-intersection-of-two-linked-lists](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0160-intersection-of-two-linked-lists) |
 | [0234-palindrome-linked-list](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0234-palindrome-linked-list) |
 | [0295-find-median-from-data-stream](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0295-find-median-from-data-stream) |
+| [0349-intersection-of-two-arrays](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0349-intersection-of-two-arrays) |
 | [2271-rearrange-array-elements-by-sign](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/2271-rearrange-array-elements-by-sign) |
 ## Matrix
 |  |
@@ -247,6 +251,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0035-search-insert-position](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0035-search-insert-position) |
 | [0209-minimum-size-subarray-sum](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0209-minimum-size-subarray-sum) |
 | [0268-missing-number](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0268-missing-number) |
+| [0349-intersection-of-two-arrays](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0349-intersection-of-two-arrays) |
 | [0378-kth-smallest-element-in-a-sorted-matrix](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0378-kth-smallest-element-in-a-sorted-matrix) |
 | [0540-single-element-in-a-sorted-array](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0540-single-element-in-a-sorted-array) |
 ## Depth-First Search
