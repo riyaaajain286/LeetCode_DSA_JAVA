@@ -3,9 +3,8 @@ class Solution {
         int first=m;
         int second=0;
         while(first<nums1.length&&second<nums2.length){
-            nums1[first]=nums2[second];
-            first++;
-            second++;
+            nums1[first++]=nums2[second++];
+           
         }
         Arrays.sort(nums1);
     }
