@@ -22,11 +22,11 @@ class Solution {
                 ListNode nextnode=temp.next;
                 prev.next=nextnode;
                
-                // prev=temp;
-                }
-                else{
+             
+                }else{
                     prev=temp;
                 }
+             
                 temp=temp.next;;
                 }
            
