@@ -8,20 +8,20 @@ class Solution {
             this.dist=dist;
         }
     }
-    class Edge{
-        int v, cost;
-        public Edge(int v,int cost){
-            this.v=v;
-            this.cost=cost;
-        }
-    }
+    // class Edge{
+    //     int v, cost;
+    //     public Edge(int v,int cost){
+    //         this.v=v;
+    //         this.cost=cost;
+    //     }
+    // }
     public int findCheapestPrice(int n, int[][] flights, int src, int dst, int k) {
-        ArrayList<ArrayList<Edge>> adj=new ArrayList<>();
+        ArrayList<ArrayList<int[]>> adj=new ArrayList<>();
         for(int i=0;i<n;i++){
             adj.add(new ArrayList<>());
         }
         for(int[] f:flights){
-            adj.get(f[0]).add(new Edge(f[1],f[2]));
+            adj.get(f[0]).add(new int[]{f[1],f[2]});
         }
         // Distance array
         int[] dist = new int[n];
@@ -36,9 +36,9 @@ class Solution {
           int node=p.node;
           int dis=p.dist;
           if(s>k)  continue;
-          for(Edge e:adj.get(node)){
-             int adjnode=e.v;
-             int cost=e.cost;
+          for(int[] e:adj.get(node)){
+             int adjnode=e[0];
+             int cost=e[1];
             if(dis+cost<dist[adjnode]){
                 dist[adjnode]=dis+cost;
                 q.add(new Pair(s+1,adjnode,dist[adjnode]));
