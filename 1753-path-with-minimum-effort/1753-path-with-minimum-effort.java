@@ -1,4 +1,5 @@
 class Solution {
+    //ElogV=n*m*4llogn*m
     class Pair{
         int row,col, diff;
         public Pair(int row,int col, int diff){
@@ -26,6 +27,7 @@ class Solution {
             int c=p.col;
             int diff=p.diff;
             if(r==m-1&&c==n-1)  return dist[r][c];
+            if(diff>dist[r][c])  continue;
             for(int i=0;i<4;i++){
                 int nr=r+dr[i];
                 int nc=c+dc[i];
