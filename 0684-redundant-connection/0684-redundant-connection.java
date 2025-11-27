@@ -1,34 +1,56 @@
+class Disjoint{
+  static int[] parent;
+  static int[] rank;
+  public Disjoint(int n){
+    parent=new int[n+1];
+    rank=new int[n+1];
+    for(int i=0;i<=n;i++){ 
+      parent[i]=i;
+      rank[i]=0;
+    }
+  }
+    //parent and compress path also
+    public static int findparent(int node){
+      if(parent[node]==node)  return node;
+
+      //path compression step
+      parent[node]=findparent(parent[node]);
+      return parent[node];
+
+    }
+    //union by rank
+    public static  void unionByRank(int u,int v){
+    int pu=findparent(u);
+    int pv=findparent(v);
+    if(pu==pv) return;//already same set
+// Attach smaller rank tree under larger rank tree
+    if(rank[pu]<rank[pv]){
+      parent[pu]=pv;
+    }
+    else if(rank[pv]<rank[pu]){
+      parent[pv]=pu;
+    }
+    else{
+      parent[pv]=pu;
+      rank[pu]++;// Increase rank if both equal 
+    }
+    }
+}
 class Solution {
     public int[] findRedundantConnection(int[][] edges) {
-        int n=edges.length;
-       
-        ArrayList<ArrayList<Integer>> adj=new ArrayList<>();
-        for(int i=0;i<=n;i++){
-              adj.add(new ArrayList<>());
-        }
-        for(int[] edge:edges){
-            int u=edge[0];
-            int v=edge[1];
-             boolean visited[]=new boolean[n+1];
-            //if u and v alrdy connected adding edge can create a cycle
-            if(dfs(visited,adj,u,v)){
-                return edge;
+        int m=edges.length;
+        if(edges==null||edges.length==0)  return new int[]{-1,-1};
+        Disjoint ds=new Disjoint(m);
+        for(int i=0;i<m;i++){
+            int u=edges[i][0];
+            int v=edges[i][1];
+            if(ds.findparent(u)==ds.findparent(v)){
+                return new int[]{u,v};
             }
-           // otherwise add edge to adj list
-            adj.get(u).add(v);
-            adj.get(v).add(u);
-        }
-        return new int[0];
-    }
-    private boolean dfs(boolean visited[],ArrayList<ArrayList<Integer>> adj,int source,int target){
-        visited[source]=true;
-        if(source==target) return true;
-        for(int neighbour:adj.get(source)){
-            if(visited[neighbour]==false){
-                if(dfs(visited,adj,neighbour,target))  return true;
+            else{
+                ds.unionByRank(u,v);
             }
         }
-    
-    return false;
+        return new int[]{-1,-1};
     }
 }
