@@ -55,6 +55,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0542-01-matrix](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0542-01-matrix) |
 | [0560-subarray-sum-equals-k](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0560-subarray-sum-equals-k) |
 | [0632-smallest-range-covering-elements-from-k-lists](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0632-smallest-range-covering-elements-from-k-lists) |
+| [0721-accounts-merge](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0721-accounts-merge) |
 | [0733-flood-fill](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0733-flood-fill) |
 | [0817-design-hashmap](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0817-design-hashmap) |
 | [1036-rotting-oranges](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/1036-rotting-oranges) |
@@ -89,6 +90,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0389-find-the-difference](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0389-find-the-difference) |
 | [0560-subarray-sum-equals-k](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0560-subarray-sum-equals-k) |
 | [0632-smallest-range-covering-elements-from-k-lists](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0632-smallest-range-covering-elements-from-k-lists) |
+| [0721-accounts-merge](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0721-accounts-merge) |
 | [0817-design-hashmap](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0817-design-hashmap) |
 | [3227-find-missing-and-repeated-values](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/3227-find-missing-and-repeated-values) |
 ## Divide and Conquer
@@ -184,6 +186,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0125-valid-palindrome](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0125-valid-palindrome) |
 | [0127-word-ladder](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0127-word-ladder) |
 | [0389-find-the-difference](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0389-find-the-difference) |
+| [0721-accounts-merge](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0721-accounts-merge) |
 | [1250-longest-common-subsequence](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/1250-longest-common-subsequence) |
 | [2113-find-the-kth-largest-integer-in-the-array](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/2113-find-the-kth-largest-integer-in-the-array) |
 ## Sorting
@@ -204,6 +207,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0378-kth-smallest-element-in-a-sorted-matrix](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0378-kth-smallest-element-in-a-sorted-matrix) |
 | [0389-find-the-difference](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0389-find-the-difference) |
 | [0632-smallest-range-covering-elements-from-k-lists](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0632-smallest-range-covering-elements-from-k-lists) |
+| [0721-accounts-merge](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0721-accounts-merge) |
 | [1184-car-pooling](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/1184-car-pooling) |
 | [2113-find-the-kth-largest-integer-in-the-array](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/2113-find-the-kth-largest-integer-in-the-array) |
 ## Counting
@@ -300,6 +304,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0513-find-bottom-left-tree-value](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0513-find-bottom-left-tree-value) |
 | [0547-number-of-provinces](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0547-number-of-provinces) |
 | [0684-redundant-connection](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0684-redundant-connection) |
+| [0721-accounts-merge](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0721-accounts-merge) |
 | [0733-flood-fill](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0733-flood-fill) |
 | [0744-network-delay-time](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0744-network-delay-time) |
 | [0801-is-graph-bipartite](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0801-is-graph-bipartite) |
@@ -323,6 +328,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0542-01-matrix](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0542-01-matrix) |
 | [0547-number-of-provinces](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0547-number-of-provinces) |
 | [0684-redundant-connection](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0684-redundant-connection) |
+| [0721-accounts-merge](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0721-accounts-merge) |
 | [0733-flood-fill](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0733-flood-fill) |
 | [0744-network-delay-time](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0744-network-delay-time) |
 | [0801-is-graph-bipartite](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0801-is-graph-bipartite) |
@@ -431,6 +437,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0200-number-of-islands](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0200-number-of-islands) |
 | [0547-number-of-provinces](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0547-number-of-provinces) |
 | [0684-redundant-connection](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0684-redundant-connection) |
+| [0721-accounts-merge](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0721-accounts-merge) |
 | [0801-is-graph-bipartite](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0801-is-graph-bipartite) |
 | [1073-number-of-enclaves](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/1073-number-of-enclaves) |
 | [1663-detect-cycles-in-2d-grid](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/1663-detect-cycles-in-2d-grid) |
