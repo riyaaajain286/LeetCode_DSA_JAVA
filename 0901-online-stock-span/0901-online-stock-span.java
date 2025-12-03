@@ -15,7 +15,10 @@ class StockSpanner {
         int span=1;
        // Combine with all previous prices <= current price
         while(!st.isEmpty()&&st.peek().price<=price){
-          span+=st.peek().span;
+          Pair p=st.peek();
+          int stprice=p.price;
+          int stspan=p.span;
+          span+=stspan;
           st.pop();
         }
         st.push(new Pair(price,span));
