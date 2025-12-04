@@ -53,23 +53,18 @@ class Solution {
                 }
             }
         }
-        //store all components size
-        HashSet<Integer> storage=new HashSet<>();
+         //check largest size
+          int maxsize=0;
           for(int r=0;r<n;r++){
             for(int c=0;c<m;c++){
                 if(grid[r][c]==1){
                     int nodeno=r*m+c;
                     int pnode=ds.findparent(nodeno);
-                    int nodesize=ds.size[pnode];
-                    storage.add(nodesize);
-                  }
+                    int psize=ds.size[pnode];
+                  maxsize=Math.max(maxsize,psize);
+                }
             }
-        }
-        //check largest size
-        int maxsize=0;
-        for(int area:storage){
-              maxsize=Math.max(maxsize,area);
-        }
+          }
             return maxsize;
     }
 }
