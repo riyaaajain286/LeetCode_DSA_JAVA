@@ -55,6 +55,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0542-01-matrix](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0542-01-matrix) |
 | [0560-subarray-sum-equals-k](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0560-subarray-sum-equals-k) |
 | [0632-smallest-range-covering-elements-from-k-lists](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0632-smallest-range-covering-elements-from-k-lists) |
+| [0695-max-area-of-island](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0695-max-area-of-island) |
 | [0721-accounts-merge](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0721-accounts-merge) |
 | [0733-flood-fill](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0733-flood-fill) |
 | [0817-design-hashmap](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0817-design-hashmap) |
@@ -271,6 +272,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0200-number-of-islands](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0200-number-of-islands) |
 | [0378-kth-smallest-element-in-a-sorted-matrix](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0378-kth-smallest-element-in-a-sorted-matrix) |
 | [0542-01-matrix](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0542-01-matrix) |
+| [0695-max-area-of-island](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0695-max-area-of-island) |
 | [0733-flood-fill](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0733-flood-fill) |
 | [1036-rotting-oranges](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/1036-rotting-oranges) |
 | [1073-number-of-enclaves](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/1073-number-of-enclaves) |
@@ -304,6 +306,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0513-find-bottom-left-tree-value](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0513-find-bottom-left-tree-value) |
 | [0547-number-of-provinces](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0547-number-of-provinces) |
 | [0684-redundant-connection](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0684-redundant-connection) |
+| [0695-max-area-of-island](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0695-max-area-of-island) |
 | [0721-accounts-merge](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0721-accounts-merge) |
 | [0733-flood-fill](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0733-flood-fill) |
 | [0744-network-delay-time](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0744-network-delay-time) |
@@ -328,6 +331,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0542-01-matrix](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0542-01-matrix) |
 | [0547-number-of-provinces](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0547-number-of-provinces) |
 | [0684-redundant-connection](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0684-redundant-connection) |
+| [0695-max-area-of-island](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0695-max-area-of-island) |
 | [0721-accounts-merge](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0721-accounts-merge) |
 | [0733-flood-fill](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0733-flood-fill) |
 | [0744-network-delay-time](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0744-network-delay-time) |
@@ -439,6 +443,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0200-number-of-islands](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0200-number-of-islands) |
 | [0547-number-of-provinces](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0547-number-of-provinces) |
 | [0684-redundant-connection](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0684-redundant-connection) |
+| [0695-max-area-of-island](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0695-max-area-of-island) |
 | [0721-accounts-merge](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0721-accounts-merge) |
 | [0801-is-graph-bipartite](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0801-is-graph-bipartite) |
 | [1073-number-of-enclaves](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/1073-number-of-enclaves) |
