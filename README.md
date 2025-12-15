@@ -55,6 +55,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0542-01-matrix](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0542-01-matrix) |
 | [0560-subarray-sum-equals-k](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0560-subarray-sum-equals-k) |
 | [0632-smallest-range-covering-elements-from-k-lists](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0632-smallest-range-covering-elements-from-k-lists) |
+| [0643-maximum-average-subarray-i](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0643-maximum-average-subarray-i) |
 | [0695-max-area-of-island](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0695-max-area-of-island) |
 | [0721-accounts-merge](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0721-accounts-merge) |
 | [0733-flood-fill](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0733-flood-fill) |
@@ -423,6 +424,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0209-minimum-size-subarray-sum](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0209-minimum-size-subarray-sum) |
 | [0632-smallest-range-covering-elements-from-k-lists](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0632-smallest-range-covering-elements-from-k-lists) |
+| [0643-maximum-average-subarray-i](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0643-maximum-average-subarray-i) |
 ## Bucket Sort
 |  |
 | ------- |
