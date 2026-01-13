@@ -58,6 +58,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0643-maximum-average-subarray-i](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0643-maximum-average-subarray-i) |
 | [0695-max-area-of-island](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0695-max-area-of-island) |
 | [0721-accounts-merge](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0721-accounts-merge) |
+| [0724-find-pivot-index](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0724-find-pivot-index) |
 | [0733-flood-fill](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0733-flood-fill) |
 | [0817-design-hashmap](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0817-design-hashmap) |
 | [1036-rotting-oranges](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/1036-rotting-oranges) |
@@ -367,6 +368,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0209-minimum-size-subarray-sum](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0209-minimum-size-subarray-sum) |
 | [0303-range-sum-query-immutable](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0303-range-sum-query-immutable) |
 | [0560-subarray-sum-equals-k](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0560-subarray-sum-equals-k) |
+| [0724-find-pivot-index](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0724-find-pivot-index) |
 | [1184-car-pooling](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/1184-car-pooling) |
 | [1480-running-sum-of-1d-array](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/1480-running-sum-of-1d-array) |
 | [1732-find-the-highest-altitude](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/1732-find-the-highest-altitude) |
