@@ -121,6 +121,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0124-binary-tree-maximum-path-sum](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0124-binary-tree-maximum-path-sum) |
 | [0129-sum-root-to-leaf-numbers](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0129-sum-root-to-leaf-numbers) |
 | [0144-binary-tree-preorder-traversal](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0144-binary-tree-preorder-traversal) |
+| [0145-binary-tree-postorder-traversal](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0145-binary-tree-postorder-traversal) |
 | [0513-find-bottom-left-tree-value](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0513-find-bottom-left-tree-value) |
 | [0789-kth-largest-element-in-a-stream](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0789-kth-largest-element-in-a-stream) |
 | [1116-maximum-level-sum-of-a-binary-tree](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/1116-maximum-level-sum-of-a-binary-tree) |
@@ -135,6 +136,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0124-binary-tree-maximum-path-sum](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0124-binary-tree-maximum-path-sum) |
 | [0129-sum-root-to-leaf-numbers](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0129-sum-root-to-leaf-numbers) |
 | [0144-binary-tree-preorder-traversal](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0144-binary-tree-preorder-traversal) |
+| [0145-binary-tree-postorder-traversal](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0145-binary-tree-postorder-traversal) |
 | [0513-find-bottom-left-tree-value](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0513-find-bottom-left-tree-value) |
 | [0789-kth-largest-element-in-a-stream](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0789-kth-largest-element-in-a-stream) |
 | [1116-maximum-level-sum-of-a-binary-tree](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/1116-maximum-level-sum-of-a-binary-tree) |
@@ -317,6 +319,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0129-sum-root-to-leaf-numbers](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0129-sum-root-to-leaf-numbers) |
 | [0130-surrounded-regions](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0130-surrounded-regions) |
 | [0144-binary-tree-preorder-traversal](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0144-binary-tree-preorder-traversal) |
+| [0145-binary-tree-postorder-traversal](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0145-binary-tree-postorder-traversal) |
 | [0200-number-of-islands](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0200-number-of-islands) |
 | [0207-course-schedule](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0207-course-schedule) |
 | [0210-course-schedule-ii](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0210-course-schedule-ii) |
@@ -493,6 +496,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0094-binary-tree-inorder-traversal](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0094-binary-tree-inorder-traversal) |
 | [0143-reorder-list](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0143-reorder-list) |
 | [0144-binary-tree-preorder-traversal](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0144-binary-tree-preorder-traversal) |
+| [0145-binary-tree-postorder-traversal](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0145-binary-tree-postorder-traversal) |
 | [0234-palindrome-linked-list](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0234-palindrome-linked-list) |
 | [0901-online-stock-span](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0901-online-stock-span) |
 | [1047-remove-all-adjacent-duplicates-in-string](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/1047-remove-all-adjacent-duplicates-in-string) |
