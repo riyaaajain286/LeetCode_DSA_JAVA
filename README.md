@@ -113,6 +113,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Tree
 |  |
 | ------- |
+| [0094-binary-tree-inorder-traversal](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0094-binary-tree-inorder-traversal) |
 | [0100-same-tree](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0100-same-tree) |
 | [0106-construct-binary-tree-from-inorder-and-postorder-traversal](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0106-construct-binary-tree-from-inorder-and-postorder-traversal) |
 | [0110-balanced-binary-tree](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0110-balanced-binary-tree) |
@@ -125,6 +126,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Binary Tree
 |  |
 | ------- |
+| [0094-binary-tree-inorder-traversal](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0094-binary-tree-inorder-traversal) |
 | [0100-same-tree](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0100-same-tree) |
 | [0106-construct-binary-tree-from-inorder-and-postorder-traversal](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0106-construct-binary-tree-from-inorder-and-postorder-traversal) |
 | [0110-balanced-binary-tree](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0110-balanced-binary-tree) |
@@ -305,6 +307,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Depth-First Search
 |  |
 | ------- |
+| [0094-binary-tree-inorder-traversal](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0094-binary-tree-inorder-traversal) |
 | [0100-same-tree](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0100-same-tree) |
 | [0110-balanced-binary-tree](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0110-balanced-binary-tree) |
 | [0112-path-sum](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0112-path-sum) |
@@ -484,6 +487,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0042-trapping-rain-water](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0042-trapping-rain-water) |
+| [0094-binary-tree-inorder-traversal](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0094-binary-tree-inorder-traversal) |
 | [0143-reorder-list](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0143-reorder-list) |
 | [0234-palindrome-linked-list](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0234-palindrome-linked-list) |
 | [0901-online-stock-span](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0901-online-stock-span) |
