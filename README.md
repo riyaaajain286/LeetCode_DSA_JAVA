@@ -115,6 +115,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0094-binary-tree-inorder-traversal](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0094-binary-tree-inorder-traversal) |
 | [0100-same-tree](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0100-same-tree) |
+| [0102-binary-tree-level-order-traversal](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0102-binary-tree-level-order-traversal) |
 | [0106-construct-binary-tree-from-inorder-and-postorder-traversal](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0106-construct-binary-tree-from-inorder-and-postorder-traversal) |
 | [0110-balanced-binary-tree](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0110-balanced-binary-tree) |
 | [0112-path-sum](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0112-path-sum) |
@@ -130,6 +131,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0094-binary-tree-inorder-traversal](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0094-binary-tree-inorder-traversal) |
 | [0100-same-tree](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0100-same-tree) |
+| [0102-binary-tree-level-order-traversal](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0102-binary-tree-level-order-traversal) |
 | [0106-construct-binary-tree-from-inorder-and-postorder-traversal](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0106-construct-binary-tree-from-inorder-and-postorder-traversal) |
 | [0110-balanced-binary-tree](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0110-balanced-binary-tree) |
 | [0112-path-sum](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0112-path-sum) |
@@ -344,6 +346,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0100-same-tree](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0100-same-tree) |
+| [0102-binary-tree-level-order-traversal](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0102-binary-tree-level-order-traversal) |
 | [0112-path-sum](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0112-path-sum) |
 | [0127-word-ladder](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0127-word-ladder) |
 | [0130-surrounded-regions](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0130-surrounded-regions) |
