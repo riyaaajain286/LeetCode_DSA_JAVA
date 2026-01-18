@@ -18,13 +18,22 @@ class Solution {
         if(root==null){
             return null;
         }
+        Queue<TreeNode> q=new LinkedList<>();
+        q.offer(root);
+        while(!q.isEmpty()){
+            TreeNode currentnode=q.poll();
         // swap children
-      TreeNode temp=root.left;
-      root.left=root.right;
-      root.right=temp;
-      //recursively invert subtrees also
-      invertTree(root.left);
-      invertTree(root.right);
-      return root;
+            TreeNode temp=currentnode.left;
+            currentnode.left=currentnode.right;
+            currentnode.right=temp;
+            if(currentnode.left!=null){
+                q.offer(currentnode.left);
+            }
+             if(currentnode.right!=null){
+                q.offer(currentnode.right);
+            }
+
+        }
+        return root;
     }
 }
