@@ -131,6 +131,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0637-average-of-levels-in-binary-tree](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0637-average-of-levels-in-binary-tree) |
 | [0789-kth-largest-element-in-a-stream](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0789-kth-largest-element-in-a-stream) |
 | [1116-maximum-level-sum-of-a-binary-tree](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/1116-maximum-level-sum-of-a-binary-tree) |
+| [2236-root-equals-sum-of-children](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/2236-root-equals-sum-of-children) |
 ## Binary Tree
 |  |
 | ------- |
@@ -151,6 +152,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0637-average-of-levels-in-binary-tree](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0637-average-of-levels-in-binary-tree) |
 | [0789-kth-largest-element-in-a-stream](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0789-kth-largest-element-in-a-stream) |
 | [1116-maximum-level-sum-of-a-binary-tree](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/1116-maximum-level-sum-of-a-binary-tree) |
+| [2236-root-equals-sum-of-children](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/2236-root-equals-sum-of-children) |
 ## Math
 |  |
 | ------- |
