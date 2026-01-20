@@ -17,8 +17,8 @@ class Solution {
     public int kthSmallest(TreeNode root, int k) {
         List<Integer> list=new ArrayList<>();
         inorder(root,list);
-        int ans=list.get(k-1);
-        return ans;
+        return list.get(k-1);
+        
     }
     public void inorder(TreeNode root,List<Integer> list){
         if(root==null){
