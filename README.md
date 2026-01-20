@@ -53,6 +53,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0378-kth-smallest-element-in-a-sorted-matrix](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0378-kth-smallest-element-in-a-sorted-matrix) |
 | [0416-partition-equal-subset-sum](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0416-partition-equal-subset-sum) |
 | [0485-max-consecutive-ones](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0485-max-consecutive-ones) |
+| [0494-target-sum](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0494-target-sum) |
 | [0540-single-element-in-a-sorted-array](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0540-single-element-in-a-sorted-array) |
 | [0542-01-matrix](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0542-01-matrix) |
 | [0560-subarray-sum-equals-k](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0560-subarray-sum-equals-k) |
@@ -184,6 +185,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0124-binary-tree-maximum-path-sum](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0124-binary-tree-maximum-path-sum) |
 | [0198-house-robber](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0198-house-robber) |
 | [0416-partition-equal-subset-sum](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0416-partition-equal-subset-sum) |
+| [0494-target-sum](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0494-target-sum) |
 | [0509-fibonacci-number](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0509-fibonacci-number) |
 | [0542-01-matrix](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0542-01-matrix) |
 | [0803-cheapest-flights-within-k-stops](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0803-cheapest-flights-within-k-stops) |
@@ -204,6 +206,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0051-n-queens](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0051-n-queens) |
 | [0078-subsets](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0078-subsets) |
 | [0090-subsets-ii](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0090-subsets-ii) |
+| [0494-target-sum](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0494-target-sum) |
 ## Bit Manipulation
 |  |
 | ------- |
