@@ -17,19 +17,8 @@ class Solution {
     public TreeNode balanceBST(TreeNode root) {
         ArrayList<TreeNode> list=new ArrayList<>();
         inorder(root,list);
-       TreeNode tree=maketree(0,list.size()-1,list);
-        // int ans=height(tree);
-        return tree;
-        
+        return maketree(0,list.size()-1,list);
     }
-    // public int height(Node root){
-    //     if(root==null){
-    //         return 0;
-    //     }
-    //     int leftheight=height(root.left);
-    //     int rightheight=height(root.right);
-    //     return 1+(Math.max(leftheight,rightheight));
-    // }
     public TreeNode maketree(int start,int end,ArrayList<TreeNode> list){
         if(start> end) return null; //base condition
 
