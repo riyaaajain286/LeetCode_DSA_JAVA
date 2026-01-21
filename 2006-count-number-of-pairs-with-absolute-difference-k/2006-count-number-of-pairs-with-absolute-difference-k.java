@@ -1,15 +1,15 @@
 class Solution {
     public int countKDifference(int[] nums, int k) {
-        // Map<Integer,Integer> map=new HashMap<>();
-        int[] freq=new int[101];//constraint
-        //count freq of each  no
-        for(int i:nums){
-            freq[i]++;
-        }
+        Map<Integer,Integer> map=new HashMap<>();
         int c=0;
-        for(int i=1;i+k<=100;i++){
-            c+=freq[i]*freq[i+k];
+        // create map
+        for(int num:nums){
+            map.put(num,map.getOrDefault(num,0)+1);
         }
-        return c;
+        //count valid pairs
+        for(int key:map.keySet()){
+            c+=map.get(key)*map.getOrDefault(key+k,0);
+        }
+      return c;
     }
 }
