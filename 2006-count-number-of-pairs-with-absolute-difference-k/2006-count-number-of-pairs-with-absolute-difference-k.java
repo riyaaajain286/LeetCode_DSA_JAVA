@@ -1,14 +1,15 @@
 class Solution {
     public int countKDifference(int[] nums, int k) {
-       int len=nums.length;
-       int c=0;
-      for(int i=0;i<len-1;i++){
-        for(int j=i+1;j<len;j++){
-            if(Math.abs(nums[i]-nums[j])==k){
-                c++;
-            }
+        // Map<Integer,Integer> map=new HashMap<>();
+        int[] freq=new int[101];//constraint
+        //count freq of each  no
+        for(int i:nums){
+            freq[i]++;
         }
-      }
-     return c;
+        int c=0;
+        for(int i=1;i+k<=100;i++){
+            c+=freq[i]*freq[i+k];
+        }
+        return c;
     }
 }
