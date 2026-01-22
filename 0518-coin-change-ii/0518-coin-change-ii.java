@@ -1,27 +1,37 @@
 class Solution {
+    //memoization
+    int[][] dp;
     public int change(int amount, int[] coins) {
-        //coins=weight array
-        //amount=sum
-        //similar to count of subset sum
-        int n=coins.length;
-        int[][] dp=new int [n+1][amount+1];
+        int n =coins.length;
+        //build dp table
+         dp=new int[n+1][amount+1];
         //initialization
-        for(int i=1;i<=n;i++){//no coin
-            dp[i][0]=1;
+        for(int i=0;i<=n;i++){
+            for(int j=0;j<=amount;j++){
+                dp[i][j]=-1;
+            }
         }
-        for(int j=0;j<=amount;j++){//amount =0 always possible by null set
-            dp[0][j]=0;
+        return solve(amount,coins,n);
+    }
+    public int solve(int amount, int[] coins,int n){
+        //base case
+        if(amount==0){
+            return 1;
         }
-        //iteration
-        for(int i=1;i<=n;i++){
-             for(int j=1;j<=amount;j++){
-                if(coins[i-1]<=j){
-                    dp[i][j]=dp[i][j-coins[i-1]]+dp[i-1][j];
-                }
-                else{
-                    dp[i][j]=dp[i-1][j];
-                }
-             }
+        if(n==0){
+            return 0;
+        }
+        // memo check
+        if(dp[n][amount]!=-1){
+            return dp[n][amount];
+        }
+        //recursion
+        if (coins[n - 1] <= amount) {
+            dp[n][amount] =
+                solve( amount - coins[n - 1],coins, n) +
+                solve( amount,coins, n - 1);
+        } else {
+            dp[n][amount] = solve( amount,coins, n - 1);
         }
         return dp[n][amount];
     }
