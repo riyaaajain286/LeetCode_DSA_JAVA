@@ -24,19 +24,19 @@ class Solution {
         boolean leftToRight=true;//1st level
         while(!q.isEmpty()){
             int levelsize=q.size();
-            Deque<Integer> eachlevel=new LinkedList<>();
+            List<Integer> eachlevel=new ArrayList<>();
             for(int i=0;i<levelsize;i++){
                 TreeNode curr=q.poll();
                 if(leftToRight){
-                   eachlevel.addLast(curr.val);//adding value to deque nd convert to list
+                   eachlevel.add(curr.val);//add to back of list
                 }
                 else{
-                   eachlevel.addFirst(curr.val);
+                   eachlevel.add(0,curr.val);// add to front of list
                 }
                 if(curr.left!=null) q.add(curr.left);
                 if(curr.right!=null) q.add(curr.right);
             }
-            result.add(new ArrayList<>(eachlevel));
+            result.add(eachlevel);
             leftToRight=!leftToRight;
         }
         return result;
