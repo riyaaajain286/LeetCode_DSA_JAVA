@@ -25,15 +25,18 @@ class Solution {
        int i=n,j=m;//initialized with last index so backtrack from last cell
        StringBuilder sb=new StringBuilder();
        while(i>0&&j>0){
+        // Case 1: Characters match → part of LCS
         if(str1.charAt(i-1)==str2.charAt(j-1)){//matching characters
             sb.append(str1.charAt(i-1));
             i--;
             j--;
         }
+        // Case 2: Move up → take character from s1
         else if(dp[i-1][j]>dp[i][j-1]){//comparing max value in tabble across diagonal
             sb.append(str1.charAt(i-1));
             i--;
         }
+        // Case 3: Move left → take character from s2
         else{
             sb.append(str2.charAt(j-1));
             j--;
