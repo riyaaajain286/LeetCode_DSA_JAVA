@@ -1,13 +1,13 @@
 class Solution {
     public int longestPalindromeSubseq(String s) {
       int n=s.length();
-        // String rev="";
-        // for(int i=n-1;i>=0;i--){
-        //     rev+=s.charAt(i);
-        // }
-        StringBuilder sb=new StringBuilder(s);
-        String revv=sb.reverse().toString();
-       int lcs=lcsB(s,revv,n,n);
+        String rev="";
+        for(int i=n-1;i>=0;i--){
+            rev+=s.charAt(i);
+        }
+        // StringBuilder sb=new StringBuilder(s);
+        // String revv=sb.reverse().toString();
+       int lcs=lcsB(s,rev,n,n);
         return lcs;
     }
     public int lcsB(String text1, String text2,int n,int m){
