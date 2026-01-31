@@ -211,6 +211,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0119-pascals-triangle-ii](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0119-pascals-triangle-ii) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0121-best-time-to-buy-and-sell-stock) |
 | [0124-binary-tree-maximum-path-sum](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0124-binary-tree-maximum-path-sum) |
+| [0131-palindrome-partitioning](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0131-palindrome-partitioning) |
 | [0198-house-robber](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0198-house-robber) |
 | [0322-coin-change](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0322-coin-change) |
 | [0416-partition-equal-subset-sum](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0416-partition-equal-subset-sum) |
@@ -241,6 +242,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0051-n-queens](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0051-n-queens) |
 | [0078-subsets](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0078-subsets) |
 | [0090-subsets-ii](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0090-subsets-ii) |
+| [0131-palindrome-partitioning](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0131-palindrome-partitioning) |
 | [0494-target-sum](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0494-target-sum) |
 ## Bit Manipulation
 |  |
@@ -259,6 +261,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0058-length-of-last-word](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0058-length-of-last-word) |
 | [0125-valid-palindrome](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0125-valid-palindrome) |
 | [0127-word-ladder](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0127-word-ladder) |
+| [0131-palindrome-partitioning](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0131-palindrome-partitioning) |
 | [0389-find-the-difference](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0389-find-the-difference) |
 | [0516-longest-palindromic-subsequence](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0516-longest-palindromic-subsequence) |
 | [0583-delete-operation-for-two-strings](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0583-delete-operation-for-two-strings) |
