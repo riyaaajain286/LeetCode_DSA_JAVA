@@ -14,22 +14,21 @@
  * }
  */
 class Solution {
-    int maxdepth=-1;
-        int ans=-1;
+    int ans,maxheight=-1;
     public int findBottomLeftValue(TreeNode root) {
-        
-        dfs(root,0);
+        height(root,0);
         return ans;
     }
-    private void dfs(TreeNode node,int depth){
+    //check height at each level in each subtree using dfs
+    public void height(TreeNode node,int height){
         if(node==null){
-            return;
+            return ;
         }
-        if(depth>maxdepth){
-            maxdepth=depth;
+        if(height>maxheight){
+            maxheight=height;
             ans=node.val;
         }
-        dfs(node.left,depth+1);
-        dfs(node.right,depth+1);
+       height(node.left,height+1);
+       height(node.right,height+1);
     }
 }
