@@ -1,28 +1,30 @@
 class Solution {
     public List<List<String>> partition(String s) {
-      List<List<String>> ans=new ArrayList<>();
-       helper(0,s,ans,new ArrayList<>());
-     return ans;
+        List<List<String>> result=new ArrayList<>();
+        List<String> path=new ArrayList<>();
+         backtrack(s,0,result,path);
+         return result;
     }
-    public void helper(int index,String s, List<List<String>> ans,List<String> path){
-        if(index==s.length()){
-            ans.add(new ArrayList<>(path));
-            return;
+    public void backtrack(String s,int start,List<List<String>> result,List<String> path){
+        //base case=reached end of string
+        if(start==s.length()){
+           result.add(new ArrayList<>(path));
+           return;
         }
-        for(int i=index;i<s.length();i++){
-            if(isPalindrome(s,index,i)){
-                path.add(s.substring(index,i+1));
-                helper(i+1,s,ans,path);
-                path.remove(path.size()-1);
-            }
+         for(int end=start;end<s.length();end++){
+           if(isPalindrome(s,start,end)){
+            path.add(s.substring(start,end+1));//choose
+            backtrack(s,end+1,result,path);//explore new
+            path.remove(path.size()-1);//unchoose means remmove last char from path
         }
+         }
     }
-   public boolean isPalindrome(String s,int l,int r){
-    while(l<=r){
-        if(s.charAt(l++)!=s.charAt(r--)){
-            return false;
+    public boolean isPalindrome(String s,int i,int j){
+        while(i<j){
+            if(s.charAt(i)!=s.charAt(j)) return false;
+            i++;
+            j--;
         }
-    }
-    return true;  
+        return true;
     }
 }
