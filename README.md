@@ -45,6 +45,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0200-number-of-islands](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0200-number-of-islands) |
 | [0209-minimum-size-subarray-sum](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0209-minimum-size-subarray-sum) |
 | [0215-kth-largest-element-in-an-array](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0215-kth-largest-element-in-an-array) |
+| [0217-contains-duplicate](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0217-contains-duplicate) |
 | [0229-majority-element-ii](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0229-majority-element-ii) |
 | [0268-missing-number](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0268-missing-number) |
 | [0303-range-sum-query-immutable](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0303-range-sum-query-immutable) |
@@ -98,6 +99,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0142-linked-list-cycle-ii](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0142-linked-list-cycle-ii) |
 | [0160-intersection-of-two-linked-lists](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0160-intersection-of-two-linked-lists) |
 | [0169-majority-element](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0169-majority-element) |
+| [0217-contains-duplicate](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0217-contains-duplicate) |
 | [0229-majority-element-ii](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0229-majority-element-ii) |
 | [0268-missing-number](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0268-missing-number) |
 | [0347-top-k-frequent-elements](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0347-top-k-frequent-elements) |
@@ -286,6 +288,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0088-merge-sorted-array](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0088-merge-sorted-array) |
 | [0169-majority-element](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0169-majority-element) |
 | [0215-kth-largest-element-in-an-array](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0215-kth-largest-element-in-an-array) |
+| [0217-contains-duplicate](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0217-contains-duplicate) |
 | [0229-majority-element-ii](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0229-majority-element-ii) |
 | [0268-missing-number](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0268-missing-number) |
 | [0295-find-median-from-data-stream](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0295-find-median-from-data-stream) |
