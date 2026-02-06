@@ -19,11 +19,6 @@ class Solution {
         if(memo.containsKey(key)){
             return memo.get(key);
         }
-        // pruning using frequency check
-        if(!sameFreq(s1,s2)){
-            memo.put(key,false);
-            return false;
-        }
         //k loop
         for(int i=1;i<=n-1;i++){
             //swap case
@@ -41,16 +36,5 @@ class Solution {
         }
             memo.put(key,false);
             return false;
-         }
-        private boolean sameFreq(String a,String b){
-            int[] count=new int[26];
-            for(int i=0;i<a.length();i++){
-                count[a.charAt(i)-'a']++;
-                count[b.charAt(i)-'a']--;
-            }
-            for(int c:count){
-                if(c!=0)  return false;
-            }
-            return true;
         }
 }
