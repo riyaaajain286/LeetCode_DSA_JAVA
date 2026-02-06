@@ -1,40 +1,32 @@
 class Solution {
-    Map<String,Boolean> memo=new HashMap<>();
+    Map<String,Boolean> memo=new HashMap<>(); 
     public boolean isScramble(String s1, String s2) {
-       boolean ans=solve(s1,s2);
-        return ans;
+        return solve(s1,s2);
     }
-    public  boolean solve(String s1,String s2){
-       int n=s1.length();
-       //mcm format
-       //i=1,j=n-1;
-       //base condition
-       if(s1.equals(s2))
-        return true;
-        if(s1.length()!=s2.length())
-         return false;
-       if(n==1)
-        return s1.equals(s2);
-        String key=s1+"_"+s2;
-        if(memo.containsKey(key)){
-            return memo.get(key);
-        }
+    public boolean solve(String a,String b){
+        int n=a.length();
+        //base condn
+        if(a.equals(b)) return true;
+        if(a.length()!=b.length()) return false;
+        if(n==1) 
+         return a.equals(b);
+         String key=a+" "+b;
+         if(memo.containsKey(key))
+           return memo.get(key);
         //k loop
         for(int i=1;i<=n-1;i++){
             //swap case
-          if(solve(s1.substring(0,i),s2.substring(n-i)) &&
-           solve(s1.substring(i),s2.substring(0,n-i))){
-            memo.put(key,true);
-            return true;
-          }
-          //no swap case
-            if(solve(s1.substring(0,i),s2.substring(0,i)) && 
-            solve(s1.substring(i,n),s2.substring(i,n))){
-            memo.put(key,true);
-            return true;
+            if(solve(a.substring(0,i),b.substring(n-i)) && solve(a.substring(i,n),b.substring(0,n-i))){
+                memo.put(key,true);
+                return true;
+            }
+            //no swap case
+            if(solve(a.substring(0,i),b.substring(0,i)) && solve(a.substring(i,n),b.substring(i,n))){
+                memo.put(key,true);
+                return true;
             }
         }
-            memo.put(key,false);
-            return false;
-        }
+        memo.put(key,false);
+        return false;
+    }
 }
