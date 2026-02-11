@@ -205,6 +205,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0070-climbing-stairs](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0070-climbing-stairs) |
 | [0268-missing-number](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0268-missing-number) |
 | [0509-fibonacci-number](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0509-fibonacci-number) |
+| [0887-super-egg-drop](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0887-super-egg-drop) |
 | [1295-find-numbers-with-even-number-of-digits](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/1295-find-numbers-with-even-number-of-digits) |
 | [1303-minimum-moves-to-reach-target-score](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/1303-minimum-moves-to-reach-target-score) |
 | [3227-find-missing-and-repeated-values](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/3227-find-missing-and-repeated-values) |
@@ -232,6 +233,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0542-01-matrix](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0542-01-matrix) |
 | [0583-delete-operation-for-two-strings](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0583-delete-operation-for-two-strings) |
 | [0803-cheapest-flights-within-k-stops](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0803-cheapest-flights-within-k-stops) |
+| [0887-super-egg-drop](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0887-super-egg-drop) |
 | [1092-shortest-common-supersequence](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/1092-shortest-common-supersequence) |
 | [1143-longest-common-subsequence](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/1143-longest-common-subsequence) |
 | [1250-longest-common-subsequence](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/1250-longest-common-subsequence) |
@@ -388,6 +390,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0349-intersection-of-two-arrays](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0349-intersection-of-two-arrays) |
 | [0378-kth-smallest-element-in-a-sorted-matrix](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0378-kth-smallest-element-in-a-sorted-matrix) |
 | [0540-single-element-in-a-sorted-array](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0540-single-element-in-a-sorted-array) |
+| [0887-super-egg-drop](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0887-super-egg-drop) |
 | [1753-path-with-minimum-effort](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/1753-path-with-minimum-effort) |
 ## Depth-First Search
 |  |
