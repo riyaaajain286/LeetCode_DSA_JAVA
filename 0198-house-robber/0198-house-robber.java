@@ -1,19 +1,15 @@
 class Solution {
-    //memoization
+    //bottom up
     int[] dp;
     public int rob(int[] nums) {
-        dp=new int[nums.length+1];
-        Arrays.fill(dp,-1);
-        int ans=helper(nums,0);
-        return ans;
+        int n=nums.length;
+        dp=new int[n+2];
+        dp[n]=0;dp[n+1]=0;
+        for(int i=n-1;i>=0;i--){
+            dp[i]=Math.max(nums[i]+dp[i+2],dp[i+1]);
+        }
+        
+        return dp[0];
     }
-    public int helper(int[] nums,int i){
-        if(i>=nums.length) return 0;
-        //memocheck
-        if(dp[i]!=-1) return dp[i];
-        int option1=nums[i]+helper(nums,i+2);//rob
-        int option2=0+helper(nums,i+1);//skip
-        dp[i]= Math.max(option1,option2);
-        return dp[i];
-    }
+   
 }
