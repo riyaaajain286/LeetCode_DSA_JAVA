@@ -1,7 +1,7 @@
 class Solution {
     int[][] dp;
     public int longestCommonSubsequence(String text1, String text2) {
-        dp=new int[1001][1001];
+        dp=new int[text1.length()+1][text2.length()+1];
         for(int row[]:dp)
           Arrays.fill(row,-1);
         return lcs(text1,text2,text1.length(),text2.length());
