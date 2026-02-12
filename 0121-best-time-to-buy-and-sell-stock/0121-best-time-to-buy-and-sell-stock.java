@@ -1,12 +1,17 @@
 class Solution {
     public int maxProfit(int[] prices) {
-        int mini=prices[0];
-        int p=0;
+        int min=Integer.MAX_VALUE;
+        int maxprofit=0;
         for(int i=0;i<prices.length;i++){
-            int sell=prices[i]-mini;
-            p=Math.max(sell,p);
-            mini=Math.min(mini,prices[i]);
+            //update minimum price
+            if(prices[i]<min){
+                min=prices[i];
+            }
+            //calc profit if sold today
+            int profit=prices[i]-min;
+            //update maxprofit
+            maxprofit=Math.max(profit,maxprofit);
         }
-        return p;
+        return maxprofit;
     }
 }
