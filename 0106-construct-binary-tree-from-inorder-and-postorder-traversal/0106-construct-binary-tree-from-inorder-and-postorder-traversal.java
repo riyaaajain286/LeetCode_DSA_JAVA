@@ -14,24 +14,28 @@
  * }
  */
 class Solution {
+    HashMap<Integer,Integer> map=new HashMap<>();
+     int postIndex;
     public TreeNode buildTree(int[] inorder, int[] postorder) {
-        int n=inorder.length;
-        return helper(inorder,0,n-1,postorder,0,n-1);
+    int index=0;
+    for(int i:inorder){
+      map.put(i,index++);
     }
-      public TreeNode helper(int[] inorder,int isi,int iei, int[] postorder,int psi,int pei) {
-      if(isi>iei){
-        return null;
-      }
-      int idx=isi;
-      int rootval=postorder[pei];
-      while(inorder[idx]!=rootval){
-        idx++;
-      }
-      //count left subtree elements
-      int colse=idx-isi;
-      TreeNode node=new TreeNode(rootval);
-      node.left=helper(inorder,isi,idx-1,postorder,psi,psi+colse-1);
-      node.right=helper(inorder,idx+1,iei,postorder,psi+colse,pei-1);
-      return node;
-    }
+    postIndex=postorder.length-1;
+     TreeNode root=MakeTree(postorder,0,inorder.length-1);
+     return root;  
+  }
+  
+  public TreeNode MakeTree(int[] postorder,int left,int right){
+    if(left> right) return null;
+
+    TreeNode root=new TreeNode(postorder[postIndex--]);
+     //search
+     int inIndex=map.get(root.val);
+     root.right=MakeTree(postorder,inIndex+1,right);
+     root.left=MakeTree(postorder,left,inIndex-1);
+     
+     return root;
+      
+  }
 }
