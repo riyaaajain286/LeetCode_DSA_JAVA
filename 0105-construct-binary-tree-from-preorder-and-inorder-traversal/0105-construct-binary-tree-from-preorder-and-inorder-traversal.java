@@ -27,10 +27,9 @@ class Solution {
   public TreeNode MakeTree(int[] preorder,int left,int right){
     if(left> right) return null;
 
-   TreeNode root=new TreeNode(preorder[preIndex]);
+   TreeNode root=new TreeNode(preorder[preIndex++]);
      //search
-     int inIndex=map.get(preorder[preIndex]);
-     preIndex++;
+     int inIndex=map.get(root.val);
      root.left=MakeTree(preorder,left,inIndex-1);
      root.right=MakeTree(preorder,inIndex+1,right);
      return root;
