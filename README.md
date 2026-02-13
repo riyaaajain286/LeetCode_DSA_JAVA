@@ -31,6 +31,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0078-subsets](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0078-subsets) |
 | [0088-merge-sorted-array](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0088-merge-sorted-array) |
 | [0090-subsets-ii](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0090-subsets-ii) |
+| [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0105-construct-binary-tree-from-preorder-and-inorder-traversal) |
 | [0106-construct-binary-tree-from-inorder-and-postorder-traversal](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0106-construct-binary-tree-from-inorder-and-postorder-traversal) |
 | [0108-convert-sorted-array-to-binary-search-tree](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0108-convert-sorted-array-to-binary-search-tree) |
 | [0118-pascals-triangle](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0118-pascals-triangle) |
@@ -94,6 +95,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0036-valid-sudoku](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0036-valid-sudoku) |
 | [0037-sudoku-solver](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0037-sudoku-solver) |
 | [0073-set-matrix-zeroes](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0073-set-matrix-zeroes) |
+| [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0105-construct-binary-tree-from-preorder-and-inorder-traversal) |
 | [0106-construct-binary-tree-from-inorder-and-postorder-traversal](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0106-construct-binary-tree-from-inorder-and-postorder-traversal) |
 | [0127-word-ladder](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0127-word-ladder) |
 | [0128-longest-consecutive-sequence](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0128-longest-consecutive-sequence) |
@@ -122,6 +124,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0023-merge-k-sorted-lists](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0023-merge-k-sorted-lists) |
 | [0053-maximum-subarray](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0053-maximum-subarray) |
+| [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0105-construct-binary-tree-from-preorder-and-inorder-traversal) |
 | [0106-construct-binary-tree-from-inorder-and-postorder-traversal](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0106-construct-binary-tree-from-inorder-and-postorder-traversal) |
 | [0108-convert-sorted-array-to-binary-search-tree](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0108-convert-sorted-array-to-binary-search-tree) |
 | [0169-majority-element](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0169-majority-element) |
@@ -139,6 +142,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0102-binary-tree-level-order-traversal](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0102-binary-tree-level-order-traversal) |
 | [0103-binary-tree-zigzag-level-order-traversal](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0103-binary-tree-zigzag-level-order-traversal) |
 | [0104-maximum-depth-of-binary-tree](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0104-maximum-depth-of-binary-tree) |
+| [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0105-construct-binary-tree-from-preorder-and-inorder-traversal) |
 | [0106-construct-binary-tree-from-inorder-and-postorder-traversal](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0106-construct-binary-tree-from-inorder-and-postorder-traversal) |
 | [0108-convert-sorted-array-to-binary-search-tree](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0108-convert-sorted-array-to-binary-search-tree) |
 | [0110-balanced-binary-tree](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0110-balanced-binary-tree) |
@@ -174,6 +178,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0102-binary-tree-level-order-traversal](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0102-binary-tree-level-order-traversal) |
 | [0103-binary-tree-zigzag-level-order-traversal](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0103-binary-tree-zigzag-level-order-traversal) |
 | [0104-maximum-depth-of-binary-tree](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0104-maximum-depth-of-binary-tree) |
+| [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0105-construct-binary-tree-from-preorder-and-inorder-traversal) |
 | [0106-construct-binary-tree-from-inorder-and-postorder-traversal](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0106-construct-binary-tree-from-inorder-and-postorder-traversal) |
 | [0108-convert-sorted-array-to-binary-search-tree](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0108-convert-sorted-array-to-binary-search-tree) |
 | [0110-balanced-binary-tree](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0110-balanced-binary-tree) |
