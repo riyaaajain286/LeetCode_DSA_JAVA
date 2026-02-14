@@ -1,26 +1,28 @@
 class Solution {
-    //memoization
+    //tabulation
     int[][] dp;
     public int minDistance(String word1, String word2) {
         int n=word1.length();
         int m=word2.length();
         dp=new int[n+1][m+1];
-        return helper(word1,word2,n,m);
-    }
-    public int helper(String a, String b,int i,int j){
-        //base case
-        if(i==0) return j;
-        if(j==0) return i;
-        // memo check
-        if(dp[i][j]!=0) return dp[i][j];
-        //string matching
-        if(a.charAt(i-1)==b.charAt(j-1)) 
-        dp[i][j]=0+helper(a,b,i-1,j-1);
+        //initialization
+        for(int i=0;i<=n;i++) 
+         dp[i][0]=i;
+        for(int j=0;j<=m;j++)
+          dp[0][j]=j;
+        //iteration
+        for(int i=1;i<=n;i++){
+            for(int j=1;j<=m;j++){
+               if(word1.charAt(i-1)==word2.charAt(j-1)) 
+                 dp[i][j]=dp[i-1][j-1];
         else{
-         dp[i][j]=1+Math.min(Math.min(helper(a,b,i,j-1), //insert
-            helper(a,b,i-1,j)),//delete
-            helper(a,b,i-1,j-1));//replace
+         dp[i][j]=1+Math.min(Math.min(dp[i][j-1], //insert
+            dp[i-1][j]),//delete
+            dp[i-1][j-1]);//replace
         }
-       return dp[i][j]; 
-    }
+       }
+      }
+     return dp[n][m];
+        }
 }
+ 
