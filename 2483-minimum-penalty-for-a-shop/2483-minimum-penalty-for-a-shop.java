@@ -1,26 +1,26 @@
 class Solution {
     public int bestClosingTime(String customers) {
         int n=customers.length();
-        int penalty=0;
-        //Initial penalty when shop closes at hour 0 or shop is closed
-        for(char ch:customers.toCharArray()){
-            if(ch=='Y')  penalty++;
-        }
-        int minPenalty=penalty;
-        //now our shop opens
-       // Move closing hour
-       int ct=0;
-       for(int i=0;i<n;i++){
-          if(customers.charAt(i)=='Y')
-            penalty--;
-          else
-            penalty++;
+        int[] prefix=new int[n+1];
+        int[] suffix=new int[n+1];
+        //prefix sum when shop is open
+         for(int i=1;i<=n;i++){
+            prefix[i]=prefix[i-1]+(customers.charAt(i-1)=='N'?1:0);
 
-         if(penalty<minPenalty){
-            minPenalty=penalty;
-            ct=i+1;
          }
-       }
-       return ct;
+         for(int j=n-1;j>=0;j--){
+            suffix[j]=suffix[j+1]+(customers.charAt(j)=='Y'?1:0);
+         }
+         int minPenalty=Integer.MAX_VALUE;
+         int ct=0;
+         // Try all closing hours
+         for(int i=0;i<=n;i++){
+            int penalty=prefix[i]+suffix[i];
+            if(penalty<minPenalty){
+                minPenalty=penalty;
+                ct=i;
+            }
+         }
+        return ct;
     }
 }
