@@ -85,6 +85,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1663-detect-cycles-in-2d-grid](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/1663-detect-cycles-in-2d-grid) |
 | [1732-find-the-highest-altitude](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/1732-find-the-highest-altitude) |
 | [1753-path-with-minimum-effort](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/1753-path-with-minimum-effort) |
+| [1992-find-all-groups-of-farmland](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/1992-find-all-groups-of-farmland) |
 | [2006-count-number-of-pairs-with-absolute-difference-k](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/2006-count-number-of-pairs-with-absolute-difference-k) |
 | [2113-find-the-kth-largest-integer-in-the-array](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/2113-find-the-kth-largest-integer-in-the-array) |
 | [2271-rearrange-array-elements-by-sign](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/2271-rearrange-array-elements-by-sign) |
@@ -399,6 +400,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1171-shortest-path-in-binary-matrix](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/1171-shortest-path-in-binary-matrix) |
 | [1663-detect-cycles-in-2d-grid](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/1663-detect-cycles-in-2d-grid) |
 | [1753-path-with-minimum-effort](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/1753-path-with-minimum-effort) |
+| [1992-find-all-groups-of-farmland](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/1992-find-all-groups-of-farmland) |
 | [3227-find-missing-and-repeated-values](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/3227-find-missing-and-repeated-values) |
 ## Binary Search
 |  |
@@ -459,6 +461,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1382-balance-a-binary-search-tree](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/1382-balance-a-binary-search-tree) |
 | [1663-detect-cycles-in-2d-grid](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/1663-detect-cycles-in-2d-grid) |
 | [1753-path-with-minimum-effort](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/1753-path-with-minimum-effort) |
+| [1992-find-all-groups-of-farmland](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/1992-find-all-groups-of-farmland) |
 ## Breadth-First Search
 |  |
 | ------- |
@@ -498,6 +501,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1171-shortest-path-in-binary-matrix](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/1171-shortest-path-in-binary-matrix) |
 | [1663-detect-cycles-in-2d-grid](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/1663-detect-cycles-in-2d-grid) |
 | [1753-path-with-minimum-effort](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/1753-path-with-minimum-effort) |
+| [1992-find-all-groups-of-farmland](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/1992-find-all-groups-of-farmland) |
 ## Design
 |  |
 | ------- |
