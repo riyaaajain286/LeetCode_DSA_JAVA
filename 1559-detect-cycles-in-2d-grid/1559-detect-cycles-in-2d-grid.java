@@ -24,7 +24,7 @@ class Solution {
             int nc=c+dc[k];
             if(nr>=0 && nc>=0 && nr<n && nc<m) {//check boundary first
             if(!vis[nr][nc] && grid[nr][nc]==grid[r][c]){
-               if( dfs(grid,vis,nr,nc,r,c)) return true;
+               if(dfs(grid,vis,nr,nc,r,c)) return true;
             }
             else if(grid[nr][nc]==grid[r][c] && vis[nr][nc]){
                 if(nr!=pr || nc!=pc) return true;
