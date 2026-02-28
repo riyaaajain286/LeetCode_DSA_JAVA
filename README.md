@@ -689,4 +689,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0547-number-of-provinces](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0547-number-of-provinces) |
 | [0841-keys-and-rooms](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0841-keys-and-rooms) |
+## Database
+|  |
+| ------- |
+| [0175-combine-two-tables](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0175-combine-two-tables) |
 <!---LeetCode Topics End-->
