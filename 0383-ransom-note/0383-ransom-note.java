@@ -9,7 +9,7 @@ class Solution {
         }
         for(int i=0;i<n;i++){
           freq[ransomNote.charAt(i)-'a']--; 
-          if(freq[ransomNote.charAt(i)-'a']==-1) return false;
+          if(freq[ransomNote.charAt(i)-'a']<0) return false;
         }
         return true;
     }
