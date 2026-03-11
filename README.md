@@ -295,6 +295,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0137-single-number-ii](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0137-single-number-ii) |
 | [0268-missing-number](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0268-missing-number) |
 | [0389-find-the-difference](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0389-find-the-difference) |
+| [1009-complement-of-base-10-integer](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/1009-complement-of-base-10-integer) |
 ## String
 |  |
 | ------- |
