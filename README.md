@@ -472,6 +472,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0733-flood-fill](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0733-flood-fill) |
 | [0744-network-delay-time](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0744-network-delay-time) |
 | [0783-minimum-distance-between-bst-nodes](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0783-minimum-distance-between-bst-nodes) |
+| [0785-is-graph-bipartite](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0785-is-graph-bipartite) |
 | [0801-is-graph-bipartite](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0801-is-graph-bipartite) |
 | [0803-cheapest-flights-within-k-stops](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0803-cheapest-flights-within-k-stops) |
 | [0820-find-eventual-safe-states](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0820-find-eventual-safe-states) |
@@ -514,6 +515,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0733-flood-fill](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0733-flood-fill) |
 | [0744-network-delay-time](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0744-network-delay-time) |
 | [0783-minimum-distance-between-bst-nodes](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0783-minimum-distance-between-bst-nodes) |
+| [0785-is-graph-bipartite](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0785-is-graph-bipartite) |
 | [0801-is-graph-bipartite](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0801-is-graph-bipartite) |
 | [0803-cheapest-flights-within-k-stops](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0803-cheapest-flights-within-k-stops) |
 | [0820-find-eventual-safe-states](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0820-find-eventual-safe-states) |
@@ -708,11 +710,13 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0200-number-of-islands](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0200-number-of-islands) |
 | [0547-number-of-provinces](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0547-number-of-provinces) |
+| [0785-is-graph-bipartite](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0785-is-graph-bipartite) |
 | [1559-detect-cycles-in-2d-grid](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/1559-detect-cycles-in-2d-grid) |
 ## Graph Theory
 |  |
 | ------- |
 | [0547-number-of-provinces](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0547-number-of-provinces) |
+| [0785-is-graph-bipartite](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0785-is-graph-bipartite) |
 | [0841-keys-and-rooms](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0841-keys-and-rooms) |
 ## Database
 |  |
