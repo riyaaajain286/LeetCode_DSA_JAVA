@@ -1,4 +1,5 @@
 class Solution {
+    //kahn's algo
     public List<List<Integer>> getAncestors(int n, int[][] edges) {
         ArrayList<ArrayList<Integer>> adj=new ArrayList<>();
         int[] indegree=new int[n];
@@ -13,6 +14,7 @@ class Solution {
          for(int i=0;i<n;i++){
             anc.add(new TreeSet<>());
         }
+        //topo logic
         Queue<Integer> q=new LinkedList<>();
         for(int i=0;i<n;i++){
             if(indegree[i]==0){
@@ -22,8 +24,8 @@ class Solution {
         while(!q.isEmpty()){
             int node=q.poll();
             for(int adjnode:adj.get(node)){
-                anc.get(adjnode).add(node);
-                anc.get(adjnode).addAll(anc.get(node));
+                anc.get(adjnode).add(node);//add ancestor
+                anc.get(adjnode).addAll(anc.get(node));//add all ancestor of ancestor
                 indegree[adjnode]--;
                 if( indegree[adjnode]==0){
                     q.add(adjnode);
@@ -36,5 +38,4 @@ class Solution {
         }
             return res;
         }
-    
 }
