@@ -1,39 +1,37 @@
 class Solution {
+    //kahn's algo
     public int[] findOrder(int numCourses, int[][] prerequisites) {
-        int v=prerequisites.length;
+        int[] indegree=new int[numCourses];
         ArrayList<ArrayList<Integer>> adj=new ArrayList<>();
         for(int i=0;i<numCourses;i++){
-         adj.add(new ArrayList<>());
+            adj.add(new ArrayList<>());
         }
-        for(int i=0;i<v;i++){
-            int course=prerequisites[i][0];
-            int prereq=prerequisites[i][1];
-            adj.get(prereq).add(course);
+        for(int[] i:prerequisites){
+           adj.get(i[1]).add(i[0]);
+           indegree[i[0]]++;
         }
-        int[] indegree=new int[numCourses];
-        for(int i=0;i<numCourses;i++){
-            for(int it:adj.get(i)){
-                indegree[it]++;
-            }
-        }
-      
         Queue<Integer> q=new LinkedList<>();
-        for(int i=0;i<numCourses;i++){
-            if(indegree[i]==0){
-                q.add(i);
+        for(int j=0;j<numCourses;j++){
+            if(indegree[j]==0){
+                q.add(j);
             }
         }
-          int[] topo=new int[numCourses];
-          int i=0;
-         while(!q.isEmpty()){
-            int node=q.remove();
-            topo[i++]=node;
-            for(int it:adj.get(node)){
-                indegree[it]--;
-                   if(indegree[it]==0) q.add(it);
+        int ind=0;
+        int[] ans=new int[numCourses];
+        while(!q.isEmpty()){
+            int node=q.poll();
+            ans[ind++]=node;
+             for(int adjnode:adj.get(node)){
+                indegree[adjnode]--;
+               if(indegree[adjnode]==0){
+                q.add(adjnode);
+               }
             }
-          }
-       if(i==numCourses) return topo;
+        }
+        if(ind==numCourses) 
+         return ans;
        return new int[0];
+        
+       
     }
 }
