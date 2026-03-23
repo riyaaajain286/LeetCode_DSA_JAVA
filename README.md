@@ -473,6 +473,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0695-max-area-of-island](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0695-max-area-of-island) |
 | [0721-accounts-merge](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0721-accounts-merge) |
 | [0733-flood-fill](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0733-flood-fill) |
+| [0743-network-delay-time](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0743-network-delay-time) |
 | [0744-network-delay-time](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0744-network-delay-time) |
 | [0783-minimum-distance-between-bst-nodes](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0783-minimum-distance-between-bst-nodes) |
 | [0785-is-graph-bipartite](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0785-is-graph-bipartite) |
@@ -517,6 +518,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0695-max-area-of-island](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0695-max-area-of-island) |
 | [0721-accounts-merge](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0721-accounts-merge) |
 | [0733-flood-fill](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0733-flood-fill) |
+| [0743-network-delay-time](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0743-network-delay-time) |
 | [0744-network-delay-time](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0744-network-delay-time) |
 | [0783-minimum-distance-between-bst-nodes](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0783-minimum-distance-between-bst-nodes) |
 | [0785-is-graph-bipartite](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0785-is-graph-bipartite) |
@@ -572,6 +574,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0347-top-k-frequent-elements](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0347-top-k-frequent-elements) |
 | [0378-kth-smallest-element-in-a-sorted-matrix](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0378-kth-smallest-element-in-a-sorted-matrix) |
 | [0632-smallest-range-covering-elements-from-k-lists](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0632-smallest-range-covering-elements-from-k-lists) |
+| [0743-network-delay-time](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0743-network-delay-time) |
 | [0744-network-delay-time](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0744-network-delay-time) |
 | [0789-kth-largest-element-in-a-stream](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0789-kth-largest-element-in-a-stream) |
 | [0803-cheapest-flights-within-k-stops](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0803-cheapest-flights-within-k-stops) |
@@ -710,6 +713,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Shortest Path
 |  |
 | ------- |
+| [0743-network-delay-time](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0743-network-delay-time) |
 | [0744-network-delay-time](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0744-network-delay-time) |
 | [0803-cheapest-flights-within-k-stops](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0803-cheapest-flights-within-k-stops) |
 | [1976-number-of-ways-to-arrive-at-destination](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/1976-number-of-ways-to-arrive-at-destination) |
@@ -726,6 +730,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0207-course-schedule](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0207-course-schedule) |
 | [0210-course-schedule-ii](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0210-course-schedule-ii) |
 | [0547-number-of-provinces](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0547-number-of-provinces) |
+| [0743-network-delay-time](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0743-network-delay-time) |
 | [0785-is-graph-bipartite](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0785-is-graph-bipartite) |
 | [0841-keys-and-rooms](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0841-keys-and-rooms) |
 | [2192-all-ancestors-of-a-node-in-a-directed-acyclic-graph](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/2192-all-ancestors-of-a-node-in-a-directed-acyclic-graph) |
