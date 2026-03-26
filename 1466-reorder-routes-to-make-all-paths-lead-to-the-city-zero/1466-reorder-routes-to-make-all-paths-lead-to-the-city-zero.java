@@ -27,9 +27,12 @@ class Solution {
             int node=v.node;
             int check=v.check;
             if(!vis[node]){
-                count+=check;
+                if(check==1){
+                  count++;
+                }
                 count+=dfs(adj,vis,node);
             }
+            
         }
         return count;
     }
