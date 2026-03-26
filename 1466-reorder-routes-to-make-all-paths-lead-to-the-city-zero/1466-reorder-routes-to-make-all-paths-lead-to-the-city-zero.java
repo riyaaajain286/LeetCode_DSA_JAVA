@@ -1,5 +1,5 @@
 class Solution {
-   
+    int count=0;
     class Pair{
         int node,check;
         public Pair(int n,int c){
@@ -22,7 +22,7 @@ class Solution {
     }
     private int dfs(ArrayList<ArrayList<Pair>> adj,boolean[] vis,int u){
         vis[u]=true;
-         int count=0;
+        
         for(Pair v:adj.get(u)){
             int node=v.node;
             int check=v.check;
@@ -30,7 +30,7 @@ class Solution {
                 if(check==1){
                   count++;
                 }
-                count+=dfs(adj,vis,node);
+               dfs(adj,vis,node);
             }
             
         }
