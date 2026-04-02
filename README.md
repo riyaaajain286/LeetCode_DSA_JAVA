@@ -497,6 +497,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1753-path-with-minimum-effort](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/1753-path-with-minimum-effort) |
 | [1992-find-all-groups-of-farmland](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/1992-find-all-groups-of-farmland) |
 | [2192-all-ancestors-of-a-node-in-a-directed-acyclic-graph](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/2192-all-ancestors-of-a-node-in-a-directed-acyclic-graph) |
+| [2685-count-the-number-of-complete-components](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/2685-count-the-number-of-complete-components) |
 ## Breadth-First Search
 |  |
 | ------- |
@@ -544,6 +545,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1753-path-with-minimum-effort](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/1753-path-with-minimum-effort) |
 | [1992-find-all-groups-of-farmland](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/1992-find-all-groups-of-farmland) |
 | [2192-all-ancestors-of-a-node-in-a-directed-acyclic-graph](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/2192-all-ancestors-of-a-node-in-a-directed-acyclic-graph) |
+| [2685-count-the-number-of-complete-components](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/2685-count-the-number-of-complete-components) |
 ## Design
 |  |
 | ------- |
@@ -732,6 +734,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0547-number-of-provinces](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0547-number-of-provinces) |
 | [0785-is-graph-bipartite](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0785-is-graph-bipartite) |
 | [1559-detect-cycles-in-2d-grid](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/1559-detect-cycles-in-2d-grid) |
+| [2685-count-the-number-of-complete-components](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/2685-count-the-number-of-complete-components) |
 ## Graph Theory
 |  |
 | ------- |
@@ -745,6 +748,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1466-reorder-routes-to-make-all-paths-lead-to-the-city-zero](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/1466-reorder-routes-to-make-all-paths-lead-to-the-city-zero) |
 | [1976-number-of-ways-to-arrive-at-destination](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/1976-number-of-ways-to-arrive-at-destination) |
 | [2192-all-ancestors-of-a-node-in-a-directed-acyclic-graph](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/2192-all-ancestors-of-a-node-in-a-directed-acyclic-graph) |
+| [2685-count-the-number-of-complete-components](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/2685-count-the-number-of-complete-components) |
 ## Database
 |  |
 | ------- |
