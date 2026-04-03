@@ -13,17 +13,16 @@ class Solution {
         for(int i=0;i<n;i++){
             if(vis[i]==0){
                 // store nodes in this component
-                List<Integer> component=new ArrayList<>();
-                dfs(adj,i,vis,component);
-                int nodes=component.size();
-                int edgeCount=0;
-                 // count edges in component
-                 for(int node:component){
-                   edgeCount+=adj.get(node).size(); 
-                 }
-                 edgeCount/=2;// because undirected
-                if(edgeCount==(nodes*(nodes-1))/2)
-                   c++;
+              List<Integer> comp=new ArrayList<>();
+              dfs(adj,i,vis,comp);
+              int nodes=comp.size();
+              int edgeCount=0;
+              for(int node:comp){
+                 edgeCount+=adj.get(node).size();
+              }
+              edgeCount/=2;
+              if(edgeCount==(nodes*(nodes-1))/2)
+                c++;
             }
         }
         return c;
