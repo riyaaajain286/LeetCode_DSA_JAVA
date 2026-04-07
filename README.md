@@ -243,6 +243,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0042-trapping-rain-water](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0042-trapping-rain-water) |
+| [0044-wildcard-matching](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0044-wildcard-matching) |
 | [0053-maximum-subarray](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0053-maximum-subarray) |
 | [0070-climbing-stairs](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0070-climbing-stairs) |
 | [0072-edit-distance](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0072-edit-distance) |
@@ -304,6 +305,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0014-longest-common-prefix](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0014-longest-common-prefix) |
 | [0028-find-the-index-of-the-first-occurrence-in-a-string](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0028-find-the-index-of-the-first-occurrence-in-a-string) |
+| [0044-wildcard-matching](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0044-wildcard-matching) |
 | [0058-length-of-last-word](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0058-length-of-last-word) |
 | [0072-edit-distance](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0072-edit-distance) |
 | [0076-minimum-window-substring](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0076-minimum-window-substring) |
@@ -621,6 +623,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0002-add-two-numbers](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0002-add-two-numbers) |
 | [0021-merge-two-sorted-lists](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0021-merge-two-sorted-lists) |
+| [0044-wildcard-matching](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0044-wildcard-matching) |
 | [0143-reorder-list](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0143-reorder-list) |
 | [0203-remove-linked-list-elements](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0203-remove-linked-list-elements) |
 | [0206-reverse-linked-list](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0206-reverse-linked-list) |
@@ -656,6 +659,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 ## Greedy
 |  |
 | ------- |
+| [0044-wildcard-matching](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0044-wildcard-matching) |
 | [0632-smallest-range-covering-elements-from-k-lists](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0632-smallest-range-covering-elements-from-k-lists) |
 | [1303-minimum-moves-to-reach-target-score](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/1303-minimum-moves-to-reach-target-score) |
 | [1382-balance-a-binary-search-tree](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/1382-balance-a-binary-search-tree) |
