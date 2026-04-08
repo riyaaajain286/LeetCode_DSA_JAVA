@@ -26,10 +26,10 @@ class Solution {
         int ud=p.weight;
         int s=p.stop;
         if(s>k) continue;
-        for(Pair v:adj.get(u)){
+        for(Pair v:adj.get(u) ){
             int vn=v.node;
             int vd=v.weight;
-            if(ud+vd<dist[vn] ){
+            if(ud+vd<dist[vn] &&s<=k ){
                 dist[vn]=ud+vd;
                 pq.add(new Pair(vn,dist[vn],s+1));
             }
