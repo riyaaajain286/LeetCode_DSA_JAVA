@@ -266,6 +266,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0542-01-matrix](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0542-01-matrix) |
 | [0583-delete-operation-for-two-strings](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0583-delete-operation-for-two-strings) |
 | [0746-min-cost-climbing-stairs](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0746-min-cost-climbing-stairs) |
+| [0787-cheapest-flights-within-k-stops](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0787-cheapest-flights-within-k-stops) |
 | [0803-cheapest-flights-within-k-stops](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0803-cheapest-flights-within-k-stops) |
 | [0887-super-egg-drop](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0887-super-egg-drop) |
 | [1092-shortest-common-supersequence](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/1092-shortest-common-supersequence) |
@@ -481,6 +482,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0744-network-delay-time](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0744-network-delay-time) |
 | [0783-minimum-distance-between-bst-nodes](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0783-minimum-distance-between-bst-nodes) |
 | [0785-is-graph-bipartite](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0785-is-graph-bipartite) |
+| [0787-cheapest-flights-within-k-stops](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0787-cheapest-flights-within-k-stops) |
 | [0801-is-graph-bipartite](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0801-is-graph-bipartite) |
 | [0802-find-eventual-safe-states](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0802-find-eventual-safe-states) |
 | [0803-cheapest-flights-within-k-stops](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0803-cheapest-flights-within-k-stops) |
@@ -529,6 +531,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0744-network-delay-time](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0744-network-delay-time) |
 | [0783-minimum-distance-between-bst-nodes](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0783-minimum-distance-between-bst-nodes) |
 | [0785-is-graph-bipartite](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0785-is-graph-bipartite) |
+| [0787-cheapest-flights-within-k-stops](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0787-cheapest-flights-within-k-stops) |
 | [0801-is-graph-bipartite](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0801-is-graph-bipartite) |
 | [0802-find-eventual-safe-states](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0802-find-eventual-safe-states) |
 | [0803-cheapest-flights-within-k-stops](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0803-cheapest-flights-within-k-stops) |
@@ -587,6 +590,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0632-smallest-range-covering-elements-from-k-lists](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0632-smallest-range-covering-elements-from-k-lists) |
 | [0743-network-delay-time](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0743-network-delay-time) |
 | [0744-network-delay-time](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0744-network-delay-time) |
+| [0787-cheapest-flights-within-k-stops](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0787-cheapest-flights-within-k-stops) |
 | [0789-kth-largest-element-in-a-stream](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0789-kth-largest-element-in-a-stream) |
 | [0803-cheapest-flights-within-k-stops](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0803-cheapest-flights-within-k-stops) |
 | [1127-last-stone-weight](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/1127-last-stone-weight) |
@@ -729,6 +733,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0743-network-delay-time](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0743-network-delay-time) |
 | [0744-network-delay-time](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0744-network-delay-time) |
+| [0787-cheapest-flights-within-k-stops](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0787-cheapest-flights-within-k-stops) |
 | [0803-cheapest-flights-within-k-stops](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0803-cheapest-flights-within-k-stops) |
 | [1976-number-of-ways-to-arrive-at-destination](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/1976-number-of-ways-to-arrive-at-destination) |
 ## Union-Find
@@ -747,6 +752,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0547-number-of-provinces](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0547-number-of-provinces) |
 | [0743-network-delay-time](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0743-network-delay-time) |
 | [0785-is-graph-bipartite](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0785-is-graph-bipartite) |
+| [0787-cheapest-flights-within-k-stops](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0787-cheapest-flights-within-k-stops) |
 | [0802-find-eventual-safe-states](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0802-find-eventual-safe-states) |
 | [0841-keys-and-rooms](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0841-keys-and-rooms) |
 | [1466-reorder-routes-to-make-all-paths-lead-to-the-city-zero](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/1466-reorder-routes-to-make-all-paths-lead-to-the-city-zero) |
