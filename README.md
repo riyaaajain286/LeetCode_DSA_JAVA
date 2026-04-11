@@ -231,6 +231,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0066-plus-one](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0066-plus-one) |
 | [0069-sqrtx](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0069-sqrtx) |
 | [0070-climbing-stairs](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0070-climbing-stairs) |
+| [0258-add-digits](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0258-add-digits) |
 | [0268-missing-number](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0268-missing-number) |
 | [0509-fibonacci-number](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0509-fibonacci-number) |
 | [0887-super-egg-drop](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0887-super-egg-drop) |
@@ -575,6 +576,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0054-spiral-matrix](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0054-spiral-matrix) |
+| [0258-add-digits](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0258-add-digits) |
 | [0735-asteroid-collision](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0735-asteroid-collision) |
 | [1184-car-pooling](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/1184-car-pooling) |
 | [2271-rearrange-array-elements-by-sign](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/2271-rearrange-array-elements-by-sign) |
@@ -790,4 +792,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0387-first-unique-character-in-a-string](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0387-first-unique-character-in-a-string) |
+## Number Theory
+|  |
+| ------- |
+| [0258-add-digits](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0258-add-digits) |
 <!---LeetCode Topics End-->
