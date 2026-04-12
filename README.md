@@ -783,6 +783,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1158-market-analysis-i](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/1158-market-analysis-i) |
 | [1164-product-price-at-a-given-date](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/1164-product-price-at-a-given-date) |
 | [1179-reformat-department-table](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/1179-reformat-department-table) |
+| [1193-monthly-transactions-i](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/1193-monthly-transactions-i) |
 | [1378-replace-employee-id-with-the-unique-identifier](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/1378-replace-employee-id-with-the-unique-identifier) |
 | [1407-top-travellers](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/1407-top-travellers) |
 | [1527-patients-with-a-condition](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/1527-patients-with-a-condition) |
