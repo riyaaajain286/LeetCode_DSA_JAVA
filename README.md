@@ -495,6 +495,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0987-vertical-order-traversal-of-a-binary-tree](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0987-vertical-order-traversal-of-a-binary-tree) |
 | [1073-number-of-enclaves](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/1073-number-of-enclaves) |
 | [1116-maximum-level-sum-of-a-binary-tree](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/1116-maximum-level-sum-of-a-binary-tree) |
+| [1192-critical-connections-in-a-network](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/1192-critical-connections-in-a-network) |
 | [1382-balance-a-binary-search-tree](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/1382-balance-a-binary-search-tree) |
 | [1466-reorder-routes-to-make-all-paths-lead-to-the-city-zero](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/1466-reorder-routes-to-make-all-paths-lead-to-the-city-zero) |
 | [1559-detect-cycles-in-2d-grid](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/1559-detect-cycles-in-2d-grid) |
@@ -757,6 +758,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0787-cheapest-flights-within-k-stops](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0787-cheapest-flights-within-k-stops) |
 | [0802-find-eventual-safe-states](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0802-find-eventual-safe-states) |
 | [0841-keys-and-rooms](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0841-keys-and-rooms) |
+| [1192-critical-connections-in-a-network](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/1192-critical-connections-in-a-network) |
 | [1466-reorder-routes-to-make-all-paths-lead-to-the-city-zero](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/1466-reorder-routes-to-make-all-paths-lead-to-the-city-zero) |
 | [1976-number-of-ways-to-arrive-at-destination](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/1976-number-of-ways-to-arrive-at-destination) |
 | [2192-all-ancestors-of-a-node-in-a-directed-acyclic-graph](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/2192-all-ancestors-of-a-node-in-a-directed-acyclic-graph) |
@@ -802,4 +804,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0258-add-digits](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0258-add-digits) |
+## Biconnected Component
+|  |
+| ------- |
+| [1192-critical-connections-in-a-network](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/1192-critical-connections-in-a-network) |
 <!---LeetCode Topics End-->
