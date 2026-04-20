@@ -254,6 +254,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0070-climbing-stairs](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0070-climbing-stairs) |
 | [0072-edit-distance](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0072-edit-distance) |
 | [0087-scramble-string](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0087-scramble-string) |
+| [0115-distinct-subsequences](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0115-distinct-subsequences) |
 | [0118-pascals-triangle](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0118-pascals-triangle) |
 | [0119-pascals-triangle-ii](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0119-pascals-triangle-ii) |
 | [0121-best-time-to-buy-and-sell-stock](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0121-best-time-to-buy-and-sell-stock) |
@@ -318,6 +319,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0072-edit-distance](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0072-edit-distance) |
 | [0076-minimum-window-substring](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0076-minimum-window-substring) |
 | [0087-scramble-string](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0087-scramble-string) |
+| [0115-distinct-subsequences](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0115-distinct-subsequences) |
 | [0125-valid-palindrome](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0125-valid-palindrome) |
 | [0127-word-ladder](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0127-word-ladder) |
 | [0131-palindrome-partitioning](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0131-palindrome-partitioning) |
