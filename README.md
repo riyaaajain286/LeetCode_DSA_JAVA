@@ -56,6 +56,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0347-top-k-frequent-elements](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0347-top-k-frequent-elements) |
 | [0349-intersection-of-two-arrays](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0349-intersection-of-two-arrays) |
 | [0378-kth-smallest-element-in-a-sorted-matrix](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0378-kth-smallest-element-in-a-sorted-matrix) |
+| [0396-rotate-function](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0396-rotate-function) |
 | [0403-frog-jump](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0403-frog-jump) |
 | [0416-partition-equal-subset-sum](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0416-partition-equal-subset-sum) |
 | [0485-max-consecutive-ones](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0485-max-consecutive-ones) |
@@ -238,6 +239,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0070-climbing-stairs](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0070-climbing-stairs) |
 | [0258-add-digits](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0258-add-digits) |
 | [0268-missing-number](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0268-missing-number) |
+| [0396-rotate-function](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0396-rotate-function) |
 | [0509-fibonacci-number](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0509-fibonacci-number) |
 | [0788-rotated-digits](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0788-rotated-digits) |
 | [0887-super-egg-drop](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0887-super-egg-drop) |
@@ -268,6 +270,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0198-house-robber](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0198-house-robber) |
 | [0213-house-robber-ii](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0213-house-robber-ii) |
 | [0322-coin-change](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0322-coin-change) |
+| [0396-rotate-function](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0396-rotate-function) |
 | [0403-frog-jump](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0403-frog-jump) |
 | [0416-partition-equal-subset-sum](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0416-partition-equal-subset-sum) |
 | [0494-target-sum](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0494-target-sum) |
