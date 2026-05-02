@@ -239,6 +239,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0258-add-digits](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0258-add-digits) |
 | [0268-missing-number](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0268-missing-number) |
 | [0509-fibonacci-number](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0509-fibonacci-number) |
+| [0788-rotated-digits](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0788-rotated-digits) |
 | [0887-super-egg-drop](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0887-super-egg-drop) |
 | [1295-find-numbers-with-even-number-of-digits](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/1295-find-numbers-with-even-number-of-digits) |
 | [1303-minimum-moves-to-reach-target-score](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/1303-minimum-moves-to-reach-target-score) |
@@ -277,6 +278,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0583-delete-operation-for-two-strings](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0583-delete-operation-for-two-strings) |
 | [0746-min-cost-climbing-stairs](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0746-min-cost-climbing-stairs) |
 | [0787-cheapest-flights-within-k-stops](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0787-cheapest-flights-within-k-stops) |
+| [0788-rotated-digits](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0788-rotated-digits) |
 | [0803-cheapest-flights-within-k-stops](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0803-cheapest-flights-within-k-stops) |
 | [0887-super-egg-drop](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0887-super-egg-drop) |
 | [1092-shortest-common-supersequence](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/1092-shortest-common-supersequence) |
