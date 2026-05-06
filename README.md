@@ -91,6 +91,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1663-detect-cycles-in-2d-grid](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/1663-detect-cycles-in-2d-grid) |
 | [1732-find-the-highest-altitude](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/1732-find-the-highest-altitude) |
 | [1753-path-with-minimum-effort](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/1753-path-with-minimum-effort) |
+| [1861-rotating-the-box](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/1861-rotating-the-box) |
 | [1992-find-all-groups-of-farmland](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/1992-find-all-groups-of-farmland) |
 | [2006-count-number-of-pairs-with-absolute-difference-k](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/2006-count-number-of-pairs-with-absolute-difference-k) |
 | [2033-minimum-operations-to-make-a-uni-value-grid](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/2033-minimum-operations-to-make-a-uni-value-grid) |
@@ -426,6 +427,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0234-palindrome-linked-list](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0234-palindrome-linked-list) |
 | [0295-find-median-from-data-stream](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0295-find-median-from-data-stream) |
 | [0349-intersection-of-two-arrays](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0349-intersection-of-two-arrays) |
+| [1861-rotating-the-box](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/1861-rotating-the-box) |
 | [2216-delete-the-middle-node-of-a-linked-list](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/2216-delete-the-middle-node-of-a-linked-list) |
 | [2271-rearrange-array-elements-by-sign](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/2271-rearrange-array-elements-by-sign) |
 | [2441-largest-positive-integer-that-exists-with-its-negative](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/2441-largest-positive-integer-that-exists-with-its-negative) |
@@ -453,6 +455,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1559-detect-cycles-in-2d-grid](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/1559-detect-cycles-in-2d-grid) |
 | [1663-detect-cycles-in-2d-grid](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/1663-detect-cycles-in-2d-grid) |
 | [1753-path-with-minimum-effort](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/1753-path-with-minimum-effort) |
+| [1861-rotating-the-box](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/1861-rotating-the-box) |
 | [1992-find-all-groups-of-farmland](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/1992-find-all-groups-of-farmland) |
 | [2033-minimum-operations-to-make-a-uni-value-grid](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/2033-minimum-operations-to-make-a-uni-value-grid) |
 | [3227-find-missing-and-repeated-values](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/3227-find-missing-and-repeated-values) |
