@@ -68,6 +68,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0632-smallest-range-covering-elements-from-k-lists](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0632-smallest-range-covering-elements-from-k-lists) |
 | [0643-maximum-average-subarray-i](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0643-maximum-average-subarray-i) |
 | [0695-max-area-of-island](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0695-max-area-of-island) |
+| [0704-binary-search](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0704-binary-search) |
 | [0721-accounts-merge](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0721-accounts-merge) |
 | [0724-find-pivot-index](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0724-find-pivot-index) |
 | [0733-flood-fill](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0733-flood-fill) |
@@ -470,6 +471,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0349-intersection-of-two-arrays](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0349-intersection-of-two-arrays) |
 | [0378-kth-smallest-element-in-a-sorted-matrix](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0378-kth-smallest-element-in-a-sorted-matrix) |
 | [0540-single-element-in-a-sorted-array](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0540-single-element-in-a-sorted-array) |
+| [0704-binary-search](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0704-binary-search) |
 | [0887-super-egg-drop](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0887-super-egg-drop) |
 | [1753-path-with-minimum-effort](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/1753-path-with-minimum-effort) |
 | [3296-minimum-number-of-seconds-to-make-mountain-height-zero](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/3296-minimum-number-of-seconds-to-make-mountain-height-zero) |
