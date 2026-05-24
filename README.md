@@ -76,6 +76,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0735-asteroid-collision](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0735-asteroid-collision) |
 | [0746-min-cost-climbing-stairs](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0746-min-cost-climbing-stairs) |
 | [0817-design-hashmap](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0817-design-hashmap) |
+| [0875-koko-eating-bananas](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0875-koko-eating-bananas) |
 | [0994-rotting-oranges](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0994-rotting-oranges) |
 | [1008-construct-binary-search-tree-from-preorder-traversal](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/1008-construct-binary-search-tree-from-preorder-traversal) |
 | [1036-rotting-oranges](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/1036-rotting-oranges) |
@@ -474,6 +475,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0378-kth-smallest-element-in-a-sorted-matrix](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0378-kth-smallest-element-in-a-sorted-matrix) |
 | [0540-single-element-in-a-sorted-array](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0540-single-element-in-a-sorted-array) |
 | [0704-binary-search](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0704-binary-search) |
+| [0875-koko-eating-bananas](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0875-koko-eating-bananas) |
 | [0887-super-egg-drop](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0887-super-egg-drop) |
 | [1753-path-with-minimum-effort](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/1753-path-with-minimum-effort) |
 | [3296-minimum-number-of-seconds-to-make-mountain-height-zero](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/3296-minimum-number-of-seconds-to-make-mountain-height-zero) |
