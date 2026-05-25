@@ -20,13 +20,14 @@ class Solution {
         int c=n+m;
         int s=0;
         int e=c-1;
-        if(c%2!=0){//odd
-           int mid=s+(e-s)/2;
-           return (double)(com[mid]);
+        if(c%2==1){//odd
+           int mid=c/2;
+           return com[mid];
         }
         else{
-           int mid=s+(e-s)/2; 
-           double ans=(double)(com[mid]+com[mid+1])/2;
+           int mid1=com[c/2];
+           int mid2=com[(c/2)-1];
+           double ans=(mid1+mid2)/2.0;
            return ans;
         }
       
