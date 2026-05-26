@@ -23,6 +23,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0042-trapping-rain-water](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0042-trapping-rain-water) |
 | [0046-permutations](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0046-permutations) |
 | [0048-rotate-image](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0048-rotate-image) |
+| [0049-group-anagrams](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0049-group-anagrams) |
 | [0051-n-queens](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0051-n-queens) |
 | [0053-maximum-subarray](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0053-maximum-subarray) |
 | [0054-spiral-matrix](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0054-spiral-matrix) |
@@ -117,6 +118,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0001-two-sum](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0001-two-sum) |
 | [0036-valid-sudoku](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0036-valid-sudoku) |
 | [0037-sudoku-solver](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0037-sudoku-solver) |
+| [0049-group-anagrams](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0049-group-anagrams) |
 | [0073-set-matrix-zeroes](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0073-set-matrix-zeroes) |
 | [0076-minimum-window-substring](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0076-minimum-window-substring) |
 | [0105-construct-binary-tree-from-preorder-and-inorder-traversal](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0105-construct-binary-tree-from-preorder-and-inorder-traversal) |
@@ -333,6 +335,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0014-longest-common-prefix](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0014-longest-common-prefix) |
 | [0028-find-the-index-of-the-first-occurrence-in-a-string](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0028-find-the-index-of-the-first-occurrence-in-a-string) |
 | [0044-wildcard-matching](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0044-wildcard-matching) |
+| [0049-group-anagrams](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0049-group-anagrams) |
 | [0058-length-of-last-word](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0058-length-of-last-word) |
 | [0072-edit-distance](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0072-edit-distance) |
 | [0076-minimum-window-substring](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0076-minimum-window-substring) |
@@ -365,6 +368,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0015-3sum](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0015-3sum) |
 | [0018-4sum](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0018-4sum) |
+| [0049-group-anagrams](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0049-group-anagrams) |
 | [0056-merge-intervals](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0056-merge-intervals) |
 | [0075-sort-colors](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0075-sort-colors) |
 | [0088-merge-sorted-array](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0088-merge-sorted-array) |
