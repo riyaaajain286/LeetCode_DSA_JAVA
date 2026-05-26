@@ -3,14 +3,16 @@ class Solution {
         int n=s.length();
         int m=t.length();
         if(n!=m) return false;
-        int[] freq=new int[26];
-        for(int i=0;i<n;i++){
-            freq[s.charAt(i)-'a']++;
-            freq[t.charAt(i)-'a']--;
+        HashMap<Character,Integer> map1=new HashMap<>();
+        HashMap<Character,Integer> map2=new HashMap<>();
+        char[] a=s.toCharArray();
+        char[] b=t.toCharArray();
+        for(char i:a){
+            map1.put(i,map1.getOrDefault(i,0)+1);
         }
-        for(int ch:freq){
-            if(ch!=0) return false;
+        for(char j:b){
+            map2.put(j,map2.getOrDefault(j,0)+1);
         }
-        return true;
+        return map1.equals(map2);
     }
 }
