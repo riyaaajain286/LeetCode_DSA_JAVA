@@ -2,8 +2,9 @@ class Solution {
     //2 pointer approach
     public int trap(int[] height) {
         int n=height.length;
+        int l=0;
+        int r=n-1;
         int lmax=0,rmax=0;
-        int l=0,r=n-1;
         int ans=0;
         while(l<r){
             lmax=Math.max(lmax,height[l]);
@@ -12,10 +13,10 @@ class Solution {
                 ans+=lmax-height[l];
                 l++;
             }
-           else{
+            else{
                 ans+=rmax-height[r];
                 r--;
-           }
+            }
         }
         return ans;
     }
