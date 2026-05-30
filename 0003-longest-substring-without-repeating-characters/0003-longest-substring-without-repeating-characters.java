@@ -1,7 +1,7 @@
 class Solution {
     public int lengthOfLongestSubstring(String s) {
-        // if(s.length()==1 && s.charAt(0)=='') return 0;
-        int maxlen=0;
+        if(s.length()==0 ) return 0;
+        int maxlen=Integer.MIN_VALUE;
         int i=0;
         Set<Character> set=new HashSet<>();
         for(int j=0;j<s.length();j++){
