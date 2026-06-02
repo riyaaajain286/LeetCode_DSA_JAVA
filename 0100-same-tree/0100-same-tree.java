@@ -15,19 +15,11 @@
  */
 class Solution {
     public boolean isSameTree(TreeNode p, TreeNode q) {
-       // If both are null, trees are identical
-        if(p==null&&q==null) {
-            return true;
-        }
-        // If both are null, trees are identical
-         if(p==null||q==null) {
-            return false;
-        }
-        // Check current node data
-        if(p.val!=q.val){
-            return false;
-        }
-        //check subtrees
-        return isSameTree(p.left,q.left)&&isSameTree(p.right,q.right);
+        if(p==null && q==null) return true;
+        if(p==null || q==null) return false;
+        if(p.val!=q.val) return false;
+        boolean left=isSameTree(p.left,q.left);
+        boolean right=isSameTree(p.right,q.right);
+        return left&&right;
     }
 }
