@@ -15,24 +15,21 @@
  */
 class Solution {
     HashMap<Integer,Integer> map=new HashMap<>();
+    int preindex=0;
     public TreeNode buildTree(int[] preorder, int[] inorder) {
-        int index=0;
-        for(int i:inorder){
-        map.put(i,index++);
+        for(int i=0;i<inorder.length;i++){
+            map.put(inorder[i],i);
         }
-     TreeNode root=MakeTree(preorder,0,inorder.length-1);
-     return root; 
-   }
-  int preIndex=0;
-  public TreeNode MakeTree(int[] preorder,int left,int right){
-    if(left> right) return null;
-
-   TreeNode root=new TreeNode(preorder[preIndex++]);
-     //search
-     int inIndex=map.get(root.val);
-     root.left=MakeTree(preorder,left,inIndex-1);
-     root.right=MakeTree(preorder,inIndex+1,right);
-     return root;
-      
-  }
+        return makeTree(preorder,inorder,0,inorder.length-1);
+    }
+    private TreeNode makeTree(int[] preorder, int[] inorder,int left,int right){
+        if(left>right) return null;
+        int rootval=preorder[preindex];
+        TreeNode root=new TreeNode(rootval);
+        int search=map.get(rootval);
+        preindex++;
+        root.left=makeTree(preorder,inorder,left,search-1);
+        root.right=makeTree(preorder,inorder,search+1,right);
+        return root;
+    }
 }
