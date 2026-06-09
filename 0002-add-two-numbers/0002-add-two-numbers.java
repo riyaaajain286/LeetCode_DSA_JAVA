@@ -15,7 +15,7 @@ class Solution {
         int sum=0,carry=0;
         ListNode h1=l1;
         ListNode h2=l2;
-        while(h1!=null||h2!=null){
+        while(h1!=null||h2!=null||carry!=0){
             sum=carry;
             if(h1!=null){
                 sum+=h1.val;
@@ -30,10 +30,10 @@ class Solution {
             curr.next=newnode;
             curr=curr.next;
         }
-        if(carry!=0){
-            ListNode newnode=new ListNode(carry);
-            curr.next=newnode;
-        }
+        // if(carry!=0){
+        //     ListNode newnode=new ListNode(carry);
+        //     curr.next=newnode;
+        // }
         return dummy.next;
     }
 }
