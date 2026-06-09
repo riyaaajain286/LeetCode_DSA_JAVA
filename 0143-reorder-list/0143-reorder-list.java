@@ -11,28 +11,11 @@
 class Solution {
     public void reorderList(ListNode head) {
         if(head==null ||head.next==null) return;
-        int len=0;
-        ListNode temp=head;
-        while(temp!=null){
-            len++;
-            temp=temp.next;
-        }
-        int c=0;
-        if(len%2==0){
-             c=len/2;
-        }
-        else{
-             c=len/2+1;
-        }
-        temp=head;
-        while(c>1){
-          temp=temp.next;
-          c--;
-        }
+        ListNode mid=findMiddle(head);
         //rearrange and connect
-        ListNode middle=reverse(temp);
+        ListNode middle=reverse(mid);
         ListNode head1=head;
-        while(head1!=null && middle!=null){
+        while(head1!=null && middle!=null && head1!=middle && head1.next!=middle){
             ListNode temp1=head1.next;
             head1.next=middle;
             ListNode temp2=middle.next;
@@ -43,7 +26,16 @@ class Solution {
        
 
     }
+    private ListNode findMiddle(ListNode head){
+       ListNode s=head,f=head;
+       while(f!=null && f.next!=null){
+        s=s.next;
+        f=f.next.next;
+       }
+       return s;
+    }
     private ListNode reverse(ListNode head){
+        if(head==null || head.next==null) return head;
         ListNode prev=null,curr=head,nextnode=head;
         while(nextnode!=null){
             nextnode=nextnode.next;
