@@ -10,39 +10,47 @@
  */
 class Solution {
     public void reorderList(ListNode head) {
-        if(head==null||head.next==null)  return;
-        //find middle
-        ListNode s=head;
-        ListNode f=head;
-        while(f!=null&&f.next!=null){
-        s=s.next;
-        f=f.next.next;
+        if(head==null ||head.next==null) return;
+        int len=0;
+        ListNode temp=head;
+        while(temp!=null){
+            len++;
+            temp=temp.next;
         }
-        ListNode p=head;
-        //reverse second half
-        ListNode q=reverse(s.next);
-        s.next=null;
-        //merge and reorder
-        while(q!=null){
-        ListNode temp1=p.next;
-        ListNode temp2=q.next;
-        p.next=q;
-        q.next=temp1;
-        p=temp1;
-        q=temp2;
+        int c=0;
+        if(len%2==0){
+             c=len/2;
+        }
+        else{
+             c=len/2+1;
+        }
+        temp=head;
+        while(c>1){
+          temp=temp.next;
+          c--;
+        }
+        //rearrange and connect
+        ListNode middle=reverse(temp);
+        ListNode head1=head;
+        while(head1!=null && middle!=null){
+            ListNode temp1=head1.next;
+            head1.next=middle;
+            ListNode temp2=middle.next;
+            middle.next=temp1;
+            head1=temp1;
+            middle=temp2;
         }
        
+
     }
-  public static ListNode reverse(ListNode head){
-    ListNode prev=null;
-    ListNode temp=head;
-    ListNode nextnode=head;
-    while(nextnode!=null){
-      nextnode=nextnode.next;
-      temp.next=prev;
-      prev=temp;
-      temp=nextnode;
-    }
-    return head=prev;
-    }
+    private ListNode reverse(ListNode head){
+        ListNode prev=null,curr=head,nextnode=head;
+        while(nextnode!=null){
+            nextnode=nextnode.next;
+            curr.next=prev;
+            prev=curr;
+            curr=nextnode;
+        }
+        return prev;
+    } 
 }
