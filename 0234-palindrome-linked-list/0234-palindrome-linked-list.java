@@ -10,40 +10,37 @@
  */
 class Solution {
     public boolean isPalindrome(ListNode head) {
-        if(head==null||head.next==null){
-            return true;
+        if(head==null || head.next==null) return true;
+        ListNode h1=head;
+        ListNode h2=reverse(mid(head));
+        while(h1!=null && h2!=null){
+            if(h1.val!=h2.val){
+                return false;
+            }
+            h1=h1.next;
+            h2=h2.next;
+
         }
-         ListNode s=head;
-    ListNode f=head;
-    while(f!=null&&f.next!=null){
-      s=s.next;
-      f=f.next.next;
+        return true;
+
     }
-    ListNode first=head;
-    ListNode second=reverse(s);
-    ListNode secondhead=second;
-    while(secondhead!=null){
-      if(first.val!=secondhead.val){
-        reverse(s);;
-        return false;
-        
-      }
-      first=first.next;
-      secondhead=secondhead.next;
-      }
-    reverse(s);
-    return true;
-  }
-  public static ListNode reverse(ListNode head){
-    ListNode prev=null;
-    ListNode temp=head;
-    ListNode nextnode=head;
-    while(nextnode!=null){
-      nextnode=nextnode.next;
-      temp.next=prev;
-      prev=temp;
-      temp=nextnode;
+    private ListNode reverse(ListNode head){
+        if(head==null || head.next==null) return head;
+        ListNode prev=null,curr=head,next=head;
+        while(next!=null){
+            next=next.next;
+            curr.next=prev;
+            prev=curr;
+            curr=next;
+        }
+        return prev;
     }
-    return head=prev;
+    private ListNode mid(ListNode head){
+        ListNode s=head,f=head;
+        while(f!=null &&f.next!=null){
+            s=s.next;
+            f=f.next.next;
+        }
+        return s;
     }
 }
