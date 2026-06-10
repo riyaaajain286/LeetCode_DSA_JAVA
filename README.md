@@ -59,6 +59,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0229-majority-element-ii](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0229-majority-element-ii) |
 | [0238-product-of-array-except-self](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0238-product-of-array-except-self) |
 | [0268-missing-number](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0268-missing-number) |
+| [0287-find-the-duplicate-number](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0287-find-the-duplicate-number) |
 | [0303-range-sum-query-immutable](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0303-range-sum-query-immutable) |
 | [0322-coin-change](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0322-coin-change) |
 | [0347-top-k-frequent-elements](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0347-top-k-frequent-elements) |
@@ -334,6 +335,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0136-single-number](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0136-single-number) |
 | [0137-single-number-ii](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0137-single-number-ii) |
 | [0268-missing-number](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0268-missing-number) |
+| [0287-find-the-duplicate-number](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0287-find-the-duplicate-number) |
 | [0389-find-the-difference](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0389-find-the-difference) |
 | [1009-complement-of-base-10-integer](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/1009-complement-of-base-10-integer) |
 ## String
@@ -448,6 +450,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0143-reorder-list](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0143-reorder-list) |
 | [0160-intersection-of-two-linked-lists](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0160-intersection-of-two-linked-lists) |
 | [0234-palindrome-linked-list](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0234-palindrome-linked-list) |
+| [0287-find-the-duplicate-number](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0287-find-the-duplicate-number) |
 | [0295-find-median-from-data-stream](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0295-find-median-from-data-stream) |
 | [0349-intersection-of-two-arrays](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0349-intersection-of-two-arrays) |
 | [1861-rotating-the-box](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/1861-rotating-the-box) |
@@ -496,6 +499,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0162-find-peak-element](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0162-find-peak-element) |
 | [0209-minimum-size-subarray-sum](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0209-minimum-size-subarray-sum) |
 | [0268-missing-number](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0268-missing-number) |
+| [0287-find-the-duplicate-number](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0287-find-the-duplicate-number) |
 | [0349-intersection-of-two-arrays](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0349-intersection-of-two-arrays) |
 | [0378-kth-smallest-element-in-a-sorted-matrix](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0378-kth-smallest-element-in-a-sorted-matrix) |
 | [0540-single-element-in-a-sorted-array](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0540-single-element-in-a-sorted-array) |
