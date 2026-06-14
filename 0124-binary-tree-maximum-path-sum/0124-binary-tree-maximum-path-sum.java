@@ -14,21 +14,19 @@
  * }
  */
 class Solution {
-    int res=Integer.MIN_VALUE;
+     int maxsum=Integer.MIN_VALUE;
     public int maxPathSum(TreeNode root) {
-        helper(root);
-        return res;
+       
+        maxPathDown(root);
+        return maxsum;
     }
-    public int helper(TreeNode root){
+    private int maxPathDown(TreeNode root){
         if(root==null) return 0;
-
-        int left=helper(root.left);
-        int right=helper(root.right);
-// your temp logic (path going down)
-        int temp=Math.max(root.val,Math.max(left,right)+root.val);
-        // your ans logic (path through node)
-        int ans=Math.max(root.val+left+right,temp);
-        res=Math.max(res,ans);
-        return temp;
+        int leftsum=Math.max(0,maxPathDown(root.left));
+        int rightsum=Math.max(0,maxPathDown(root.right));
+        // Path passing through current node
+        maxsum=Math.max(maxsum,(root.val+leftsum+rightsum));
+        // Return one side to parent
+        return (root.val)+Math.max(leftsum,rightsum);
     }
 }
