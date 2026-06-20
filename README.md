@@ -887,6 +887,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1179-reformat-department-table](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/1179-reformat-department-table) |
 | [1193-monthly-transactions-i](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/1193-monthly-transactions-i) |
 | [1211-queries-quality-and-percentage](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/1211-queries-quality-and-percentage) |
+| [1280-students-and-examinations](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/1280-students-and-examinations) |
 | [1327-list-the-products-ordered-in-a-period](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/1327-list-the-products-ordered-in-a-period) |
 | [1378-replace-employee-id-with-the-unique-identifier](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/1378-replace-employee-id-with-the-unique-identifier) |
 | [1407-top-travellers](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/1407-top-travellers) |
