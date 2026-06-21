@@ -1,15 +1,13 @@
 class Solution {
     public int removeDuplicates(int[] nums) {
-        //LinkedHashSet preserves order of elements
-        //not optimal siznce it uses extra memory as set is used
-        Set<Integer> set=new LinkedHashSet<>();
-        for(int n:nums){
-            set.add(n);
-        }
+        int n=nums.length;
         int i=0;
-        for(int j:set){
-            nums[i++]=j;
+        for(int j=1;j<n;j++){
+           if(nums[j]!=nums[i]){
+            i++;
+            nums[i]=nums[j];
+           }
         }
-        return i;//return size of array that can be calc. by last index
+        return i+1;
     }
 }
