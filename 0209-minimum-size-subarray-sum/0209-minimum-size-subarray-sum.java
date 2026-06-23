@@ -1,18 +1,15 @@
 class Solution {
+    //sliding window
     public int minSubArrayLen(int target, int[] nums) {
-       int left=0;int right=0;
-        int minlen=Integer.MAX_VALUE; int sum=0;
-        while(right<nums.length){
-        sum+=nums[right];
-      
-    while(sum>=target){
-     
-     minlen=Math.min(minlen,right-left+1);
-     sum-=nums[left];
-     left++;
-    }
-    right++;
-  }
-  return (minlen==Integer.MAX_VALUE)?0:minlen;
+        int l=0,sum=0,ans=Integer.MAX_VALUE;
+        for(int r=0;r<nums.length;r++){
+            sum+=nums[r];
+            while(sum>=target){
+                ans=Math.min(ans,r-l+1);
+                sum-=nums[l];
+                l++;
+            }
+        }
+        return ans==Integer.MAX_VALUE?0:ans;
     }
 }
