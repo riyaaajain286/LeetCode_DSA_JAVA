@@ -1,24 +1,23 @@
 class Solution {
     public double findMaxAverage(int[] nums, int k) {
-        int l=0;
-        int r=k-1;
-        int avg=0;
-        int sum=0;
         int n=nums.length;
-        for(int i=l;i<=r;i++){
-            sum+=nums[i];
+        int i=0;
+        double sum=0;
+        for(int j=0;j<k;j++){
+            sum+=nums[j];
         }
-        int max=sum;//max should initialize from 1st window sum coz array can contain -ve no.s 
-           while(r<n-1){             //otherwise will return 
-             sum-=nums[l];
-             l++;
-             r++;
-             sum+=nums[r];
-        max=Math.max(sum,max);
+        double maxsum=sum;
+        
+        for(int j=k;j<n;j++){
+            sum+=nums[j];
+            sum-=nums[i];
+            i++;
+            
+            if(sum>maxsum){
+                maxsum=sum;
+                
             }
-            max=Math.max(max,sum);
-       
-return (double)max/k;
-
+        }
+        return (double)(maxsum/k);
     }
 }
