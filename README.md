@@ -152,6 +152,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0424-longest-repeating-character-replacement](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0424-longest-repeating-character-replacement) |
 | [0438-find-all-anagrams-in-a-string](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0438-find-all-anagrams-in-a-string) |
 | [0560-subarray-sum-equals-k](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0560-subarray-sum-equals-k) |
+| [0567-permutation-in-string](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0567-permutation-in-string) |
 | [0632-smallest-range-covering-elements-from-k-lists](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0632-smallest-range-covering-elements-from-k-lists) |
 | [0721-accounts-merge](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0721-accounts-merge) |
 | [0817-design-hashmap](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0817-design-hashmap) |
@@ -374,6 +375,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0424-longest-repeating-character-replacement](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0424-longest-repeating-character-replacement) |
 | [0438-find-all-anagrams-in-a-string](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0438-find-all-anagrams-in-a-string) |
 | [0516-longest-palindromic-subsequence](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0516-longest-palindromic-subsequence) |
+| [0567-permutation-in-string](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0567-permutation-in-string) |
 | [0583-delete-operation-for-two-strings](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0583-delete-operation-for-two-strings) |
 | [0721-accounts-merge](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0721-accounts-merge) |
 | [0796-rotate-string](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0796-rotate-string) |
@@ -470,6 +472,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0295-find-median-from-data-stream](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0295-find-median-from-data-stream) |
 | [0349-intersection-of-two-arrays](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0349-intersection-of-two-arrays) |
 | [0455-assign-cookies](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0455-assign-cookies) |
+| [0567-permutation-in-string](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0567-permutation-in-string) |
 | [1861-rotating-the-box](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/1861-rotating-the-box) |
 | [2216-delete-the-middle-node-of-a-linked-list](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/2216-delete-the-middle-node-of-a-linked-list) |
 | [2271-rearrange-array-elements-by-sign](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/2271-rearrange-array-elements-by-sign) |
@@ -737,6 +740,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0209-minimum-size-subarray-sum](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0209-minimum-size-subarray-sum) |
 | [0424-longest-repeating-character-replacement](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0424-longest-repeating-character-replacement) |
 | [0438-find-all-anagrams-in-a-string](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0438-find-all-anagrams-in-a-string) |
+| [0567-permutation-in-string](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0567-permutation-in-string) |
 | [0632-smallest-range-covering-elements-from-k-lists](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0632-smallest-range-covering-elements-from-k-lists) |
 | [0643-maximum-average-subarray-i](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0643-maximum-average-subarray-i) |
 | [1052-grumpy-bookstore-owner](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/1052-grumpy-bookstore-owner) |
