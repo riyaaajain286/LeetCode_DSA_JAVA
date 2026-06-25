@@ -1,35 +1,30 @@
 class Solution {
+    //sliding window + two pointer
     public List<Integer> findAnagrams(String s, String p) {
         List<Integer> ans=new ArrayList<>();
-        int n=p.length();
-        int m=s.length();
-        if(n>m) return ans;
+        int l=0,r=0;
+        if(p.length()>s.length()) return ans;
         int[] freq=new int[26];
-        // frequency of p
+        int c=p.length();
         for(char ch:p.toCharArray()){
-            freq[ch-'a']++;
+           freq[ch-'a']++;
         }
-        int left=0;
-        int right=0;
-        int c=n;
-        while(right<m){
-           // if character exists in freq
-           if(freq[s.charAt(right)-'a']>0){
-            c--;
-           }
-           freq[s.charAt(right)-'a']--;
-           right++;
-           if(c==0){
-            ans.add(left);
-           }
-           if(right-left==n){
-                if(freq[s.charAt(left)-'a']>=0){
-                c++;
-                }
-           freq[s.charAt(left)-'a']++;
-           left++;
-           }
+        while(r<s.length()){
+            if(freq[s.charAt(r)-'a']>0){
+                c--;
+            }
+            freq[s.charAt(r)-'a']--;
+            r++;
+            if(c==0){//whole p is matched with s
+              ans.add(l);
+            }
+            if(r-l==p.length()){//check  substring or window =p then again increase freq for next check
+                if(freq[s.charAt(l)-'a']>=0)
+                  c++;
+            freq[s.charAt(l)-'a']++;
+            l++;
+            }
         }
-     return ans;
+        return ans;
     }
 }
