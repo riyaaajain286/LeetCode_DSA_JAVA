@@ -89,6 +89,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0817-design-hashmap](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0817-design-hashmap) |
 | [0860-lemonade-change](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0860-lemonade-change) |
 | [0875-koko-eating-bananas](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0875-koko-eating-bananas) |
+| [0904-fruit-into-baskets](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0904-fruit-into-baskets) |
 | [0994-rotting-oranges](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0994-rotting-oranges) |
 | [1008-construct-binary-search-tree-from-preorder-traversal](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/1008-construct-binary-search-tree-from-preorder-traversal) |
 | [1036-rotting-oranges](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/1036-rotting-oranges) |
@@ -157,6 +158,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0721-accounts-merge](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0721-accounts-merge) |
 | [0817-design-hashmap](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0817-design-hashmap) |
 | [0863-all-nodes-distance-k-in-binary-tree](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0863-all-nodes-distance-k-in-binary-tree) |
+| [0904-fruit-into-baskets](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0904-fruit-into-baskets) |
 | [0947-most-stones-removed-with-same-row-or-column](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0947-most-stones-removed-with-same-row-or-column) |
 | [0987-vertical-order-traversal-of-a-binary-tree](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0987-vertical-order-traversal-of-a-binary-tree) |
 | [1171-remove-zero-sum-consecutive-nodes-from-linked-list](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/1171-remove-zero-sum-consecutive-nodes-from-linked-list) |
@@ -743,6 +745,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0567-permutation-in-string](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0567-permutation-in-string) |
 | [0632-smallest-range-covering-elements-from-k-lists](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0632-smallest-range-covering-elements-from-k-lists) |
 | [0643-maximum-average-subarray-i](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0643-maximum-average-subarray-i) |
+| [0904-fruit-into-baskets](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0904-fruit-into-baskets) |
 | [1052-grumpy-bookstore-owner](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/1052-grumpy-bookstore-owner) |
 | [2134-minimum-swaps-to-group-all-1s-together-ii](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/2134-minimum-swaps-to-group-all-1s-together-ii) |
 | [2461-maximum-sum-of-distinct-subarrays-with-length-k](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/2461-maximum-sum-of-distinct-subarrays-with-length-k) |
