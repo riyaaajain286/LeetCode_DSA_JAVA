@@ -105,6 +105,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1295-find-numbers-with-even-number-of-digits](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/1295-find-numbers-with-even-number-of-digits) |
 | [1479-construct-target-array-with-multiple-sums](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/1479-construct-target-array-with-multiple-sums) |
 | [1480-running-sum-of-1d-array](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/1480-running-sum-of-1d-array) |
+| [1493-longest-subarray-of-1s-after-deleting-one-element](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/1493-longest-subarray-of-1s-after-deleting-one-element) |
 | [1559-detect-cycles-in-2d-grid](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/1559-detect-cycles-in-2d-grid) |
 | [1663-detect-cycles-in-2d-grid](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/1663-detect-cycles-in-2d-grid) |
 | [1732-find-the-highest-altitude](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/1732-find-the-highest-altitude) |
@@ -325,6 +326,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1250-longest-common-subsequence](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/1250-longest-common-subsequence) |
 | [1312-minimum-insertion-steps-to-make-a-string-palindrome](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/1312-minimum-insertion-steps-to-make-a-string-palindrome) |
 | [1334-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/1334-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance) |
+| [1493-longest-subarray-of-1s-after-deleting-one-element](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/1493-longest-subarray-of-1s-after-deleting-one-element) |
 | [1976-number-of-ways-to-arrive-at-destination](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/1976-number-of-ways-to-arrive-at-destination) |
 ## Memoization
 |  |
@@ -755,6 +757,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0930-binary-subarrays-with-sum](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0930-binary-subarrays-with-sum) |
 | [1004-max-consecutive-ones-iii](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/1004-max-consecutive-ones-iii) |
 | [1052-grumpy-bookstore-owner](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/1052-grumpy-bookstore-owner) |
+| [1493-longest-subarray-of-1s-after-deleting-one-element](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/1493-longest-subarray-of-1s-after-deleting-one-element) |
 | [2134-minimum-swaps-to-group-all-1s-together-ii](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/2134-minimum-swaps-to-group-all-1s-together-ii) |
 | [2461-maximum-sum-of-distinct-subarrays-with-length-k](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/2461-maximum-sum-of-distinct-subarrays-with-length-k) |
 | [2653-sliding-subarray-beauty](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/2653-sliding-subarray-beauty) |
