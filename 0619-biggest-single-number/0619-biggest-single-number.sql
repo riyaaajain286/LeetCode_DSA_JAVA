@@ -3,6 +3,7 @@ SELECT MAX(num) AS num
 FROM(
     SELECT num
     FROM MyNumbers
-    GROUP BY(num)
-    HAVING COUNT(num)=1
-) AS singleNumber;
+    GROUP BY num
+    HAVING (COUNT(num)=1)
+) as singleno;
+
