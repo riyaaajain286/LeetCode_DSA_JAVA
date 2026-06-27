@@ -1,22 +1,18 @@
 class Solution {
+    //hashmap+prefix sum
     public int numSubarraysWithSum(int[] nums, int goal) {
-      return AtMost(nums,goal)-AtMost(nums,goal-1);
-    }
-    private int AtMost(int[] nums, int goal){
-        if(goal<0) return 0;
-         int n=nums.length;
-        int l=0;
+        HashMap<Integer,Integer> map=new HashMap<>();
+        //prefix sum 0 occurs once
+        map.put(0,1);
         int sum=0,c=0;
-        // while(r<n){
-        for(int r=0;r<n;r++){
-           sum+=nums[r];
-           while(sum>goal){
-            sum-=nums[l];
-            l++;
-            
+        for(int n:nums){
+            sum+=n;
+            //for each occurence of prefix sum diff subarray r formed therefore take all
+            if(map.containsKey(sum-goal)){
+                c+=map.get(sum-goal);
             }
-           c+=(r-l+1);
-        //    r++;
+            //alw increase freq to keep count of all subarrays
+            map.put(sum,map.getOrDefault(sum,0)+1);
         }
         return c;
     }
