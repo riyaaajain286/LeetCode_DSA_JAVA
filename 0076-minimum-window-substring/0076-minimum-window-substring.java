@@ -1,35 +1,36 @@
 class Solution {
     public String minWindow(String s, String t) {
+        int n=s.length();
+        int m=t.length();
+        if(n<m) return "";
+        int l=0,minlen=Integer.MAX_VALUE,start=0,c=m;
         int[] freq=new int[128];
-        int l=0,r=0;
-        int c=t.length();
-        int min=Integer.MAX_VALUE;
-        int start=0;
-        for(char tt:t.toCharArray()){
-            freq[tt]++;
+        for(char ch:t.toCharArray()){
+            freq[ch]++;
         }
-        while(r<s.length()){
-            char ch=s.charAt(r);
-            if(freq[ch]>0){
+        for(int r=0;r<n;r++){
+            int a=s.charAt(r);
+            if(freq[a]>0){
                 c--;
             }
-             freq[ch]--;
-             r++;
-          while(c==0){//substring found now reduce it
-            //    min=Math.min(min,r-l);
-            if(r-l<min){
-                min=r-l;
+            freq[a]--;
+            while(c==0){
+              if(minlen>r-l+1){
+                minlen=r-l+1;
                 start=l;
+              }
+              char left=s.charAt(l);
+              freq[left]++;
+              if(freq[left]>0)
+                   c++;
+              l++; 
+                
             }
-            char lc=s.charAt(l);
-               freq[lc]++;
-               if(freq[lc]>0)//if lc positive means char occurs so minimize
-                  c++;
-               l++;
-             }
-            
         }
-        // String ans=s.substring(start,start+min);
-        return min == Integer.MAX_VALUE ? "" : s.substring(start, start + min);
+            if(minlen==Integer.MAX_VALUE){
+                return "";
+            }
+            
+             return s.substring(start,start+minlen);
     }
 }
