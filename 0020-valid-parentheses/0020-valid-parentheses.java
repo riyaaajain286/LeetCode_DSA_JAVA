@@ -8,20 +8,21 @@ class Solution {
             }
             else{
                 if(ch==')'){
-                    if(st.isEmpty() || st.pop()!='('){
+                    if(st.isEmpty() || st.peek()!='('){
                         return false;
                     }
                 }
                   if(ch==']'){
-                    if(st.isEmpty() || st.pop()!='['){
+                    if(st.isEmpty() || st.peek()!='['){
                         return false;
                     }
                 }
                   if(ch=='}'){
-                    if(st.isEmpty() || st.pop()!='{'){
+                    if(st.isEmpty() || st.peek()!='{'){
                         return false;
                     }
                 }
+                st.pop();
             }
         }
        return st.isEmpty();
