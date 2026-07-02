@@ -1,5 +1,5 @@
 # Write your MySQL query statement below
-SELECT e2.employee_id ,
+SELECT e2.employee_id,
 e2.name,
 COUNT(*) AS reports_count,
 ROUND(AVG(e1.age)) AS average_age 
