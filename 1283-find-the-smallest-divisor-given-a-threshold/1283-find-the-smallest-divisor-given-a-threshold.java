@@ -24,9 +24,17 @@ class Solution {
     }
     private boolean isPossible(int[] nums,int threshold,int divisor){
         int sum=0;
+        // for(int i:nums){
+        //     // sum+=(i+divisor-1)/divisor;
+        //     //doing this coz before ceil runs If both i and divisor are int, Java performs integer division first.decimal part is already lost before Math.ceil() runs
+        //     sum+=(int)Math.ceil((double)i/divisor);//Instead, force floating-point division:
+        // }
+        //other solution
         for(int i:nums){
-            // sum+=(i+divisor-1)/divisor;
-            sum+=(int)Math.ceil((double)i/divisor);
+            sum+=i/divisor;
+            if(i % divisor!=0){
+                sum++;
+            }
         }
         return sum<=threshold;
     }
