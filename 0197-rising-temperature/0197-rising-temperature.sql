@@ -1,7 +1,13 @@
 # Write your MySQL query statement below
-SELECT pw.id
-FROM Weather pw
-JOIN Weather nw
-ON DATEDIFF(pw.recordDate,nw.recordDate )=1
-WHERE pw.temperature >nw.temperature
+SELECT currentDay.id
+FROM Weather currentDay
+JOIN Weather previousDay
+ON DATEDIFF(currentDay.recordDate,previousDay.recordDate )=1
+WHERE currentDay.temperature >previousDay.temperature
 ORDER BY id;
+
+
+-- Take currentDay
+-- Join with previousDay
+-- where currentDay is 1 day after previousDay
+-- and currentDay temperature > previousDay temperature
