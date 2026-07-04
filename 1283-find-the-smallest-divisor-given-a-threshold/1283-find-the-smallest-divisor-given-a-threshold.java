@@ -25,7 +25,8 @@ class Solution {
     private boolean isPossible(int[] nums,int threshold,int divisor){
         int sum=0;
         for(int i:nums){
-            sum+=(i+divisor-1)/divisor;
+            // sum+=(i+divisor-1)/divisor;
+            sum+=(int)Math.ceil((double)i/divisor);
         }
         return sum<=threshold;
     }
