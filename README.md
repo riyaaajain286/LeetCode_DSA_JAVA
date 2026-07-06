@@ -113,6 +113,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1480-running-sum-of-1d-array](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/1480-running-sum-of-1d-array) |
 | [1482-minimum-number-of-days-to-make-m-bouquets](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/1482-minimum-number-of-days-to-make-m-bouquets) |
 | [1493-longest-subarray-of-1s-after-deleting-one-element](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/1493-longest-subarray-of-1s-after-deleting-one-element) |
+| [1539-kth-missing-positive-number](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/1539-kth-missing-positive-number) |
 | [1559-detect-cycles-in-2d-grid](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/1559-detect-cycles-in-2d-grid) |
 | [1663-detect-cycles-in-2d-grid](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/1663-detect-cycles-in-2d-grid) |
 | [1732-find-the-highest-altitude](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/1732-find-the-highest-altitude) |
@@ -554,6 +555,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1011-capacity-to-ship-packages-within-d-days](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/1011-capacity-to-ship-packages-within-d-days) |
 | [1283-find-the-smallest-divisor-given-a-threshold](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/1283-find-the-smallest-divisor-given-a-threshold) |
 | [1482-minimum-number-of-days-to-make-m-bouquets](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/1482-minimum-number-of-days-to-make-m-bouquets) |
+| [1539-kth-missing-positive-number](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/1539-kth-missing-positive-number) |
 | [1753-path-with-minimum-effort](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/1753-path-with-minimum-effort) |
 | [3296-minimum-number-of-seconds-to-make-mountain-height-zero](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/3296-minimum-number-of-seconds-to-make-mountain-height-zero) |
 ## Depth-First Search
