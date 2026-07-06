@@ -4,7 +4,7 @@ class Solution {
        int e=arr.length-1;
        while(s<=e){
         int mid=s+(e-s)/2;
-        int missing=arr[mid]-(mid+1);
+        int missing=arr[mid]-(mid+1);//This tells us how many positive numbers are missing before arr[mid].
         if(missing<k){
             s=mid+1;
         }
