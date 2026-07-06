@@ -1,15 +1,17 @@
 class Solution {
     public int findKthPositive(int[] arr, int k) {
-        // This means if the array did not exist,the positive no should simply be that no 
-        // But every array element <= k is a number that is present, so it pushes the k-th missing number one position forward.
-        for(int n:arr){
-            if(n<=k){
-                k++;
-            }
-            else{
-                break;
-            }
+       int s=0;
+       int e=arr.length-1;
+       while(s<=e){
+        int mid=s+(e-s)/2;
+        int missing=arr[mid]-(mid+1);
+        if(missing<k){
+            s=mid+1;
         }
-        return k;
+        else{
+            e=mid-1;
+        }
+       } 
+       return s+k;
     }
 }
