@@ -4,7 +4,9 @@ class Solution {
         s=s.toLowerCase();
         StringBuilder sb=new StringBuilder();
         for(char ch:s.toCharArray()){
-            if(Character.isLetterOrDigit(ch)){
+            if((ch>='a' && ch<='z') ||
+            (ch>='0' && ch<='9')){
+            // if(Character.isLetterOrDigit(ch)){
                 sb.append(ch);
             }
         }
