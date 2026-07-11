@@ -7,10 +7,11 @@ class Solution {
             String c=new String(st);
             if(!map.containsKey(c)){
                 map.put(c,new ArrayList<>());
+                 map.get(c).add(s);
             }
-            
+            else{
                 map.get(c).add(s);
-            
+            }
         }
         return new ArrayList<>(map.values());
     }
