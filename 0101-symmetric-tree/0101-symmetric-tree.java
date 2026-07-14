@@ -22,14 +22,14 @@ class Solution {
         while(!q.isEmpty()){
             TreeNode left=q.poll();
             TreeNode right=q.poll();
-            if(left==null&&right==null)  continue;
-            if(left==null||right==null) return false;
-            if(left.val!=right.val) return false;
-            q.add(left.left);//add mirror children
-            q.add(right.right);
+            if(left==null && right==null) continue;
+             if(left==null || right==null) return false;
+             if(left.val!=right.val) return false;
+             q.add(left.left);
+             q.offer(right.right);
 
-            q.add(left.right);
-            q.add(right.left);
+             q.offer(left.right);
+             q.offer(right.left);
         }
         return true;
     }
