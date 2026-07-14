@@ -15,9 +15,10 @@
  */
 class Solution {
     public boolean isValidBST(TreeNode root) {
+        
         return helper(root,null,null);
     }
-    public boolean helper(TreeNode root,Integer left,Integer right){
+    private boolean helper(TreeNode root,Integer left,Integer right){
         if(root==null) return true;
         if(left!=null && left>=root.val){
             return false;
@@ -25,8 +26,8 @@ class Solution {
         if(right!=null && right<=root.val){
             return false;
         }
-        boolean lefttree=helper(root.left,left,root.val);
-        boolean righttree=helper(root.right,root.val,right);
-        return lefttree && righttree;
+        boolean leftTree=helper(root.left,left,root.val);
+        boolean rightTree=helper(root.right,root.val,right);
+        return leftTree && rightTree;
     }
 }
