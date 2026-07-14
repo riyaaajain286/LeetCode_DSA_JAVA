@@ -1,14 +1,11 @@
 # Write your MySQL query statement below
-SELECT d.name as Department,
-e.name as Employee,
-e.salary as Salary
-FROM Employee e
+SELECT d.name as Department ,x.name as Employee,x.salary as Salary
+FROM  
+(
+SELECT *,
+DENSE_RANK() OVER(PARTITION BY departmentId ORDER BY salary DESC) AS rnk
+FROM Employee
+) x
 JOIN Department d
-ON e.departmentId =d.id
-WHERE (
-    SELECT COUNT(DISTINCT salary)
-    FROM Employee
-    WHERE departmentId =e.departmentId
-    AND salary>e.salary
-)<3;
-
+ON d.id=x.departmentId 
+WHERE x.rnk<=3;
