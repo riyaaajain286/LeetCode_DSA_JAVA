@@ -1,36 +1,47 @@
 class Solution {
     public String minWindow(String s, String t) {
         int n=s.length();
-        int m=t.length();
-        if(n<m) return "";
-        int l=0,minlen=Integer.MAX_VALUE,start=0,c=m;
-        int[] freq=new int[128];
+        if(t.length()>n) return "";
+        int countRequired=t.length();
+        Map<Character,Integer> map=new HashMap<>();
         for(char ch:t.toCharArray()){
-            freq[ch]++;
+            map.put(ch,map.getOrDefault(ch,0)+1);
         }
-        for(int r=0;r<n;r++){
-            int a=s.charAt(r);
-            if(freq[a]>0){
-                c--;
-            }
-            freq[a]--;
-            while(c==0){
-              if(minlen>r-l+1){
-                minlen=r-l+1;
-                start=l;
-              }
-              char left=s.charAt(l);
-              freq[left]++;
-              if(freq[left]>0)
-                   c++;
-              l++; 
-                
-            }
-        }
-            if(minlen==Integer.MAX_VALUE){
-                return "";
-            }
+        int i=0,j=0;
+        int minlen=Integer.MAX_VALUE;
+        int start=0;
+        while(j<n){
+             // Expand window
+            char right=s.charAt(j);
+             if (map.containsKey(right)) {
+              if( map.get(right)>0)
+               countRequired--;
+               
             
-             return s.substring(start,start+minlen);
+            // map.get (s.charAt(j))--;
+            map.put(right,map.get(right)-1);  
+            }  
+            //shrink window
+            while(countRequired==0){//a window found with all chars of t
+              if(j-i+1<minlen){
+                minlen=j-i+1;
+                start=i;
+              }
+            //   char left=s.charAt(i);
+            //   map.get(s.charAt(i))--;
+              char left=s.charAt(i);
+             if(map.containsKey((left))){
+              map.put(left,map.get(left)+1);
+               if(map.get(left)>0){
+               countRequired++;
+              }
+             }
+              i++;
+            }
+
+          j++;
+        }
+        return minlen==Integer.MAX_VALUE?"":s.substring(start,start+minlen);
+
     }
-}
+ }
