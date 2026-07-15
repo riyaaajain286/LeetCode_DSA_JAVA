@@ -14,9 +14,8 @@
  * }
  */
 class Solution {
-     int maxsum=Integer.MIN_VALUE;
+    int maxsum=Integer.MIN_VALUE;
     public int maxPathSum(TreeNode root) {
-       
         maxPathDown(root);
         return maxsum;
     }
@@ -24,9 +23,9 @@ class Solution {
         if(root==null) return 0;
         int leftsum=Math.max(0,maxPathDown(root.left));
         int rightsum=Math.max(0,maxPathDown(root.right));
-        // Path passing through current node
+        //maximum path passing through current node 
         maxsum=Math.max(maxsum,(root.val+leftsum+rightsum));
-        // Return one side to parent
-        return (root.val)+Math.max(leftsum,rightsum);
+        //return one side max side to parent
+        return root.val+Math.max(leftsum,rightsum);
     }
 }
