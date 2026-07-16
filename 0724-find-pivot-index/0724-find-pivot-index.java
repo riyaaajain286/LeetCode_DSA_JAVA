@@ -4,12 +4,15 @@ class Solution {
         for(int n:nums){
             totalsum+=n;
         }
-        int leftsum=0;
-        for(int i=0;i<nums.length;i++){
-            if(leftsum==totalsum-leftsum-nums[i]){
-                return i;
+        int leftsum=0,rightsum=0;
+        for(int j=0;j<nums.length;j++){
+            rightsum=totalsum-leftsum- nums[j];
+            if(rightsum==leftsum){
+                return j;
             }
-            leftsum+=nums[i];
+            else{
+                leftsum+=nums[j];
+            }
         }
         return -1;
     }
