@@ -25,14 +25,15 @@ class Solution {
                 temp=temp.next;
             }
         }
-         if(head1!=null){
-            temp.next=head1;
+        //  if(head1!=null){
+        //     temp.next=head1;
             
-        }
-         if(head2!=null){
-            temp.next=head2;
+        // }
+        //  if(head2!=null){
+        //     temp.next=head2;
             
-        }
+        // }
+        temp.next=(head1!=null)?head1:head2;
         return dummy.next;  
     }
 }
