@@ -17,16 +17,15 @@ class Solution {
             if(node!=null)
               pq.add(node);
         }
-        ListNode dummy=new ListNode(-1);
-        ListNode temp=dummy;
+        ListNode ans=new ListNode(-1);
+        ListNode temp=ans;
         while(!pq.isEmpty()){
-          ListNode minnode=pq.poll();
-          temp.next=minnode;
-          temp=temp.next;
-          if(minnode.next!=null){
-            pq.add(minnode.next);
-          }
+            ListNode pop=pq.poll();
+            temp.next=pop;
+            temp=temp.next;
+            if(pop.next!=null)
+             pq.add(pop.next);
         }
-        return dummy.next;
+        return ans.next;
     }
 }
