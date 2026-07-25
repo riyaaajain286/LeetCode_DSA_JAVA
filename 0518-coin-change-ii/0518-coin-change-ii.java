@@ -1,32 +1,24 @@
 class Solution {
+    //memoization
     int[][] dp;
     public int change(int amount, int[] coins) {
-        //unbounded knapsack pattern
-        int n=coins.length;
-        dp=new int[n+1][amount+1];
-         return helper(amount,coins);
+       int n=coins.length; 
+       dp=new int[n+1][amount+1];
+       for(int[] r:dp){
+           Arrays.fill(r,-1);
+       }
+       return unboundedKnapsack(coins,amount,n);
     }
-    public int helper(int amount, int[] coins){
-      
-        int n=coins.length;
-       //initialization
-       for(int i=1;i<=n;i++){
-        dp[i][0]=1;
-       }
-       for(int j=0;j<=amount;j++){
-        dp[0][j]=0;
-       }
-//iteration
-         for(int i=1;i<=n;i++){
-            for(int j=1;j<=amount;j++){
-                if(coins[i-1]<=j){
-                    dp[i][j]=dp[i][j-coins[i-1]]+dp[i-1][j];
-                }
-                else{
-                    dp[i][j]=dp[i-1][j];
-                }
-            }
+    private int unboundedKnapsack(int[] coins,int amt,int n){
+        if(n==0) return 0;
+        if(amt==0) return 1;
+        if(dp[n][amt]!=-1) return dp[n][amt];
+        if(coins[n-1]<=amt){
+            dp[n][amt]= (unboundedKnapsack(coins,amt-coins[n-1],n)+unboundedKnapsack(coins,amt,n-1));
         }
-        return dp[n][amount];
+        else{
+           dp[n][amt] =unboundedKnapsack(coins,amt,n-1);
+        }
+        return dp[n][amt];
     }
 }
