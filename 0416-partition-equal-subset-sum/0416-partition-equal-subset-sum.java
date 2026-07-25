@@ -1,35 +1,33 @@
 class Solution {
+    //memoization
+    Boolean[][] dp;//wrapper class
     public boolean canPartition(int[] nums) {
+        int n=nums.length;
         int sum=0;
         for(int s:nums){
             sum+=s;
         }
-        if(sum%2==0){
-            return subset(nums,sum/2);
+        dp=new Boolean[n+1][sum/2+1];
+        // for(boolean[] r:dp){
+        //     Arrays.fill(r,false);
+        // }
+        if(sum%2==0){//even sum then equal subsets possible
+           return subset(nums,n,sum/2);
         }
-        return false;
+        else
+         return false;
     }
-    public boolean subset(int[] nums,int sum){
-      int n=nums.length;
-      boolean[][] dp=new boolean[n+1][sum+1];
-      for(int j=0;j<=sum;j++){
-        dp[0][j]=false;
-      }
-      for(int i=0;i<=n;i++){
-        dp[i][0]=true;
-      }
-      //iteration
-      for(int i=1;i<=n;i++){
-        for(int j=1;j<=sum;j++){
-            if(nums[i-1]<=j){
-               dp[i][j]=dp[i-1][j-nums[i-1]]||dp[i-1][j]; 
-            }
-            else{
-              dp[i][j]=dp[i-1][j];
-            }
-            
-        }
-      }
-      return dp[n][sum];
+    private boolean subset(int[] nums,int n,int sum){
+       if(n==0) return false;
+       if(sum==0) return true;
+       if(dp[n][sum]!=null)
+        return dp[n][sum];
+       if(nums[n-1]<=sum){
+        dp[n][sum]=subset(nums,n-1,sum-nums[n-1]) || subset(nums,n-1,sum); 
+       }
+       else{
+        dp[n][sum]=subset(nums,n-1,sum);
+       }
+       return dp[n][sum];
     }
 }
