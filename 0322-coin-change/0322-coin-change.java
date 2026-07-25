@@ -2,41 +2,31 @@ class Solution {
     int[][] dp;
     public int coinChange(int[] coins, int amount) {
         int n=coins.length;
-         dp=new int[n+1][amount+1];
-        int ans=solve(coins,amount,n);
-        if(ans>=Integer.MAX_VALUE-1){
-            return -1;
+        dp=new int[n+1][amount+1];
+        for(int[] r:dp){
+            Arrays.fill(r,-1);
         }
-        return ans;
+        int ans= unbounded(coins,amount,n);
+        
+        if(ans==Integer.MAX_VALUE-1) return -1;
+        else return ans;
+    }
+    private int unbounded(int[] coins,int amount,int n){
+       if(amount==0 ){
+        return 0;
+       }
+       if(n==0) return Integer.MAX_VALUE-1;
 
-    }
-    public int solve(int[] coins,int amount,int n){
-        //initialization
-        //base case
-        for(int i=0;i<=n;i++){
-            dp[i][0]=0;
-        }
-        for(int j=0;j<=amount;j++){
-            dp[0][j]=Integer.MAX_VALUE-1;
-        }
-        //for 1 coin
-        for(int j=1;j<=amount;j++){
-            if(j%coins[0]==0)
-             dp[1][j]=j/coins[0];
-            else
-             dp[1][j]=Integer.MAX_VALUE-1;
-        }
-        //iteration
-        for(int i=2;i<=n;i++){
-            for(int j=1;j<=amount;j++){
-            if(coins[i-1]<=j){
-                dp[i][j]=Math.min(1+dp[i][j-coins[i-1]],dp[i-1][j]);
-            }
-            else{
-                dp[i][j]=dp[i-1][j];
-            }
-        }
-    }
-        return dp[n][amount];
-    }
+       if(dp[n][amount]!=-1) return dp[n][amount];
+       if(coins[n-1]<=amount){
+        dp[n][amount]= Math.min(1+unbounded(coins,amount-coins[n-1],n),
+        unbounded(coins,amount,n-1));
+       }
+       else{
+        dp[n][amount]= unbounded(coins,amount,n-1);
+       }
+       return dp[n][amount];
+    }  
+
+    
 }
