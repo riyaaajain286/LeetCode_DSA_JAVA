@@ -1,9 +1,10 @@
 class Solution {
     public int findTargetSumWays(int[] nums, int target) {
-        int sum=0;
-        for(int n:nums){
-        sum+=n;
-        }
+        // int sum=0;
+        // for(int n:nums){
+        // sum+=n;
+        // }
+        int sum=Arrays.stream(nums).sum();
         if(Math.abs(target)>sum) return 0;
         if((sum+target)%2!=0) return 0;
         int s1=(sum+target)/2;
