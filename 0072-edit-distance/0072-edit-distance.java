@@ -4,25 +4,27 @@ class Solution {
         int n=word1.length();
         int m=word2.length();
         dp=new int[n+1][m+1];
-        for(int[] r:dp){
-          Arrays.fill(r,-1);
+        for(int i=0;i<=n;i++){
+            dp[i][0]=i;//delete all
         }
-       return solve(word1,word2,n-1,m-1);
+        for(int j=0;j<=m;j++){
+            dp[0][j]=j;//insert all
+        }
+        for(int i=1;i<=n;i++){
+            for(int j=1;j<=m;j++){
+                if(word1.charAt(i-1)==word2.charAt(j-1)){
+                    dp[i][j]=0+dp[i-1][j-1];
+                }
+                else{
+                    //insert
+                    int insert=1+dp[i][j-1];
+                    int delete=1+dp[i-1][j];
+                    int replace=1+dp[i-1][j-1];
+                    dp[i][j]=Math.min(insert,Math.min(delete,replace));
+                }
+           }
+        }
+      return dp[n][m]; 
     }
-    private static int solve(String s, String p,int i,int j){
-      if(i<0) return j+1;
-      if(j<0) return i+1;
-      if(dp[i][j]!=-1) return dp[i][j];
-      if(s.charAt(i)==p.charAt(j)){
-        dp[i][j]=0+solve(s,p,i-1,j-1);
-      }
-      else{
-        //insert
-        int insert=1+solve(s,p,i,j-1);
-        int delete=1+solve(s,p,i-1,j);
-        int replace=1+solve(s,p,i-1,j-1);
-        dp[i][j]=Math.min(insert,Math.min(delete,replace));
-      }
-      return dp[i][j];
-    }
+   
 }
