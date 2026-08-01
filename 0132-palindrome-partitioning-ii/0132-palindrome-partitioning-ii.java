@@ -25,7 +25,7 @@ class Solution {
     if(l>r) return 0;
     if(l==r) return 0;
     if(dp[l][r]!=-1) return dp[l][r];
-    if(isPallin(s,l,r)) return 0;
+    // if(isPallin(s,l,r)) return 0;
     if(pallin[l][r]) return dp[l][r]= 0;
     int min=Integer.MAX_VALUE;
     int left,right=0;
@@ -50,19 +50,19 @@ class Solution {
     return dp[l][r]=min;
    }
    
-  static boolean isPallin(String s,int l,int r){
-    // int l=0;
-    // int r=s.length()-1;
-    if(l>r) return true;
-    if(l==r) return true;
+//   static boolean isPallin(String s,int l,int r){
+//     // int l=0;
+//     // int r=s.length()-1;
+//     if(l>r) return true;
+//     if(l==r) return true;
     
-    while(l<r){
-      if(s.charAt(l)!=s.charAt(r))
-         return false;
-      l++;
-      r--;
-    }
-    return true;
+//     while(l<r){
+//       if(s.charAt(l)!=s.charAt(r))
+//          return false;
+//       l++;
+//       r--;
+//     }
+//     return true;
          
-    }
+//     }
 }
