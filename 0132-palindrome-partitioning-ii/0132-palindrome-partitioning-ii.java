@@ -1,92 +1,68 @@
 class Solution {
-    static int[][] dp;
-    static boolean pal[][];
+    static int dp[][];
+    static boolean[][] pallin;
     public int minCut(String s) {
-        int n=s.length();
-        dp=new int[n][n];
-        pal=new boolean[n][n];
-        //initialize dp
-        for(int i=0;i<n;i++){
-         for(int j=0;j<n;j++){
-          dp[i][j]=-1;
+       int n=s.length();
+        dp=new int[n+1][n+1];
+        for(int[] row:dp){
+          Arrays.fill(row,-1);
         }
-      }
-      //precompute pallindromes in o(n^2)
-      for(int gap=0;gap<n;gap++){
-        for(int i=0, j=gap;j<n;i++,j++){
-            if(gap==0)//substring length=1
-             pal[i][j]=true;
-            else if(gap==1 )//substring length=2
-             pal[i][j]=s.charAt(i)==s.charAt(j);
-            else
-              pal[i][j]=s.charAt(i)==s.charAt(j) && pal[i+1][j-1];
-
+        pallin=new boolean[n+1][n+1];
+        for(int gap=0;gap<n;gap++){
+            for(int i=0,j=gap;j<n;i++,j++){
+                if(gap==0) pallin[i][j]=true;
+                else if(gap==1) pallin[i][j]=s.charAt(i)==s.charAt(j);
+                else{
+                  pallin[i][j]=s.charAt(i)==s.charAt(j) && pallin[i+1][j-1];  
+                }
+            }
         }
-      }
-        int ans=solve(s,0,n-1);
-        return ans;
-    }
-public static int  solve(String s,int i,int j){
-    int n=s.length();
+      return partition(s,0,s.length()-1);
+   }
    
-    //base condition
-    if(i>=j){//means no string if i>j and i==j means single letter so no partition
-      return 0;
-    }
-    // if substring is palindrome check in o(1)
-    if(pal[i][j]){
-      return 0;
-    }
-    //memo check
-    if(dp[i][j]!=-1){
-      return dp[i][j];
-    }
+   static int partition(String s,int l,int r){
+    
+    if(l>r) return 0;
+    if(l==r) return 0;
+    if(dp[l][r]!=-1) return dp[l][r];
+    if(isPallin(s,l,r)) return 0;
+    if(pallin[l][r]) return dp[l][r]= 0;
     int min=Integer.MAX_VALUE;
-    //k loop
-    for(int k=i;k<j;k++){
-        //pruning
-        if(!pal[i][k])
-         continue;
-        int leftans,rightans;
-        //left check
-         if(dp[i][k]!=-1){
-            leftans=dp[i][k];
-         }
-         else{
-            leftans=solve(s,i,k);
-            dp[i][k]=leftans;
-         }
-         //right check
-            if(dp[k+1][j]!=-1){
-             rightans=dp[k+1][j];
-         }
-         else{
-            rightans=solve(s,k+1,j);
-            dp[k+1][j]=rightans;
-         }
-        int tempans=1+leftans+rightans;
-        if(tempans<min){
-            min=tempans;
+    int left,right=0;
+    //find temp ans
+    for(int k=l;k<r;k++){
+        if(!pallin[l][k]) continue;
+        if(dp[l][k]!=-1)
+         left=dp[l][k];
+        else{
+         left=partition(s, l, k);
+         dp[l][k]=left;
         }
+        if(dp[k+1][r]!=-1)
+         right=dp[k+1][r];
+        else{
+         right=partition(s, k+1, r);
+         dp[k+1][r]=right;
+        }
+       int tempAns=left+right+1;
+       min=Math.min(tempAns,min);
     }
-    dp[i][j]=min;
-    return dp[i][j];
-  }
-//   public static boolean isPallin(String s,int i,int j){
-//     if(i==j){//only one letter alwz pallindrome
-//       return true;
-//     }
-//     if(i>j){//empty string
-//       return true;
-//     }
-//     while(i<j){
-//       if(s.charAt(i)!=s.charAt(j)){
-//         return false;
-//       }
-//       i++;
-//       j--;
-      
-//     }
-//     return true;
-//   }
+    return dp[l][r]=min;
+   }
+   
+  static boolean isPallin(String s,int l,int r){
+    // int l=0;
+    // int r=s.length()-1;
+    if(l>r) return true;
+    if(l==r) return true;
+    
+    while(l<r){
+      if(s.charAt(l)!=s.charAt(r))
+         return false;
+      l++;
+      r--;
+    }
+    return true;
+         
+    }
 }
