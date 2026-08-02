@@ -414,6 +414,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1021-remove-outermost-parentheses](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/1021-remove-outermost-parentheses) |
 | [1047-remove-all-adjacent-duplicates-in-string](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/1047-remove-all-adjacent-duplicates-in-string) |
 | [1092-shortest-common-supersequence](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/1092-shortest-common-supersequence) |
+| [1106-parsing-a-boolean-expression](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/1106-parsing-a-boolean-expression) |
 | [1143-longest-common-subsequence](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/1143-longest-common-subsequence) |
 | [1250-longest-common-subsequence](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/1250-longest-common-subsequence) |
 | [1312-minimum-insertion-steps-to-make-a-string-palindrome](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/1312-minimum-insertion-steps-to-make-a-string-palindrome) |
@@ -776,6 +777,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0206-reverse-linked-list](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0206-reverse-linked-list) |
 | [0234-palindrome-linked-list](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0234-palindrome-linked-list) |
 | [0509-fibonacci-number](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0509-fibonacci-number) |
+| [1106-parsing-a-boolean-expression](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/1106-parsing-a-boolean-expression) |
 ## Trie
 |  |
 | ------- |
@@ -877,6 +879,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1008-construct-binary-search-tree-from-preorder-traversal](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/1008-construct-binary-search-tree-from-preorder-traversal) |
 | [1021-remove-outermost-parentheses](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/1021-remove-outermost-parentheses) |
 | [1047-remove-all-adjacent-duplicates-in-string](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/1047-remove-all-adjacent-duplicates-in-string) |
+| [1106-parsing-a-boolean-expression](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/1106-parsing-a-boolean-expression) |
 ## Topological Sort
 |  |
 | ------- |
