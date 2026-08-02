@@ -22,23 +22,13 @@ class Solution {
                 // Pop operator
                       char op=st.pop();
                         if(op=='&' ){
-                            if(f>0){
-                                st.push('f');
-                            }
-                            else
-                            st.push('t');
+                            st.push(f>0?'f':'t');
                         }
                         else if(op=='|'){
-                            if(t>0)
-                              st.push('t');
-                            else 
-                               st.push('f');
+                            st.push(t>0?'t':'f');
                         }
                         else{//for !
-                            if(t==1)
-                              st.push('f');
-                            else
-                             st.push('t');
+                          st.push(t==1?'f':'t');
                         }
                     }
                }
