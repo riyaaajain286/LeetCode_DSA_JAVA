@@ -4,22 +4,21 @@ class Solution {
          return solve(s1,s2); 
    }
    private static boolean solve(String a,String b){
-    String key=a+" "+b;
-    if(a.equals(b)){
-        map.put(key,true);
-        return true;
-    }
+    if(a.equals(b)) return true;
     int n=a.length(),m=b.length();
-    if(n!=m){
-        map.put(key,false);
-        return false;
-    }
+    if(n!=m) return false;
     if(n==1){
-      map.put(key,false);
       return a.equals(b);
     }
-    
+    String key=a+" "+b;
     if(map.containsKey(key)) return map.get(key);
+    //pruning check
+    boolean ans=checkFreq(a,b);
+    if(ans==false){
+      map.put(key,ans);
+      return false;
+    }
+     
     boolean flag=false;
     for(int k=1;k<=n-1;k++){
       //swap case
@@ -46,5 +45,17 @@ class Solution {
     map.put(key,flag);
      return flag;
    
+   }
+   private static boolean checkFreq(String a,String b){
+      int[] freq=new int[26];
+      for(int i=0;i<a.length();i++){
+        freq[a.charAt(i)-'a']++;
+        freq[b.charAt(i)-'a']--;
+      }
+      for(int i:freq){
+        if(i!=0)
+         return false;
+      }
+      return true;
    }
 }
