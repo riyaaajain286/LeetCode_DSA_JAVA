@@ -3,6 +3,7 @@ class Solution {
     static Boolean[] dp;
     public boolean wordBreak(String s, List<String> wordDict) {
         dp=new Boolean[s.length()];
+        //by converting to set it reduces complexity for searching word in dict
         Set<String> dict=new HashSet<>(wordDict);
         return  solve(s,dict,0);
     }
