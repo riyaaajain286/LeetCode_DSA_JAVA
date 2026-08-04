@@ -3,9 +3,10 @@ class Solution {
     static Boolean[] dp;
     public boolean wordBreak(String s, List<String> wordDict) {
         dp=new Boolean[s.length()];
-        return  solve(s,wordDict,0);
+        Set<String> dict=new HashSet<>(wordDict);
+        return  solve(s,dict,0);
     }
-    private static  boolean solve(String s, List<String> wordDict,int idx){
+    private static  boolean solve(String s, Set<String> dict,int idx){
         int n=s.length();
         //base case
         if(idx==n){
@@ -14,7 +15,7 @@ class Solution {
         if(dp[idx]!=null) return dp[idx];
         for(int k=idx+1;k<=n;k++){
             String word=s.substring(idx,k);
-            if(wordDict.contains(word) && solve(s,wordDict,k)){
+            if(dict.contains(word) && solve(s,dict,k)){
                 return dp[idx]=true;//after findig valid answer,return immediately
             }
         }
