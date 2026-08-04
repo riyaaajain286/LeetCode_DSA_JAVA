@@ -4,13 +4,21 @@ class Solution {
          return solve(s1,s2); 
    }
    private static boolean solve(String a,String b){
-    if(a.equals(b)) return true;
+    String key=a+" "+b;
+    if(a.equals(b)){
+        map.put(key,true);
+        return true;
+    }
     int n=a.length(),m=b.length();
-    if(n!=m) return false;
+    if(n!=m){
+        map.put(key,false);
+        return false;
+    }
     if(n==1){
+      map.put(key,false);
       return a.equals(b);
     }
-    String key=a+" "+b;
+    
     if(map.containsKey(key)) return map.get(key);
     boolean flag=false;
     for(int k=1;k<=n-1;k++){
