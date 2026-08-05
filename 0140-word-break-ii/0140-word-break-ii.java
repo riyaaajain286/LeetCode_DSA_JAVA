@@ -1,27 +1,39 @@
 class Solution {
-    //recursive
+    Set<String> set=new HashSet<>();
+    Map<String,List<String>> memo=new HashMap<>();
     public List<String> wordBreak(String s, List<String> wordDict) {
-        List<String> ans=new ArrayList<>();
-        Set<String> set=new HashSet<>(wordDict);
-        solve(s,set,ans,0,"");
-        return ans;
+        set.addAll(wordDict);
+        return solve(s);
     }
-    private void solve(String s, Set<String> set, List<String> ans,int i,String sentence){
-        int n=s.length();
+    private List<String> solve(String s){
+        //base case
+        if(s.length()==0){
+            List<String> base=new ArrayList<>();
+            base.add("");
+            return base;
+        }
+        //memo check if alrdy computed
+        if(memo.containsKey(s))
+           return memo.get(s);
         
-        if(i==n){
-            ans.add(sentence.trim());
-            return;
-        }
-        for(int j=i;j<n;j++){
-           String word=s.substring(i,j+1);
+        List<String> result=new ArrayList<>();
+        // Try every prefix
+        for(int l=1;l<=s.length();l++){
+            String word=s.substring(0,l);
             if(set.contains(word)){
-            //    sentence+=word;
-            //    sentence+=" ";
-              solve(s,set,ans,j+1,sentence+word+" ");
-            }
+                String rem=s.substring(l);
+                List<String> remResult=solve(rem);
             
+            for(String sentence:remResult){
+                if(sentence.isEmpty())
+                 result.add(word);
+                else{
+                   result.add(word+" "+sentence);
+                }
+            }
+            }
         }
-         
+        memo.put(s,result);
+        return result;
     }
 }
