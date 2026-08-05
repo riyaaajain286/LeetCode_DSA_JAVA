@@ -54,6 +54,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0136-single-number](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0136-single-number) |
 | [0137-single-number-ii](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0137-single-number-ii) |
 | [0139-word-break](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0139-word-break) |
+| [0140-word-break-ii](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0140-word-break-ii) |
 | [0153-find-minimum-in-rotated-sorted-array](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0153-find-minimum-in-rotated-sorted-array) |
 | [0162-find-peak-element](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0162-find-peak-element) |
 | [0169-majority-element](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0169-majority-element) |
@@ -152,6 +153,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0127-word-ladder](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0127-word-ladder) |
 | [0128-longest-consecutive-sequence](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0128-longest-consecutive-sequence) |
 | [0139-word-break](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0139-word-break) |
+| [0140-word-break-ii](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0140-word-break-ii) |
 | [0141-linked-list-cycle](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0141-linked-list-cycle) |
 | [0142-linked-list-cycle-ii](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0142-linked-list-cycle-ii) |
 | [0146-lru-cache](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0146-lru-cache) |
@@ -325,6 +327,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0131-palindrome-partitioning](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0131-palindrome-partitioning) |
 | [0132-palindrome-partitioning-ii](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0132-palindrome-partitioning-ii) |
 | [0139-word-break](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0139-word-break) |
+| [0140-word-break-ii](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0140-word-break-ii) |
 | [0198-house-robber](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0198-house-robber) |
 | [0213-house-robber-ii](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0213-house-robber-ii) |
 | [0322-coin-change](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0322-coin-change) |
@@ -357,6 +360,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0070-climbing-stairs](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0070-climbing-stairs) |
 | [0139-word-break](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0139-word-break) |
+| [0140-word-break-ii](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0140-word-break-ii) |
 | [0509-fibonacci-number](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0509-fibonacci-number) |
 ## Backtracking
 |  |
@@ -369,6 +373,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0078-subsets](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0078-subsets) |
 | [0090-subsets-ii](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0090-subsets-ii) |
 | [0131-palindrome-partitioning](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0131-palindrome-partitioning) |
+| [0140-word-break-ii](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0140-word-break-ii) |
 | [0494-target-sum](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0494-target-sum) |
 ## Bit Manipulation
 |  |
@@ -401,6 +406,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0131-palindrome-partitioning](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0131-palindrome-partitioning) |
 | [0132-palindrome-partitioning-ii](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0132-palindrome-partitioning-ii) |
 | [0139-word-break](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0139-word-break) |
+| [0140-word-break-ii](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0140-word-break-ii) |
 | [0151-reverse-words-in-a-string](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0151-reverse-words-in-a-string) |
 | [0205-isomorphic-strings](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0205-isomorphic-strings) |
 | [0242-valid-anagram](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0242-valid-anagram) |
@@ -790,6 +796,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0014-longest-common-prefix](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0014-longest-common-prefix) |
 | [0139-word-break](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0139-word-break) |
+| [0140-word-break-ii](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0140-word-break-ii) |
 | [2452-words-within-two-edits-of-dictionary](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/2452-words-within-two-edits-of-dictionary) |
 ## Merge Sort
 |  |
