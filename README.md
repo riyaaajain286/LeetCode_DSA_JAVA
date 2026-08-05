@@ -123,6 +123,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1752-check-if-array-is-sorted-and-rotated](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/1752-check-if-array-is-sorted-and-rotated) |
 | [1753-path-with-minimum-effort](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/1753-path-with-minimum-effort) |
 | [1861-rotating-the-box](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/1861-rotating-the-box) |
+| [1979-find-greatest-common-divisor-of-array](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/1979-find-greatest-common-divisor-of-array) |
 | [1992-find-all-groups-of-farmland](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/1992-find-all-groups-of-farmland) |
 | [2006-count-number-of-pairs-with-absolute-difference-k](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/2006-count-number-of-pairs-with-absolute-difference-k) |
 | [2033-minimum-operations-to-make-a-uni-value-grid](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/2033-minimum-operations-to-make-a-uni-value-grid) |
@@ -297,6 +298,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1295-find-numbers-with-even-number-of-digits](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/1295-find-numbers-with-even-number-of-digits) |
 | [1303-minimum-moves-to-reach-target-score](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/1303-minimum-moves-to-reach-target-score) |
 | [1903-largest-odd-number-in-string](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/1903-largest-odd-number-in-string) |
+| [1979-find-greatest-common-divisor-of-array](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/1979-find-greatest-common-divisor-of-array) |
 | [2033-minimum-operations-to-make-a-uni-value-grid](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/2033-minimum-operations-to-make-a-uni-value-grid) |
 | [3227-find-missing-and-repeated-values](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/3227-find-missing-and-repeated-values) |
 | [3296-minimum-number-of-seconds-to-make-mountain-height-zero](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/3296-minimum-number-of-seconds-to-make-mountain-height-zero) |
@@ -1012,6 +1014,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0258-add-digits](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0258-add-digits) |
+| [1979-find-greatest-common-divisor-of-array](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/1979-find-greatest-common-divisor-of-array) |
 ## Biconnected Component
 |  |
 | ------- |
@@ -1028,4 +1031,12 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0139-word-break](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0139-word-break) |
+## Euclidean Algorithm
+|  |
+| ------- |
+| [1979-find-greatest-common-divisor-of-array](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/1979-find-greatest-common-divisor-of-array) |
+## Greatest Common Divisor
+|  |
+| ------- |
+| [1979-find-greatest-common-divisor-of-array](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/1979-find-greatest-common-divisor-of-array) |
 <!---LeetCode Topics End-->
