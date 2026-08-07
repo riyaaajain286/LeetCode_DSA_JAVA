@@ -2,7 +2,7 @@ class Solution {
     public List<List<Integer>> fourSum(int[] nums, int target) {
         int n=nums.length;
         Arrays.sort(nums);
-        Set<List<Integer>> set=new HashSet<>();
+        List<List<Integer>> ans=new ArrayList<>();
        
         for(int i=0;i<n-3;i++){
             // Skip duplicate first element
@@ -17,7 +17,7 @@ class Solution {
                 while(left<right){
                     long sum=(long)nums[i]+nums[j]+nums[left]+nums[right];
                     if(sum==target){
-                      set.add(Arrays.asList(nums[i],nums[j],nums[left],nums[right]));
+                      ans.add(Arrays.asList(nums[i],nums[j],nums[left],nums[right]));
                     
                        // Skip duplicate left element
                         while(left<right && nums[left]==nums[left+1])
@@ -38,7 +38,7 @@ class Solution {
                 }
             }
         }
-        List<List<Integer>> ans=new ArrayList<>(set);
+        
         return ans;
     }
 }
