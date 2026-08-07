@@ -2,23 +2,43 @@ class Solution {
     public List<List<Integer>> fourSum(int[] nums, int target) {
         int n=nums.length;
         Arrays.sort(nums);
-        List<List<Integer>> ans=new ArrayList<>();
+        Set<List<Integer>> set=new HashSet<>();
+       
         for(int i=0;i<n-3;i++){
+            // Skip duplicate first element
             if(i>0 && nums[i]==nums[i-1]) continue;
+
             for(int j=i+1;j<n-2;j++){
+                // Skip duplicate second element
                 if(j>i+1 && nums[j]==nums[j-1]) continue;
-                for(int k=j+1;k<n-1;k++){
-                    if(k>j+1 && nums[k]==nums[k-1]) continue;
-                    for(int l=k+1;l<n;l++){
-                        if(l>k+1 && nums[l]==nums[l-1]) continue;
-                        long sum=(long)nums[i]+nums[j]+nums[k]+nums[l];
-                        if(sum==target){
-                          ans.add(Arrays.asList(nums[i],nums[j],nums[k],nums[l]));
-                        }
+
+                int left=j+1,right=n-1;
+
+                while(left<right){
+                    long sum=(long)nums[i]+nums[j]+nums[left]+nums[right];
+                    if(sum==target){
+                      set.add(Arrays.asList(nums[i],nums[j],nums[left],nums[right]));
+                    
+                       // Skip duplicate left element
+                        while(left<right && nums[left]==nums[left+1])
+                        left++;
+                        // Skip duplicate right element
+                        while(left<right && nums[right]==nums[right-1])
+                        right--;
+                    left++;
+                    right--;
+                    }
+                   
+                    else if(sum<target){
+                        left++;
+                    }
+                    else{
+                        right--;
                     }
                 }
             }
         }
+        List<List<Integer>> ans=new ArrayList<>(set);
         return ans;
     }
 }
