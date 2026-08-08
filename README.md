@@ -69,6 +69,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0268-missing-number](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0268-missing-number) |
 | [0287-find-the-duplicate-number](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0287-find-the-duplicate-number) |
 | [0303-range-sum-query-immutable](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0303-range-sum-query-immutable) |
+| [0312-burst-balloons](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0312-burst-balloons) |
 | [0322-coin-change](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0322-coin-change) |
 | [0347-top-k-frequent-elements](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0347-top-k-frequent-elements) |
 | [0349-intersection-of-two-arrays](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0349-intersection-of-two-arrays) |
@@ -330,6 +331,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0140-word-break-ii](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0140-word-break-ii) |
 | [0198-house-robber](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0198-house-robber) |
 | [0213-house-robber-ii](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0213-house-robber-ii) |
+| [0312-burst-balloons](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0312-burst-balloons) |
 | [0322-coin-change](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0322-coin-change) |
 | [0396-rotate-function](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0396-rotate-function) |
 | [0403-frog-jump](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0403-frog-jump) |
