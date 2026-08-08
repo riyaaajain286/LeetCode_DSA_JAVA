@@ -5,7 +5,7 @@ class Solution {
         int n=nums.length;
         
         int[] newNums=new int[n+2];
-        dp=new int[n+2][n+2];
+        dp=new int[n+1][n+1];
         for(int[] r:dp)
          Arrays.fill(r,-1);
         newNums[0]=1;
