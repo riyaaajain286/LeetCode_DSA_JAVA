@@ -1,12 +1,15 @@
 # Write your MySQL query statement below
-SELECT person_name
-FROM(
-SELECT person_name,
-SUM(weight) OVER (ORDER  BY turn) AS total_weight
-FROM Queue
-) t
+SELECT q1.person_name
+FROM Queue q1
+WHERE 
+(
+    SELECT 
+    SUM(q2.weight)
+    FROM Queue q2
+    WHERE q2.turn<=q1.turn
+) <=1000
 
-WHERE total_weight <=1000
--- GROUP BY turn
-ORDER BY t.total_weight DESC 
+ORDER BY q1.turn DESC 
 Limit 1;
+
+-- For every person, calculate the total weight of everyone up to that person's turn; keep people whose total is ≤ 1000; then pick the person with the highest turn.
