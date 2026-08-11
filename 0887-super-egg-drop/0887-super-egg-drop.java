@@ -1,37 +1,17 @@
 class Solution {
-    int dp[][]=new int[101][10001];
+    //move based approach
     public int superEggDrop(int k, int n) {
-        //  initialize dp with -1
-       for(int[] row:dp){
-        Arrays.fill(row,-1);
-       }
-        return solve(k,n);
-    }
-    public int solve(int k, int n){
-        //base case
-        if(n==0||n==1)  return n;
-        if(k==1) return n;
-        if(dp[k][n]!=-1) return dp[k][n];
-        
-        //i=1;we will move k on all floors of the building
-        //j=f
-        int ans=Integer.MAX_VALUE;
-        int low=1,high=n;
-        while(low<=high){
-            int mid=(low+high)/2;
-
-            int breakEgg=solve(k-1, mid-1);
-            int notBreak=solve(k, n-mid);
-
-            int temp=1+Math.max(breakEgg, notBreak);
-            ans=Math.min(ans, temp);
-
-            if(breakEgg<notBreak){
-                low=mid+1;
-            }else{
-                high=mid-1;
+        int moves=0;
+        int[] dp=new int[k+1];
+        while(dp[k]<n){
+            moves++;
+            //dp[e] = floors we can cover with e eggs using previous moves
+            //Given eggs + moves=Find maximum floors
+            //each time we try to find that with given eggs and increaing moves how many floors can we cover that is by the last index of dp i.e. dp[k]
+            for(int eggs=k;eggs>=1;eggs--){
+               dp[eggs]=dp[eggs-1]+1+dp[eggs];
             }
         }
-        return dp[k][n]=ans;
+        return moves;
     }
 }
