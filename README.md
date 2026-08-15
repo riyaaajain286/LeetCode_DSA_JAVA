@@ -138,6 +138,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2653-sliding-subarray-beauty](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/2653-sliding-subarray-beauty) |
 | [3227-find-missing-and-repeated-values](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/3227-find-missing-and-repeated-values) |
 | [3296-minimum-number-of-seconds-to-make-mountain-height-zero](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/3296-minimum-number-of-seconds-to-make-mountain-height-zero) |
+| [3702-longest-subsequence-with-non-zero-bitwise-xor](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/3702-longest-subsequence-with-non-zero-bitwise-xor) |
 ## Hash Table
 |  |
 | ------- |
@@ -388,6 +389,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0287-find-the-duplicate-number](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0287-find-the-duplicate-number) |
 | [0389-find-the-difference](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0389-find-the-difference) |
 | [1009-complement-of-base-10-integer](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/1009-complement-of-base-10-integer) |
+| [3702-longest-subsequence-with-non-zero-bitwise-xor](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/3702-longest-subsequence-with-non-zero-bitwise-xor) |
 ## String
 |  |
 | ------- |
