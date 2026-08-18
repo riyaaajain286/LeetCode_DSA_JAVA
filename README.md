@@ -139,6 +139,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3227-find-missing-and-repeated-values](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/3227-find-missing-and-repeated-values) |
 | [3296-minimum-number-of-seconds-to-make-mountain-height-zero](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/3296-minimum-number-of-seconds-to-make-mountain-height-zero) |
 | [3702-longest-subsequence-with-non-zero-bitwise-xor](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/3702-longest-subsequence-with-non-zero-bitwise-xor) |
+| [3731-find-missing-elements](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/3731-find-missing-elements) |
 ## Hash Table
 |  |
 | ------- |
@@ -191,6 +192,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2653-sliding-subarray-beauty](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/2653-sliding-subarray-beauty) |
 | [3090-maximum-length-substring-with-two-occurrences](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/3090-maximum-length-substring-with-two-occurrences) |
 | [3227-find-missing-and-repeated-values](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/3227-find-missing-and-repeated-values) |
+| [3731-find-missing-elements](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/3731-find-missing-elements) |
 ## Divide and Conquer
 |  |
 | ------- |
@@ -472,6 +474,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [2033-minimum-operations-to-make-a-uni-value-grid](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/2033-minimum-operations-to-make-a-uni-value-grid) |
 | [2113-find-the-kth-largest-integer-in-the-array](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/2113-find-the-kth-largest-integer-in-the-array) |
 | [2441-largest-positive-integer-that-exists-with-its-negative](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/2441-largest-positive-integer-that-exists-with-its-negative) |
+| [3731-find-missing-elements](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/3731-find-missing-elements) |
 ## Counting
 |  |
 | ------- |
