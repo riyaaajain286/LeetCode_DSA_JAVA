@@ -1,16 +1,34 @@
 class Solution {
+    class Pair{
+        int x; int y;
+
+        public Pair(int x, int y){
+            this.x=x;
+            this.y=y;
+        }
+    }
+
     public boolean exist(char[][] board, String word) {
         int n=board.length;
         int m=board[0].length;
+
+        Queue<Pair> q=new LinkedList<>();
+
         for(int i=0;i<n;i++){
             for(int j=0;j<m;j++){
                 if(board[i][j]==word.charAt(0)){
-                    boolean [][]vis=new boolean[n][m];
-                    if(dfs(board, word, i, j, 1, vis)) return true;
+                    q.add(new Pair(i, j));
                 }
             }
         }
 
+        while(!q.isEmpty()){
+            Pair p=q.poll();
+            int row=p.x;
+            int col=p.y;
+            boolean [][]vis=new boolean[n][m];
+            if(dfs(board, word, row, col, 1, vis)) return true;
+        }        
         return false;
     }
     
