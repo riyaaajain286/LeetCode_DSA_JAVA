@@ -1,54 +1,39 @@
 class Solution {
-    class Pair{
-        int x; int y;
-
-        public Pair(int x, int y){
-            this.x=x;
-            this.y=y;
-        }
-    }
-
     public boolean exist(char[][] board, String word) {
         int n=board.length;
         int m=board[0].length;
-
-        Queue<Pair> q=new LinkedList<>();
-
+        boolean[][] vis=new boolean[n][m];
         for(int i=0;i<n;i++){
-            for(int j=0;j<m;j++){
-                if(board[i][j]==word.charAt(0)){
-                    q.add(new Pair(i, j));
-                }
+        for(int j=0;j<m;j++){
+            
+            if( !vis[i][j] && board[i][j]==word.charAt(0)){
+            if(dfs(board,word,vis,i,j,1))
+            return true;
             }
         }
-
-        while(!q.isEmpty()){
-            Pair p=q.poll();
-            int row=p.x;
-            int col=p.y;
-            boolean [][]vis=new boolean[n][m];
-            if(dfs(board, word, row, col, 1, vis)) return true;
-        }        
-        return false;
-    }
-    
-    int[] dx={-1,0,1,0};
-    int[] dy={0,1,0,-1};
-    boolean dfs(char [][]board, String word, int row, int col, int k, boolean [][]vis){
-        if(k>=word.length()) return true;
-        vis[row][col]=true;
-
-        for(int i=0;i<4;i++){
-            int nrow=row+dx[i];
-            int ncol=col+dy[i];
-
-            if(nrow>=0 && nrow<board.length && ncol>=0 && ncol<board[0].length && !vis[nrow][ncol] && board[nrow][ncol]==word.charAt(k)){
-                if(dfs(board, word, nrow, ncol, k+1, vis)) return true;
-            }
         }
-
-        // BACKTRACK
-        vis[row][col] = false;
         return false;
     }
+   
+  static int[] dr={-1,0,1,0};
+  static int[] dc={0,1,0,-1};
+
+  private static boolean dfs(char[][] board,String word,boolean[][] vis,int i,int j,int ind){
+     int n=board.length;
+     int m=board[0].length;
+     if(ind>=word.length()) return true; 
+     vis[i][j]=true;
+     for(int k=0;k<4;k++){
+      int nr=i+dr[k];
+      int nc=j+dc[k];
+      if(nr>=0 && nr<n && nc>=0 && nc<m && !vis[nr][nc] && board[nr][nc]==word.charAt(ind)){
+        if(dfs(board,word,vis,nr,nc,ind+1)){
+          return true;
+        }
+      }
+     }
+     //backtrack
+     vis[i][j]=false;
+     return false;
+  }
 }
