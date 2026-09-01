@@ -1,23 +1,17 @@
 class Solution {
     public int mySqrt(int x) {
-        if(x==0||x==1){
-            return x;
+        if(x<2) return x;
+        int low=1,high=x/2,ans=1;
+        while(low<=high){
+            int mid=low+(high-low)/2;
+            if(mid<=x/mid){//equivalent to mid^2<=n
+                ans=mid;
+                low=mid+1;
+            }
+            else{
+                high=mid-1;
+            }
         }
-        //binary search
-      int start=0;
-      int end=x;
-      while(start<=end){
-       int mid=start+(end-start)/2;
-       if(mid==x/mid){
-        return mid;
-       }
-       else if(mid>x/mid){
-        end=mid-1;
-       }
-       else{
-        start=mid+1;
-       }
-      }
-      return end;
+        return ans;
     }
 }
