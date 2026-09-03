@@ -1,35 +1,37 @@
 class Solution {
-    //kahn's algo
     public boolean canFinish(int numCourses, int[][] prerequisites) {
-        int[] indegree=new int[numCourses];
         ArrayList<ArrayList<Integer>> adj=new ArrayList<>();
+        int[] indegree=new int[numCourses];
         for(int i=0;i<numCourses;i++){
             adj.add(new ArrayList<>());
         }
-        for(int[] i:prerequisites){
-           adj.get(i[1]).add(i[0]);
-           indegree[i[0]]++;
+        for(int[] it:prerequisites){
+           adj.get(it[1]).add(it[0]);
+           indegree[it[0]]++;
         }
-        Queue<Integer> q=new LinkedList<>();
-        for(int j=0;j<numCourses;j++){
-            if(indegree[j]==0){
-                q.add(j);
-            }
-        }
-        int c=0;
-        while(!q.isEmpty()){
-            int node=q.poll();
-            c++;
-             for(int adjnode:adj.get(node)){
-                indegree[adjnode]--;
-               if(indegree[adjnode]==0){
-                q.add(adjnode);
-               }
-            }
-        }
-        if(c==numCourses) 
-         return true;
-       return false;
+     
+     Queue<Integer> q=new LinkedList<>();
+     
+     for(int i=0;i<numCourses;i++){
+      if(indegree[i]==0){
+         q.add(i);
         
-    }
+      }
+     }
+    int c=0;
+     while(!q.isEmpty()){
+      int node=q.poll();
+      c++;
+      for(int it:adj.get(node)){
+          indegree[it]--;
+          if(indegree[it]==0){
+            q.add(it);
+            
+          }
+      }
+     }
+    if(c==numCourses) return true;
+    return false;
+     
+  }
 }
