@@ -302,6 +302,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0258-add-digits](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0258-add-digits) |
 | [0268-missing-number](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0268-missing-number) |
 | [0396-rotate-function](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0396-rotate-function) |
+| [0400-nth-digit](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0400-nth-digit) |
 | [0509-fibonacci-number](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0509-fibonacci-number) |
 | [0788-rotated-digits](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0788-rotated-digits) |
 | [0887-super-egg-drop](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0887-super-egg-drop) |
@@ -594,6 +595,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0287-find-the-duplicate-number](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0287-find-the-duplicate-number) |
 | [0349-intersection-of-two-arrays](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0349-intersection-of-two-arrays) |
 | [0378-kth-smallest-element-in-a-sorted-matrix](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0378-kth-smallest-element-in-a-sorted-matrix) |
+| [0400-nth-digit](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0400-nth-digit) |
 | [0410-split-array-largest-sum](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0410-split-array-largest-sum) |
 | [0540-single-element-in-a-sorted-array](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0540-single-element-in-a-sorted-array) |
 | [0704-binary-search](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0704-binary-search) |
