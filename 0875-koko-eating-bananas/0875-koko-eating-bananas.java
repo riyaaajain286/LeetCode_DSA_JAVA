@@ -26,8 +26,8 @@ class Solution {
   private static long calculateHours(int[] piles,int speed){
     long totalHours=0;
     for(int p:piles){
-       totalHours+=(int)Math.ceil((double)p/speed);
-    //   totalHours+=(p+speed-1)/speed;
+    //    totalHours+=(int)Math.ceil((double)p/speed);
+      totalHours+=(p+speed-1)/speed;
     }
     return totalHours;
     }
