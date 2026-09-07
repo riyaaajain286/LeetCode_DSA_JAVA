@@ -85,6 +85,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0485-max-consecutive-ones](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0485-max-consecutive-ones) |
 | [0494-target-sum](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0494-target-sum) |
 | [0518-coin-change-ii](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0518-coin-change-ii) |
+| [0525-contiguous-array](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0525-contiguous-array) |
 | [0540-single-element-in-a-sorted-array](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0540-single-element-in-a-sorted-array) |
 | [0542-01-matrix](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0542-01-matrix) |
 | [0560-subarray-sum-equals-k](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0560-subarray-sum-equals-k) |
@@ -179,6 +180,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0438-find-all-anagrams-in-a-string](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0438-find-all-anagrams-in-a-string) |
 | [0442-find-all-duplicates-in-an-array](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0442-find-all-duplicates-in-an-array) |
 | [0451-sort-characters-by-frequency](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0451-sort-characters-by-frequency) |
+| [0525-contiguous-array](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0525-contiguous-array) |
 | [0560-subarray-sum-equals-k](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0560-subarray-sum-equals-k) |
 | [0567-permutation-in-string](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0567-permutation-in-string) |
 | [0632-smallest-range-covering-elements-from-k-lists](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0632-smallest-range-covering-elements-from-k-lists) |
@@ -741,6 +743,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0238-product-of-array-except-self](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0238-product-of-array-except-self) |
 | [0303-range-sum-query-immutable](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0303-range-sum-query-immutable) |
 | [0410-split-array-largest-sum](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0410-split-array-largest-sum) |
+| [0525-contiguous-array](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0525-contiguous-array) |
 | [0560-subarray-sum-equals-k](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0560-subarray-sum-equals-k) |
 | [0724-find-pivot-index](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0724-find-pivot-index) |
 | [0930-binary-subarrays-with-sum](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0930-binary-subarrays-with-sum) |
