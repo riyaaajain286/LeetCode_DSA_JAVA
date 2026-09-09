@@ -127,6 +127,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1732-find-the-highest-altitude](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/1732-find-the-highest-altitude) |
 | [1752-check-if-array-is-sorted-and-rotated](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/1752-check-if-array-is-sorted-and-rotated) |
 | [1753-path-with-minimum-effort](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/1753-path-with-minimum-effort) |
+| [1838-frequency-of-the-most-frequent-element](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/1838-frequency-of-the-most-frequent-element) |
 | [1861-rotating-the-box](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/1861-rotating-the-box) |
 | [1979-find-greatest-common-divisor-of-array](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/1979-find-greatest-common-divisor-of-array) |
 | [1992-find-all-groups-of-farmland](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/1992-find-all-groups-of-farmland) |
@@ -484,6 +485,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0721-accounts-merge](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0721-accounts-merge) |
 | [0987-vertical-order-traversal-of-a-binary-tree](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0987-vertical-order-traversal-of-a-binary-tree) |
 | [1184-car-pooling](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/1184-car-pooling) |
+| [1838-frequency-of-the-most-frequent-element](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/1838-frequency-of-the-most-frequent-element) |
 | [2033-minimum-operations-to-make-a-uni-value-grid](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/2033-minimum-operations-to-make-a-uni-value-grid) |
 | [2113-find-the-kth-largest-integer-in-the-array](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/2113-find-the-kth-largest-integer-in-the-array) |
 | [2441-largest-positive-integer-that-exists-with-its-negative](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/2441-largest-positive-integer-that-exists-with-its-negative) |
@@ -612,6 +614,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1482-minimum-number-of-days-to-make-m-bouquets](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/1482-minimum-number-of-days-to-make-m-bouquets) |
 | [1539-kth-missing-positive-number](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/1539-kth-missing-positive-number) |
 | [1753-path-with-minimum-effort](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/1753-path-with-minimum-effort) |
+| [1838-frequency-of-the-most-frequent-element](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/1838-frequency-of-the-most-frequent-element) |
 | [3296-minimum-number-of-seconds-to-make-mountain-height-zero](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/3296-minimum-number-of-seconds-to-make-mountain-height-zero) |
 ## Depth-First Search
 |  |
@@ -751,6 +754,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1184-car-pooling](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/1184-car-pooling) |
 | [1480-running-sum-of-1d-array](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/1480-running-sum-of-1d-array) |
 | [1732-find-the-highest-altitude](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/1732-find-the-highest-altitude) |
+| [1838-frequency-of-the-most-frequent-element](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/1838-frequency-of-the-most-frequent-element) |
 | [2483-minimum-penalty-for-a-shop](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/2483-minimum-penalty-for-a-shop) |
 ## Simulation
 |  |
@@ -846,6 +850,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1004-max-consecutive-ones-iii](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/1004-max-consecutive-ones-iii) |
 | [1052-grumpy-bookstore-owner](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/1052-grumpy-bookstore-owner) |
 | [1493-longest-subarray-of-1s-after-deleting-one-element](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/1493-longest-subarray-of-1s-after-deleting-one-element) |
+| [1838-frequency-of-the-most-frequent-element](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/1838-frequency-of-the-most-frequent-element) |
 | [2134-minimum-swaps-to-group-all-1s-together-ii](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/2134-minimum-swaps-to-group-all-1s-together-ii) |
 | [2461-maximum-sum-of-distinct-subarrays-with-length-k](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/2461-maximum-sum-of-distinct-subarrays-with-length-k) |
 | [2653-sliding-subarray-beauty](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/2653-sliding-subarray-beauty) |
@@ -877,6 +882,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0860-lemonade-change](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0860-lemonade-change) |
 | [1303-minimum-moves-to-reach-target-score](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/1303-minimum-moves-to-reach-target-score) |
 | [1382-balance-a-binary-search-tree](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/1382-balance-a-binary-search-tree) |
+| [1838-frequency-of-the-most-frequent-element](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/1838-frequency-of-the-most-frequent-element) |
 | [1903-largest-odd-number-in-string](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/1903-largest-odd-number-in-string) |
 | [3296-minimum-number-of-seconds-to-make-mountain-height-zero](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/3296-minimum-number-of-seconds-to-make-mountain-height-zero) |
 ## Union Find
