@@ -323,6 +323,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [3296-minimum-number-of-seconds-to-make-mountain-height-zero](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/3296-minimum-number-of-seconds-to-make-mountain-height-zero) |
 | [3336-water-bottles-ii](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/3336-water-bottles-ii) |
 | [3345-smallest-divisible-digit-product-i](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/3345-smallest-divisible-digit-product-i) |
+| [3870-count-commas-in-range](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/3870-count-commas-in-range) |
 ## Dynamic Programming
 |  |
 | ------- |
