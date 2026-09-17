@@ -117,6 +117,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1231-replace-elements-with-greatest-element-on-right-side](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/1231-replace-elements-with-greatest-element-on-right-side) |
 | [1283-find-the-smallest-divisor-given-a-threshold](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/1283-find-the-smallest-divisor-given-a-threshold) |
 | [1295-find-numbers-with-even-number-of-digits](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/1295-find-numbers-with-even-number-of-digits) |
+| [1477-find-two-non-overlapping-sub-arrays-each-with-target-sum](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/1477-find-two-non-overlapping-sub-arrays-each-with-target-sum) |
 | [1479-construct-target-array-with-multiple-sums](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/1479-construct-target-array-with-multiple-sums) |
 | [1480-running-sum-of-1d-array](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/1480-running-sum-of-1d-array) |
 | [1482-minimum-number-of-days-to-make-m-bouquets](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/1482-minimum-number-of-days-to-make-m-bouquets) |
@@ -195,6 +196,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0947-most-stones-removed-with-same-row-or-column](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0947-most-stones-removed-with-same-row-or-column) |
 | [0987-vertical-order-traversal-of-a-binary-tree](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0987-vertical-order-traversal-of-a-binary-tree) |
 | [1171-remove-zero-sum-consecutive-nodes-from-linked-list](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/1171-remove-zero-sum-consecutive-nodes-from-linked-list) |
+| [1477-find-two-non-overlapping-sub-arrays-each-with-target-sum](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/1477-find-two-non-overlapping-sub-arrays-each-with-target-sum) |
 | [2006-count-number-of-pairs-with-absolute-difference-k](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/2006-count-number-of-pairs-with-absolute-difference-k) |
 | [2441-largest-positive-integer-that-exists-with-its-negative](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/2441-largest-positive-integer-that-exists-with-its-negative) |
 | [2461-maximum-sum-of-distinct-subarrays-with-length-k](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/2461-maximum-sum-of-distinct-subarrays-with-length-k) |
@@ -374,6 +376,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1250-longest-common-subsequence](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/1250-longest-common-subsequence) |
 | [1312-minimum-insertion-steps-to-make-a-string-palindrome](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/1312-minimum-insertion-steps-to-make-a-string-palindrome) |
 | [1334-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/1334-find-the-city-with-the-smallest-number-of-neighbors-at-a-threshold-distance) |
+| [1477-find-two-non-overlapping-sub-arrays-each-with-target-sum](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/1477-find-two-non-overlapping-sub-arrays-each-with-target-sum) |
 | [1493-longest-subarray-of-1s-after-deleting-one-element](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/1493-longest-subarray-of-1s-after-deleting-one-element) |
 | [1976-number-of-ways-to-arrive-at-destination](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/1976-number-of-ways-to-arrive-at-destination) |
 ## Memoization
@@ -617,6 +620,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1004-max-consecutive-ones-iii](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/1004-max-consecutive-ones-iii) |
 | [1011-capacity-to-ship-packages-within-d-days](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/1011-capacity-to-ship-packages-within-d-days) |
 | [1283-find-the-smallest-divisor-given-a-threshold](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/1283-find-the-smallest-divisor-given-a-threshold) |
+| [1477-find-two-non-overlapping-sub-arrays-each-with-target-sum](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/1477-find-two-non-overlapping-sub-arrays-each-with-target-sum) |
 | [1482-minimum-number-of-days-to-make-m-bouquets](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/1482-minimum-number-of-days-to-make-m-bouquets) |
 | [1539-kth-missing-positive-number](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/1539-kth-missing-positive-number) |
 | [1753-path-with-minimum-effort](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/1753-path-with-minimum-effort) |
@@ -856,6 +860,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0930-binary-subarrays-with-sum](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0930-binary-subarrays-with-sum) |
 | [1004-max-consecutive-ones-iii](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/1004-max-consecutive-ones-iii) |
 | [1052-grumpy-bookstore-owner](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/1052-grumpy-bookstore-owner) |
+| [1477-find-two-non-overlapping-sub-arrays-each-with-target-sum](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/1477-find-two-non-overlapping-sub-arrays-each-with-target-sum) |
 | [1493-longest-subarray-of-1s-after-deleting-one-element](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/1493-longest-subarray-of-1s-after-deleting-one-element) |
 | [1838-frequency-of-the-most-frequent-element](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/1838-frequency-of-the-most-frequent-element) |
 | [2134-minimum-swaps-to-group-all-1s-together-ii](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/2134-minimum-swaps-to-group-all-1s-together-ii) |
