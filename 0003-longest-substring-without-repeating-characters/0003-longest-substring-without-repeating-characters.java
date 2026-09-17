@@ -12,6 +12,6 @@ class Solution {
           set.add(s.charAt(r));
           maxlen=Math.max(maxlen,r-l+1);
         }
-        return maxlen;
+        return maxlen==Integer.MIN_VALUE?0:maxlen;
     }
 }
