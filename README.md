@@ -104,6 +104,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0904-fruit-into-baskets](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0904-fruit-into-baskets) |
 | [0930-binary-subarrays-with-sum](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0930-binary-subarrays-with-sum) |
 | [0994-rotting-oranges](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0994-rotting-oranges) |
+| [1002-find-common-characters](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/1002-find-common-characters) |
 | [1004-max-consecutive-ones-iii](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/1004-max-consecutive-ones-iii) |
 | [1008-construct-binary-search-tree-from-preorder-traversal](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/1008-construct-binary-search-tree-from-preorder-traversal) |
 | [1011-capacity-to-ship-packages-within-d-days](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/1011-capacity-to-ship-packages-within-d-days) |
@@ -196,6 +197,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0930-binary-subarrays-with-sum](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0930-binary-subarrays-with-sum) |
 | [0947-most-stones-removed-with-same-row-or-column](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0947-most-stones-removed-with-same-row-or-column) |
 | [0987-vertical-order-traversal-of-a-binary-tree](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0987-vertical-order-traversal-of-a-binary-tree) |
+| [1002-find-common-characters](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/1002-find-common-characters) |
 | [1171-remove-zero-sum-consecutive-nodes-from-linked-list](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/1171-remove-zero-sum-consecutive-nodes-from-linked-list) |
 | [1477-find-two-non-overlapping-sub-arrays-each-with-target-sum](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/1477-find-two-non-overlapping-sub-arrays-each-with-target-sum) |
 | [2006-count-number-of-pairs-with-absolute-difference-k](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/2006-count-number-of-pairs-with-absolute-difference-k) |
@@ -456,6 +458,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0763-partition-labels](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0763-partition-labels) |
 | [0771-jewels-and-stones](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0771-jewels-and-stones) |
 | [0796-rotate-string](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0796-rotate-string) |
+| [1002-find-common-characters](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/1002-find-common-characters) |
 | [1021-remove-outermost-parentheses](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/1021-remove-outermost-parentheses) |
 | [1047-remove-all-adjacent-duplicates-in-string](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/1047-remove-all-adjacent-duplicates-in-string) |
 | [1092-shortest-common-supersequence](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/1092-shortest-common-supersequence) |
