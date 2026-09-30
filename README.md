@@ -315,6 +315,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0268-missing-number](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0268-missing-number) |
 | [0396-rotate-function](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0396-rotate-function) |
 | [0400-nth-digit](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0400-nth-digit) |
+| [0415-add-strings](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0415-add-strings) |
 | [0509-fibonacci-number](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0509-fibonacci-number) |
 | [0788-rotated-digits](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0788-rotated-digits) |
 | [0836-rectangle-overlap](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0836-rectangle-overlap) |
@@ -448,6 +449,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0383-ransom-note](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0383-ransom-note) |
 | [0387-first-unique-character-in-a-string](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0387-first-unique-character-in-a-string) |
 | [0389-find-the-difference](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0389-find-the-difference) |
+| [0415-add-strings](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0415-add-strings) |
 | [0424-longest-repeating-character-replacement](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0424-longest-repeating-character-replacement) |
 | [0438-find-all-anagrams-in-a-string](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0438-find-all-anagrams-in-a-string) |
 | [0451-sort-characters-by-frequency](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0451-sort-characters-by-frequency) |
@@ -784,6 +786,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0054-spiral-matrix](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0054-spiral-matrix) |
 | [0258-add-digits](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0258-add-digits) |
+| [0415-add-strings](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0415-add-strings) |
 | [0735-asteroid-collision](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0735-asteroid-collision) |
 | [1184-car-pooling](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/1184-car-pooling) |
 | [2271-rearrange-array-elements-by-sign](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/2271-rearrange-array-elements-by-sign) |
