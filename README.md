@@ -1169,4 +1169,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0836-rectangle-overlap](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0836-rectangle-overlap) |
 | [1401-circle-and-rectangle-overlapping](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/1401-circle-and-rectangle-overlapping) |
+## Bracket Sequences
+|  |
+| ------- |
+| [0678-valid-parenthesis-string](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0678-valid-parenthesis-string) |
 <!---LeetCode Topics End-->
