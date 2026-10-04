@@ -3,6 +3,7 @@ class Solution {
      int min=0;
      int max=0;
      for(int i=0;i<s.length();i++){
+        
         if(s.charAt(i)=='('){
             min+=1;
             max+=1;
@@ -11,7 +12,7 @@ class Solution {
             min-=1;
             max-=1;
         }
-        else{
+        else{//for "*"
             min-=1;
             max+=1;
         }
