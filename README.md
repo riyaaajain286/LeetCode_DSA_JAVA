@@ -468,6 +468,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0763-partition-labels](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0763-partition-labels) |
 | [0771-jewels-and-stones](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0771-jewels-and-stones) |
 | [0796-rotate-string](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0796-rotate-string) |
+| [0844-backspace-string-compare](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0844-backspace-string-compare) |
 | [1002-find-common-characters](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/1002-find-common-characters) |
 | [1021-remove-outermost-parentheses](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/1021-remove-outermost-parentheses) |
 | [1047-remove-all-adjacent-duplicates-in-string](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/1047-remove-all-adjacent-duplicates-in-string) |
@@ -583,6 +584,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0567-permutation-in-string](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0567-permutation-in-string) |
 | [0680-valid-palindrome-ii](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0680-valid-palindrome-ii) |
 | [0763-partition-labels](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0763-partition-labels) |
+| [0844-backspace-string-compare](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0844-backspace-string-compare) |
 | [1861-rotating-the-box](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/1861-rotating-the-box) |
 | [2216-delete-the-middle-node-of-a-linked-list](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/2216-delete-the-middle-node-of-a-linked-list) |
 | [2271-rearrange-array-elements-by-sign](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/2271-rearrange-array-elements-by-sign) |
@@ -797,6 +799,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0258-add-digits](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0258-add-digits) |
 | [0415-add-strings](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0415-add-strings) |
 | [0735-asteroid-collision](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0735-asteroid-collision) |
+| [0844-backspace-string-compare](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0844-backspace-string-compare) |
 | [1184-car-pooling](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/1184-car-pooling) |
 | [2271-rearrange-array-elements-by-sign](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/2271-rearrange-array-elements-by-sign) |
 | [3336-water-bottles-ii](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/3336-water-bottles-ii) |
@@ -964,6 +967,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0234-palindrome-linked-list](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0234-palindrome-linked-list) |
 | [0678-valid-parenthesis-string](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0678-valid-parenthesis-string) |
 | [0735-asteroid-collision](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0735-asteroid-collision) |
+| [0844-backspace-string-compare](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0844-backspace-string-compare) |
 | [0901-online-stock-span](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0901-online-stock-span) |
 | [1008-construct-binary-search-tree-from-preorder-traversal](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/1008-construct-binary-search-tree-from-preorder-traversal) |
 | [1021-remove-outermost-parentheses](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/1021-remove-outermost-parentheses) |
