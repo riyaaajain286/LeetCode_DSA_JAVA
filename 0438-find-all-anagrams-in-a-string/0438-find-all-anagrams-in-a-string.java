@@ -9,19 +9,19 @@ class Solution {
             freq[ch-'a']++;
         }
         int c=m,left=0;
-        int right=0;
-        // for(int right=0;right<n;right++){
-        while(right<n){
+        // int right=0;
+        for(int right=0;right<n;right++){
+        // while(right<n){
             char r=s.charAt(right);
             if(freq[r-'a']>0)
               c--;
             freq[r-'a']--;
-            right++;
+            // right++;
             
             if(c==0){
                 ans.add(left);
             }
-            while(right-left==m){
+            while(right-left+1==m){
                 char l=s.charAt(left);
                 if(freq[l-'a']>=0)
                     c++;
