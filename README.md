@@ -200,6 +200,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0987-vertical-order-traversal-of-a-binary-tree](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0987-vertical-order-traversal-of-a-binary-tree) |
 | [1002-find-common-characters](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/1002-find-common-characters) |
 | [1171-remove-zero-sum-consecutive-nodes-from-linked-list](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/1171-remove-zero-sum-consecutive-nodes-from-linked-list) |
+| [1347-minimum-number-of-steps-to-make-two-strings-anagram](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/1347-minimum-number-of-steps-to-make-two-strings-anagram) |
 | [1477-find-two-non-overlapping-sub-arrays-each-with-target-sum](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/1477-find-two-non-overlapping-sub-arrays-each-with-target-sum) |
 | [2006-count-number-of-pairs-with-absolute-difference-k](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/2006-count-number-of-pairs-with-absolute-difference-k) |
 | [2441-largest-positive-integer-that-exists-with-its-negative](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/2441-largest-positive-integer-that-exists-with-its-negative) |
@@ -478,6 +479,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1209-remove-all-adjacent-duplicates-in-string-ii](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/1209-remove-all-adjacent-duplicates-in-string-ii) |
 | [1250-longest-common-subsequence](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/1250-longest-common-subsequence) |
 | [1312-minimum-insertion-steps-to-make-a-string-palindrome](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/1312-minimum-insertion-steps-to-make-a-string-palindrome) |
+| [1347-minimum-number-of-steps-to-make-two-strings-anagram](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/1347-minimum-number-of-steps-to-make-two-strings-anagram) |
 | [1903-largest-odd-number-in-string](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/1903-largest-odd-number-in-string) |
 | [2113-find-the-kth-largest-integer-in-the-array](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/2113-find-the-kth-largest-integer-in-the-array) |
 | [2452-words-within-two-edits-of-dictionary](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/2452-words-within-two-edits-of-dictionary) |
@@ -525,6 +527,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0383-ransom-note](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0383-ransom-note) |
 | [0387-first-unique-character-in-a-string](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0387-first-unique-character-in-a-string) |
 | [0451-sort-characters-by-frequency](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0451-sort-characters-by-frequency) |
+| [1347-minimum-number-of-steps-to-make-two-strings-anagram](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/1347-minimum-number-of-steps-to-make-two-strings-anagram) |
 | [2006-count-number-of-pairs-with-absolute-difference-k](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/2006-count-number-of-pairs-with-absolute-difference-k) |
 ## Linked List
 |  |
