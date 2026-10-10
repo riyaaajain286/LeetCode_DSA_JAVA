@@ -21,7 +21,7 @@ class Solution {
             if(c==0){
                 ans.add(left);
             }
-            if(right-left==m){
+            while(right-left==m){
                 char l=s.charAt(left);
                 if(freq[l-'a']>=0)
                     c++;
