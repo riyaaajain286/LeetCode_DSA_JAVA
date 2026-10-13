@@ -1,24 +1,18 @@
 class Solution {
-    //Memoization
     static Boolean[] dp;
     public boolean wordBreak(String s, List<String> wordDict) {
         dp=new Boolean[s.length()];
-        //by converting to set it reduces complexity for searching word in dict
-        Set<String> dict=new HashSet<>(wordDict);
-        return  solve(s,dict,0);
+        return helper(s, wordDict, 0);
     }
-    private static  boolean solve(String s, Set<String> dict,int idx){
+    private static boolean helper(String s, List<String> wordDict, int idx){
         int n=s.length();
-        //base case
-        if(idx==n){
-            return true;//all words found and reached end of s
-        }
+        if(idx==n)
+           return true;
         if(dp[idx]!=null) return dp[idx];
         for(int k=idx+1;k<=n;k++){
             String word=s.substring(idx,k);
-            if(dict.contains(word) && solve(s,dict,k)){
-                return dp[idx]=true;//after findig valid answer,return immediately
-            }
+            if(wordDict.contains(word) && helper(s, wordDict, k))
+               return dp[idx]=true;
         }
         return dp[idx]=false;
     }
