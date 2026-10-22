@@ -4,8 +4,9 @@ class Solution {
         for(int i=0;i<nums.length;i++){
             int complement=target-nums[i];
             if(map.containsKey(complement)){
-                return new int[]{i,map.get(complement)};
-                
+                int[] ans={i,map.get(complement)};
+                Arrays.sort(ans);
+                return ans;
             }
             map.put(nums[i],i);
         }
