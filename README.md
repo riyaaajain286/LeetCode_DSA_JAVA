@@ -117,6 +117,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1171-shortest-path-in-binary-matrix](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/1171-shortest-path-in-binary-matrix) |
 | [1184-car-pooling](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/1184-car-pooling) |
 | [1231-replace-elements-with-greatest-element-on-right-side](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/1231-replace-elements-with-greatest-element-on-right-side) |
+| [1254-number-of-closed-islands](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/1254-number-of-closed-islands) |
 | [1283-find-the-smallest-divisor-given-a-threshold](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/1283-find-the-smallest-divisor-given-a-threshold) |
 | [1295-find-numbers-with-even-number-of-digits](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/1295-find-numbers-with-even-number-of-digits) |
 | [1477-find-two-non-overlapping-sub-arrays-each-with-target-sum](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/1477-find-two-non-overlapping-sub-arrays-each-with-target-sum) |
@@ -616,6 +617,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1073-number-of-enclaves](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/1073-number-of-enclaves) |
 | [1091-shortest-path-in-binary-matrix](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/1091-shortest-path-in-binary-matrix) |
 | [1171-shortest-path-in-binary-matrix](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/1171-shortest-path-in-binary-matrix) |
+| [1254-number-of-closed-islands](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/1254-number-of-closed-islands) |
 | [1559-detect-cycles-in-2d-grid](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/1559-detect-cycles-in-2d-grid) |
 | [1663-detect-cycles-in-2d-grid](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/1663-detect-cycles-in-2d-grid) |
 | [1753-path-with-minimum-effort](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/1753-path-with-minimum-effort) |
@@ -706,6 +708,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1073-number-of-enclaves](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/1073-number-of-enclaves) |
 | [1116-maximum-level-sum-of-a-binary-tree](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/1116-maximum-level-sum-of-a-binary-tree) |
 | [1192-critical-connections-in-a-network](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/1192-critical-connections-in-a-network) |
+| [1254-number-of-closed-islands](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/1254-number-of-closed-islands) |
 | [1382-balance-a-binary-search-tree](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/1382-balance-a-binary-search-tree) |
 | [1448-count-good-nodes-in-binary-tree](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/1448-count-good-nodes-in-binary-tree) |
 | [1466-reorder-routes-to-make-all-paths-lead-to-the-city-zero](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/1466-reorder-routes-to-make-all-paths-lead-to-the-city-zero) |
@@ -759,6 +762,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [1091-shortest-path-in-binary-matrix](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/1091-shortest-path-in-binary-matrix) |
 | [1116-maximum-level-sum-of-a-binary-tree](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/1116-maximum-level-sum-of-a-binary-tree) |
 | [1171-shortest-path-in-binary-matrix](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/1171-shortest-path-in-binary-matrix) |
+| [1254-number-of-closed-islands](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/1254-number-of-closed-islands) |
 | [1448-count-good-nodes-in-binary-tree](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/1448-count-good-nodes-in-binary-tree) |
 | [1466-reorder-routes-to-make-all-paths-lead-to-the-city-zero](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/1466-reorder-routes-to-make-all-paths-lead-to-the-city-zero) |
 | [1559-detect-cycles-in-2d-grid](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/1559-detect-cycles-in-2d-grid) |
@@ -1016,6 +1020,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0200-number-of-islands](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0200-number-of-islands) |
 | [0547-number-of-provinces](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0547-number-of-provinces) |
 | [0785-is-graph-bipartite](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0785-is-graph-bipartite) |
+| [1254-number-of-closed-islands](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/1254-number-of-closed-islands) |
 | [1559-detect-cycles-in-2d-grid](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/1559-detect-cycles-in-2d-grid) |
 | [2685-count-the-number-of-complete-components](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/2685-count-the-number-of-complete-components) |
 ## Graph Theory
