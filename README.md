@@ -83,6 +83,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0435-non-overlapping-intervals](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0435-non-overlapping-intervals) |
 | [0442-find-all-duplicates-in-an-array](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0442-find-all-duplicates-in-an-array) |
 | [0455-assign-cookies](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0455-assign-cookies) |
+| [0462-minimum-moves-to-equal-array-elements-ii](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0462-minimum-moves-to-equal-array-elements-ii) |
 | [0485-max-consecutive-ones](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0485-max-consecutive-ones) |
 | [0494-target-sum](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0494-target-sum) |
 | [0518-coin-change-ii](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0518-coin-change-ii) |
@@ -330,6 +331,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0396-rotate-function](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0396-rotate-function) |
 | [0400-nth-digit](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0400-nth-digit) |
 | [0415-add-strings](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0415-add-strings) |
+| [0462-minimum-moves-to-equal-array-elements-ii](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0462-minimum-moves-to-equal-array-elements-ii) |
 | [0509-fibonacci-number](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0509-fibonacci-number) |
 | [0523-continuous-subarray-sum](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0523-continuous-subarray-sum) |
 | [0788-rotated-digits](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0788-rotated-digits) |
@@ -523,6 +525,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0442-find-all-duplicates-in-an-array](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0442-find-all-duplicates-in-an-array) |
 | [0451-sort-characters-by-frequency](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0451-sort-characters-by-frequency) |
 | [0455-assign-cookies](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0455-assign-cookies) |
+| [0462-minimum-moves-to-equal-array-elements-ii](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0462-minimum-moves-to-equal-array-elements-ii) |
 | [0632-smallest-range-covering-elements-from-k-lists](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0632-smallest-range-covering-elements-from-k-lists) |
 | [0721-accounts-merge](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0721-accounts-merge) |
 | [0987-vertical-order-traversal-of-a-binary-tree](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0987-vertical-order-traversal-of-a-binary-tree) |
