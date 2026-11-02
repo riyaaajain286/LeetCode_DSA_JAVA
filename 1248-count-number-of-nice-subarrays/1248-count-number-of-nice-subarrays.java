@@ -1,23 +1,24 @@
 class Solution {
+    //sliding window atMostK approach
     public int numberOfSubarrays(int[] nums, int k) {
-        int i=0;
-        int OddCount=0,prevCount=0,result=0;
+        return atMostK(nums,k)-atMostK(nums,k-1);
+    }
+    private int atMostK(int[] nums, int k){
+        int l=0;
+        int count=0,result=0;
         int n=nums.length;
-        for(int j=0;j<n;j++){
-            if(nums[j]%2!=0){
-                OddCount++;
-                prevCount=0;
+        for(int r=0;r<n;r++){
+           if(nums[r]%2!=0){
+            count++;
+           }
+           while(count>k){
+            if(nums[l]%2!=0){
+                count--;
             }
-            while(OddCount==k){
-                prevCount++;
-                if(nums[i]%2!=0){
-                    OddCount--;
-                   
-                }
-                 i++;
-            }
-            result+=prevCount;
+            l++;
+           }
+           result+=r-l+1;
         }
         return result;
-    }
+        }
 }
