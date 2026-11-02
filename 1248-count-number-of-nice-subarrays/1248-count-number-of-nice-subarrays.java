@@ -1,21 +1,22 @@
 class Solution {
-    // HashMap+PrefixSum
-    //here treating oddCount as subarray sum means doing same as subarray sum equals k
     public int numberOfSubarrays(int[] nums, int k) {
-        int result=0;
+        int i=0;
+        int OddCount=0,prevCount=0,result=0;
         int n=nums.length;
-        HashMap<Integer,Integer> map=new HashMap<>();
-        int OddCount=0;
-        map.put(0,1);//0 OddCount appears once in starting
-        for(int i:nums){
-            // OddCount+=nums[i]%2;
-            if(i%2!=0)
-               OddCount++;
-            if(map.containsKey(OddCount-k))
-               result+=map.get(OddCount-k);
-            
-            map.put(OddCount,map.getOrDefault(OddCount,0)+1);
-            
+        for(int j=0;j<n;j++){
+            if(nums[j]%2!=0){
+                OddCount++;
+                prevCount=0;
+            }
+            while(OddCount==k){
+                prevCount++;
+                if(nums[i]%2!=0){
+                    OddCount--;
+                   
+                }
+                 i++;
+            }
+            result+=prevCount;
         }
         return result;
     }
