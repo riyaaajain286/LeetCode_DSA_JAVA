@@ -15,16 +15,14 @@
  */
 class Solution {
     public List<Integer> postorderTraversal(TreeNode root) {
-        List<Integer> ans=new ArrayList<>();
-        postorder(root,ans);
-        return ans;
+        List<Integer> result=new ArrayList<>();
+        postOrder(root,result);
+        return result;
     }
-     public static void postorder(TreeNode node,List<Integer> ans){
-      if(node==null){ //leafnode
-        return;
-      }
-      postorder(node.left,ans);
-      postorder(node.right,ans);
-      ans.add(node.val);
+    private void postOrder(TreeNode root,List<Integer> result){
+        if(root==null) return;
+        postOrder(root.left,result);
+        postOrder(root.right,result);
+        result.add(root.val);
     }
 }
