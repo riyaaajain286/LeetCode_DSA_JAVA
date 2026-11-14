@@ -14,27 +14,23 @@
  * }
  */
 class Solution {
+    //BFS
     public List<Integer> rightSideView(TreeNode root) {
-        List<Integer> ans=new ArrayList<>();
-        if(root==null) return ans;
+        List<Integer> result=new ArrayList<>();
+        if(root==null) return result;
         Queue<TreeNode> q=new LinkedList<>();
         q.add(root);
         while(!q.isEmpty()){
             int size=q.size();
-            for(int i=1;i<=size;i++){
-                TreeNode curr=q.poll();
-                 if(i==size){
-                    ans.add(curr.val);
-                }
-                if(curr.left!=null) {
-                    q.add(curr.left);
-                }
-                if(curr.right!=null){
-                    q.add(curr.right);
-                }
-               
+            for(int i=0;i<size;i++){
+                TreeNode currNode=q.poll();
+                if(i==size-1) result.add(currNode.val);
+                if(currNode.left!=null)
+                   q.offer(currNode.left);
+                if(currNode.right!=null)
+                   q.offer(currNode.right);
             }
         }
-        return ans;
-}
+        return result;
+    }
 }
