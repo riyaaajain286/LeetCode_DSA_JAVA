@@ -14,23 +14,17 @@
  * }
  */
 class Solution {
-    //BFS
+    //DFS
     public List<Integer> rightSideView(TreeNode root) {
-        List<Integer> result=new ArrayList<>();
-        if(root==null) return result;
-        Queue<TreeNode> q=new LinkedList<>();
-        q.add(root);
-        while(!q.isEmpty()){
-            int size=q.size();
-            for(int i=0;i<size;i++){
-                TreeNode currNode=q.poll();
-                if(i==size-1) result.add(currNode.val);
-                if(currNode.left!=null)
-                   q.offer(currNode.left);
-                if(currNode.right!=null)
-                   q.offer(currNode.right);
-            }
-        }
+        List<Integer> result=dfs(root,new ArrayList<>(),0);
         return result;
+    }
+    private List<Integer> dfs(TreeNode root,List<Integer> ans,int level){
+        if(root==null) return ans;
+        if(level==ans.size())
+           ans.add(root.val);
+        dfs(root.right,ans,level+1);
+        dfs(root.left,ans,level+1);
+        return ans;
     }
 }
