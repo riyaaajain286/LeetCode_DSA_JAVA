@@ -25,46 +25,45 @@ class Solution {
     }
     public List<List<Integer>> verticalTraversal(TreeNode root) {
         List<List<Integer>> result=new ArrayList<>();
-        if(root==null){
-            return result;
+        if(root==null) return result;
+        // pq is used for sorting answer as required in question
+        PriorityQueue<Pair> pq=new PriorityQueue<>((a,b)->{
+            if(a.col!=b.col)
+              return Integer.compare(a.col,b.col);
+            else if(a.row!=b.row)
+              return Integer.compare(a.row,b.row);
+            else
+              return Integer.compare(a.node.val,b.node.val);
         }
-        //make priority queue
-        PriorityQueue<Pair> pq=new PriorityQueue<>(
-            (a,b)->{
-                if(a.col!=b.col){
-                    return a.col-b.col;
-                }
-                if(a.row!=b.row){
-                    return a.row-b.row;
-                }
-                return a.node.val-b.node.val;
-            }
         );
+        //q is used for bfs traversal
         Queue<Pair> q=new LinkedList<>();
         q.offer(new Pair(root,0,0));
-        //bfs traversal
+       
         while(!q.isEmpty()){
-            Pair curr=q.poll();
-            pq.offer(curr);//add each pair in pq
-            if(curr.node.left!=null) 
-              q.offer(new Pair(curr.node.left,curr.row+1,curr.col-1));
-            if(curr.node.right!=null) 
-              q.offer(new Pair(curr.node.right,curr.row+1,curr.col+1));
-        }
-          int prevcol=Integer.MIN_VALUE;
-          List<Integer> currcol=new ArrayList<>();
-          while(!pq.isEmpty()){
-            Pair p=pq.poll();
-            if(p.col!=prevcol){
-                if(!currcol.isEmpty())//if current col list is finished
-                 result.add(currcol);
-                currcol=new ArrayList<>();//otherwise make new list 
-                prevcol=p.col;
-            }
-            currcol.add(p.node.val);
+          Pair p=q.poll();
+          pq.offer(p);//add each pair in pq
+          if(p.node.left!=null){
+            q.offer(new Pair(p.node.left,p.row+1,p.col-1));
           }
-         result.add(currcol);
-         return result;
+          if(p.node.right!=null){
+            q.offer(new Pair(p.node.right,p.row+1,p.col+1));
+          }
+        }
+          int prevCol=Integer.MIN_VALUE;
+          List<Integer> currCol=new ArrayList<>();
+          while(!pq.isEmpty()){
+            Pair curr=pq.poll();
+             if(curr.col!=prevCol){
+                if(!currCol.isEmpty())//if current col list is filled
+                  result.add(currCol);
+                prevCol=curr.col;
+                currCol=new ArrayList<>();//otherwise make new list
+             }
+             currCol.add(curr.node.val);
+          }
+          result.add(currCol);
         
+        return result;
     }
 }
