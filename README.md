@@ -256,6 +256,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0129-sum-root-to-leaf-numbers](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0129-sum-root-to-leaf-numbers) |
 | [0144-binary-tree-preorder-traversal](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0144-binary-tree-preorder-traversal) |
 | [0145-binary-tree-postorder-traversal](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0145-binary-tree-postorder-traversal) |
+| [0173-binary-search-tree-iterator](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0173-binary-search-tree-iterator) |
 | [0199-binary-tree-right-side-view](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0199-binary-tree-right-side-view) |
 | [0226-invert-binary-tree](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0226-invert-binary-tree) |
 | [0230-kth-smallest-element-in-a-bst](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0230-kth-smallest-element-in-a-bst) |
@@ -295,6 +296,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0129-sum-root-to-leaf-numbers](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0129-sum-root-to-leaf-numbers) |
 | [0144-binary-tree-preorder-traversal](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0144-binary-tree-preorder-traversal) |
 | [0145-binary-tree-postorder-traversal](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0145-binary-tree-postorder-traversal) |
+| [0173-binary-search-tree-iterator](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0173-binary-search-tree-iterator) |
 | [0199-binary-tree-right-side-view](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0199-binary-tree-right-side-view) |
 | [0226-invert-binary-tree](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0226-invert-binary-tree) |
 | [0230-kth-smallest-element-in-a-bst](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0230-kth-smallest-element-in-a-bst) |
@@ -794,6 +796,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0146-lru-cache](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0146-lru-cache) |
+| [0173-binary-search-tree-iterator](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0173-binary-search-tree-iterator) |
 | [0295-find-median-from-data-stream](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0295-find-median-from-data-stream) |
 | [0297-serialize-and-deserialize-binary-tree](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0297-serialize-and-deserialize-binary-tree) |
 | [0303-range-sum-query-immutable](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0303-range-sum-query-immutable) |
@@ -867,6 +870,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | ------- |
 | [0098-validate-binary-search-tree](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0098-validate-binary-search-tree) |
 | [0108-convert-sorted-array-to-binary-search-tree](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0108-convert-sorted-array-to-binary-search-tree) |
+| [0173-binary-search-tree-iterator](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0173-binary-search-tree-iterator) |
 | [0230-kth-smallest-element-in-a-bst](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0230-kth-smallest-element-in-a-bst) |
 | [0235-lowest-common-ancestor-of-a-binary-search-tree](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0235-lowest-common-ancestor-of-a-binary-search-tree) |
 | [0783-minimum-distance-between-bst-nodes](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0783-minimum-distance-between-bst-nodes) |
@@ -999,6 +1003,7 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 | [0143-reorder-list](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0143-reorder-list) |
 | [0144-binary-tree-preorder-traversal](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0144-binary-tree-preorder-traversal) |
 | [0145-binary-tree-postorder-traversal](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0145-binary-tree-postorder-traversal) |
+| [0173-binary-search-tree-iterator](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0173-binary-search-tree-iterator) |
 | [0234-palindrome-linked-list](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0234-palindrome-linked-list) |
 | [0678-valid-parenthesis-string](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0678-valid-parenthesis-string) |
 | [0735-asteroid-collision](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0735-asteroid-collision) |
@@ -1232,4 +1237,8 @@ A collection of LeetCode questions to ace the coding interview! - Created using 
 |  |
 | ------- |
 | [0239-sliding-window-maximum](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0239-sliding-window-maximum) |
+## Iterator
+|  |
+| ------- |
+| [0173-binary-search-tree-iterator](https://github.com/riyaaajain286/LeetCode_DSA_JAVA/tree/master/0173-binary-search-tree-iterator) |
 <!---LeetCode Topics End-->
