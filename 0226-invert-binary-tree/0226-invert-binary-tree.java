@@ -16,10 +16,14 @@
 class Solution {
     public TreeNode invertTree(TreeNode root) {
         if(root==null) return null;
-        TreeNode left=invertTree(root.left);
-        TreeNode right=invertTree(root.right);
-        root.left=right;
-        root.right=left;
+        //swap each node's left and right children..remember here node is swapped means subtree also swapped
+        TreeNode temp=root.left;
+        root.left=root.right;
+        root.right=temp;
+        //Invert the new left subtree
+        invertTree(root.left);
+        //Invert the new right subtree
+        invertTree(root.right);
         return root;
     }
 }
