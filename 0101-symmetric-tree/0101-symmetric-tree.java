@@ -16,12 +16,15 @@
 class Solution {
     public boolean isSymmetric(TreeNode root) {
         if(root==null) return false;
-        return MirrorTree(root.left,root.right);
+        return check(root.left,root.right);
     }
-    private boolean MirrorTree(TreeNode left,TreeNode right){
-      if(left==null && right==null) return true;
-      if(left==null || right==null) return false;
-      if(left.val!=right.val) return false;
-      return MirrorTree(left.left,right.right) && MirrorTree(left.right,right.left);
+    private boolean check(TreeNode p, TreeNode q){
+        if(p==null && q==null) return true;
+        if(p==null || q==null) return false;
+        if(p.val==q.val){
+           return check(p.left,q.right) && check(p.right,q.left);
+        }
+        else
+           return false;
     }
 }
