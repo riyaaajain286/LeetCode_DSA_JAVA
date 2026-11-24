@@ -15,18 +15,19 @@
  */
 class Solution {
     public boolean leafSimilar(TreeNode root1, TreeNode root2) {
-        List<Integer> l1=getLeaves(root1,new ArrayList<>());
-        List<Integer> l2=getLeaves(root2,new ArrayList<>());
-        if(l1.equals(l2))
-         return true;
-        return false;
+        List<Integer> list1=new ArrayList<>();
+        List<Integer> list2=new ArrayList<>();
+        getLeaves(root1,list1);
+        getLeaves(root2,list2);
+        return list1.equals(list2);
     }
-    public List<Integer> getLeaves(TreeNode root,ArrayList<Integer> list){
-        if(root==null) return list;
-        if(root.left==null && root.right==null) 
-         list.add(root.val);
+    private void getLeaves(TreeNode root,List<Integer> list){
+        if(root==null) return;
+        if(root.left==null && root.right==null){
+            list.add(root.val);
+            return;
+        }
         getLeaves(root.left,list);
         getLeaves(root.right,list);
-        return list;
     }
 }
